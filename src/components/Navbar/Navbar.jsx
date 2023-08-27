@@ -30,7 +30,7 @@ function Navbar({ theme, toggleTheme }) {
 
 			<ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>
 				{MenuData.map((item, index) => (
-					<li key={index} className='navbar-menu__item'>
+					<li key={index} className='navbar-menu__item border'>
 						<Link className={`${theme === 'light' ? 'light-link' : 'dark-link'} ${item.cName}`} to={item.url} onClick={closeMobileMenu}>
 							{item.title}
 						</Link>
@@ -39,9 +39,8 @@ function Navbar({ theme, toggleTheme }) {
 			</ul>
 
 			<h1 className='navbar__name'>{'{Fe}'}</h1>
-
 			<div className='navbar__theme' onClick={handleThemeToggle}>
-				{theme === 'light' ? <CgSun /> : <CgMoon />}
+				{theme === 'light' ? <CgSun className='sun-clicked' /> : <CgMoon className='moon-clicked' />}
 			</div>
 		</nav>
 	);

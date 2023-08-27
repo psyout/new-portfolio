@@ -72,17 +72,46 @@
 	@include desktop {
 		display: block;
 		margin: 0;
-		padding: 0 0 0 2rem;
+		// padding: 0 0 0 2rem;
 		display: grid;
 		grid-template-columns: repeat(4, auto);
 		order: 1;
 		width: 500px;
-		height: auto;
+		height: 4rem;
 		position: initial;
+		justify-content: space-between;
 	}
 
 	&__item {
 		font-size: 1.125rem;
+		display: flex;
+		align-items: center;
+		border: none;
+		position: relative;
+
+		&:hover {
+			border: none;
+		}
+
+		&::after {
+			height: 0px;
+
+			@include desktop {
+				content: '';
+				position: absolute;
+				width: 0px;
+				height: 3px;
+				left: 50%;
+				bottom: 0;
+				background-color: #0dd8cd;
+				transition: all ease-in-out 0.2s;
+			}
+		}
+
+		&:hover::after {
+			width: 100%;
+			left: 0;
+		}
 	}
 
 	&__link {
@@ -104,5 +133,23 @@
 		@include desktop {
 			display: grid;
 		}
+	}
+}
+
+// .border {
+
+// }
+
+.moon-clicked,
+.sun-clicked {
+	animation: pulse 1s;
+}
+@keyframes pulse {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
 	}
 }
