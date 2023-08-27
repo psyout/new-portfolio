@@ -13,8 +13,13 @@
 		margin: 0 auto;
 	}
 
-	&__burger {
-		font-size: 1rem;
+	&__toggle {
+		display: block;
+		background: none;
+		border: none;
+		cursor: pointer;
+		font-size: 1.8rem;
+		margin-top: 0.5rem;
 
 		@include desktop {
 			display: none;
@@ -23,7 +28,8 @@
 
 	&__name {
 		font-family: 'Titillium Web', sans-serif;
-		font-size: 1.875rem;
+		font-size: 2.3rem;
+		letter-spacing: 0.1rem;
 
 		@include desktop {
 			order: 0;
@@ -32,5 +38,71 @@
 
 	&__theme {
 		font-weight: $fw-400;
+		cursor: pointer;
+		font-size: 1.5rem;
+		border: none;
+		margin-top: 0.8rem;
+
+		@include desktop {
+			order: 3;
+		}
+	}
+
+	&.light {
+		color: #000000;
+	}
+
+	&.dark {
+		background-color: #000000;
+		color: #ffffff;
+	}
+}
+
+.navbar-menu {
+	display: none;
+	list-style: none;
+	flex-direction: column;
+	width: 100%;
+	line-height: 3;
+	transition: height 0.3s ease;
+	position: absolute;
+	top: 4rem;
+	left: 0;
+
+	@include desktop {
+		display: block;
+		margin: 0;
+		padding: 0 0 0 2rem;
+		display: grid;
+		grid-template-columns: repeat(4, auto);
+		order: 1;
+		width: 500px;
+		height: auto;
+		position: initial;
+	}
+
+	&__item {
+		font-size: 1.125rem;
+	}
+
+	&__link {
+		color: black;
+		text-decoration: none;
+		transition: background-color 0.3s;
+	}
+
+	&.active {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: clamp(50vh, 80vh, 100vh);
+		opacity: 1;
+		transform: translateY(0);
+		transition: opacity 0.3s ease, transform 0.3s ease;
+
+		@include desktop {
+			display: grid;
+		}
 	}
 }
