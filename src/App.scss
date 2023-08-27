@@ -1,0 +1,60 @@
+@use './styles/variables' as *;
+@use './styles/fonts' as *;
+@use './styles/mixins' as *;
+
+html {
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+button {
+	border: 0;
+	background: transparent;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	outline: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+}
+
+.header {
+	background-color: grey;
+}
