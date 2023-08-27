@@ -1,9 +1,16 @@
+@use '../../styles/mixins' as *;
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	height: 4rem;
 	padding: 0 1rem;
 	align-items: center;
+
+	@include desktop {
+		width: 80rem;
+		margin: 0 auto;
+	}
 }
 
 .navbar h1 {
