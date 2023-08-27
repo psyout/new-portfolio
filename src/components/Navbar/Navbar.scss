@@ -1,4 +1,5 @@
 @use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .navbar {
 	display: flex;
@@ -11,9 +12,25 @@
 		width: 80rem;
 		margin: 0 auto;
 	}
-}
 
-.navbar h1 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.875rem;
+	&__burger {
+		font-size: 1rem;
+
+		@include desktop {
+			display: none;
+		}
+	}
+
+	&__name {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 1.875rem;
+
+		@include desktop {
+			order: 0;
+		}
+	}
+
+	&__theme {
+		font-weight: $fw-400;
+	}
 }
