@@ -30,8 +30,10 @@ section {
 }
 
 button {
-	border: 0;
-	background: transparent;
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
 }
 
 body {
@@ -66,4 +68,8 @@ a:visited {
 	&.light {
 		background-color: #d9d9d9;
 	}
+}
+
+.main {
+	padding: 0 1rem;
 }

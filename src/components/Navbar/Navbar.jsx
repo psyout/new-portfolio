@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { CgMenuLeft, CgSun, CgMoon, CgClose } from 'react-icons/cg';
 import './Navbar.scss';
 import { MenuData } from './MenuData';
+import Button from '../Button/Button';
 
 function Navbar({ theme, toggleTheme }) {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -39,8 +40,12 @@ function Navbar({ theme, toggleTheme }) {
 			</ul>
 
 			<h1 className='navbar__name'>{'{Fe}'}</h1>
-			<div className='navbar__theme' onClick={handleThemeToggle}>
-				{theme === 'light' ? <CgSun className='sun-clicked' /> : <CgMoon className='moon-clicked' />}
+
+			<div className='navbar__right-col'>
+				<Button title={`Get Resume`} />
+				<div className='navbar__theme' onClick={handleThemeToggle}>
+					{theme === 'light' ? <CgSun className='sun-clicked' /> : <CgMoon className='moon-clicked' />}
+				</div>
 			</div>
 		</nav>
 	);
