@@ -1,4 +1,5 @@
 import './App.scss';
+import Intro from './components/Intro/Intro';
 import Navbar from './components/Navbar/Navbar';
 import React, { useState } from 'react';
 
@@ -16,6 +17,9 @@ function App() {
 				<header className={`header ${theme}`}>
 					<Navbar theme={theme} toggleTheme={toggleTheme} />
 				</header>
+				<main className='main'>
+					<Intro />
+				</main>
 			</div>
 		</>
 	);
