@@ -15,4 +15,9 @@ export const MenuData = [
 		url: '/contacto',
 		cName: 'navbar-menu__link',
 	},
+	{
+		title: 'Get Resume',
+		url: '#',
+		cName: 'navbar-menu__link--mobile',
+	},
 ];

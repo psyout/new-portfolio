@@ -1,0 +1,32 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.mainwork {
+	margin-top: 3rem;
+	padding-bottom: 5rem;
+
+	&__figure {
+		&--img {
+			background-size: cover;
+			aspect-ratio: 16/9;
+		}
+	}
+
+	&__text {
+		margin-top: 1rem;
+
+		&--body {
+			font-weight: $fw-300;
+		}
+	}
+
+	&-btn {
+		font-family: inherit;
+		font-size: $fs-090;
+		font-weight: $fw-400;
+		background-color: $primaryCta;
+		padding: 0.6rem 3rem;
+		margin-top: 1rem;
+		border-radius: 6px;
+	}
+}

@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	height: 4rem;
-	padding: 0 2rem;
+	padding: 0 1.5rem;
 	align-items: center;
 
 	@include desktop {
@@ -73,7 +73,7 @@
 	list-style: none;
 	flex-direction: column;
 	width: 100%;
-	line-height: 3;
+	line-height: 4;
 	transition: height 0.3s ease;
 	position: absolute;
 	top: 4rem;
@@ -128,6 +128,14 @@
 	&__link {
 		color: black;
 		text-decoration: none;
+
+		&--mobile {
+			display: 'block';
+			color: inherit;
+			@include desktop {
+				display: none;
+			}
+		}
 	}
 
 	&.active {
@@ -135,9 +143,10 @@
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: center;
-		height: 20vh;
+		// height: 20vh;
 		border-top: solid 1px white;
 		padding-left: 2rem;
+		box-shadow: 0px 20px 50px -40px #000;
 
 		@include desktop {
 			display: grid;
