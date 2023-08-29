@@ -8,27 +8,27 @@
 	align-items: center;
 	gap: 3rem;
 	margin-top: 5rem;
-	// padding: 0 2rem;
 
-	@include desktop {
-		gap: 5rem;
-		padding: 0;
-	}
-
-	@include desktop-sm {
+	@include tablet {
 		flex-direction: row;
 		align-content: space-around;
-		// width: 80rem;
-		// height: 60vh;
 		margin: 8rem auto 0 auto;
-		padding: 0 3rem;
+		align-items: flex-start;
+	}
+
+	@include desktop {
+		gap: 10rem;
+		padding: 0;
+		align-items: center;
+		transition: all 0.5s ease;
+		height: 50vh;
 	}
 
 	&__info {
 		flex: 3;
 		order: 2;
 
-		@include desktop-sm {
+		@include tablet {
 			order: initial;
 		}
 
@@ -63,17 +63,17 @@
 	}
 
 	&__placeholder {
-		flex: 2;
+		flex: 1;
 		display: flex;
 		justify-content: center;
 		justify-content: flex-end;
 
 		&--img {
-			max-width: 18em;
+			max-width: 17em;
 			transition: all 0.5s ease-in-out;
 
-			@include desktop-sm {
-				min-width: 23rem;
+			@include tablet {
+				min-width: 20rem;
 			}
 		}
 	}
