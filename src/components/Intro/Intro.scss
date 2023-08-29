@@ -6,22 +6,34 @@
 	flex-grow: 1;
 	flex-direction: column;
 	align-items: center;
-	gap: 10rem;
-	height: 90vh;
+	gap: 3rem;
+	margin-top: 2rem;
 
 	@include desktop {
+		gap: 5rem;
+	}
+
+	@include desktop-sm {
 		flex-direction: row;
-		width: 80rem;
-		margin: 0 auto;
-		padding: 0 1rem;
+		align-content: space-around;
+		// width: 80rem;
+		// height: 60vh;
+		margin: 8rem auto 0 auto;
+		padding: 0 3rem;
 	}
 
 	&__info {
-		flex: 1;
+		flex: 3;
 
 		&--title {
 			font-size: 3rem;
 			font-family: 'Titillium Web', sans-serif;
+			text-align: center;
+
+			@include desktop-sm {
+				font-size: 4rem;
+				text-align: left;
+			}
 		}
 
 		&--text {
@@ -29,20 +41,38 @@
 			font-size: 1.2rem;
 			font-weight: $fw-300;
 			margin-top: 1rem;
+			text-align: center;
+			padding: 0 2.5rem;
+
+			@include desktop-sm {
+				text-align: left;
+				font-size: 1.3rem;
+				padding: 0;
+			}
 
 			&:last-child {
 				margin-top: 0;
+			}
+
+			span {
+				font-weight: $fw-700;
 			}
 		}
 	}
 
 	&__placeholder {
-		flex: 1;
+		flex: 2;
 		display: flex;
 		justify-content: center;
+		justify-content: flex-end;
 
 		&--img {
-			max-width: 400px;
+			max-width: 18em;
+			transition: all 0.5s ease-in-out;
+
+			@include desktop-sm {
+				min-width: 23rem;
+			}
 		}
 	}
 }

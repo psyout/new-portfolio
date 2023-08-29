@@ -12,6 +12,12 @@
 	}
 }
 
+@mixin desktop-sm {
+	@media screen and (min-width: $desktop-sm-breakpoint) {
+		@content;
+	}
+}
+
 @mixin desktop {
 	@media screen and (min-width: $desktop-breakpoint) {
 		@content;

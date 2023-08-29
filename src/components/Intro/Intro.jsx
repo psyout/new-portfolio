@@ -7,7 +7,7 @@ function Intro() {
 			<div className='intro__info'>
 				<h1 className='intro__info--title'>Hi there!</h1>
 				<p className='intro__info--text'>
-					I’m Felipe a Front-end web developer with a decade of multimedia experience. I’m based in Vancouver where I’m available for full-time or freelance work, as well as working remotely for clients worldwide.
+					I’m Felipe a <span>Front-end Developer</span> with a decade of multimedia experience. I’m based in Vancouver where I’m available for full-time or freelance work, as well as working remotely for clients worldwide.
 				</p>
 				<br />
 				<p className='intro__info--text'>

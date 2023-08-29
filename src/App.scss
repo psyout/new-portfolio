@@ -55,11 +55,13 @@ a:visited {
 
 .container {
 	width: 100%;
+
+	@include desktop {
+	}
 }
 
 .header {
 	background-color: #d9d9d9;
-	padding: 0 1rem;
 	color: #000;
 
 	&.dark {
@@ -71,5 +73,12 @@ a:visited {
 }
 
 .main {
-	padding: 0 1rem;
+	width: 100%;
+	padding: 1rem;
+
+	@include desktop {
+		max-width: 80rem;
+		margin: 0 auto;
+		padding: 0;
+	}
 }

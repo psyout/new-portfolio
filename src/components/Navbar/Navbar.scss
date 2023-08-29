@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	height: 4rem;
-	padding: 0 1rem;
+	padding: 0 2rem;
 	align-items: center;
 
 	@include desktop {
@@ -90,7 +90,7 @@
 		height: 4.5rem;
 		position: initial;
 		justify-content: center;
-		gap: 3rem;
+		gap: 2rem;
 	}
 
 	&__item {
@@ -111,7 +111,7 @@
 				content: '';
 				position: absolute;
 				width: 0px;
-				height: 5px;
+				height: 4px;
 				left: 50%;
 				bottom: 0;
 				background-color: #0dd8cd;
