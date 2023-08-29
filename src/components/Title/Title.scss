@@ -4,7 +4,6 @@
 .title {
 	margin-top: 8rem;
 	text-align: left;
-	// padding: 0 2rem;
 
 	&__head {
 		font-family: 'Titillium Web', sans-serif;
@@ -15,5 +14,9 @@
 		margin-top: 1rem;
 		font-size: $fs-120;
 		font-weight: $fw-300;
+
+		@include desktop-sm {
+			width: 60%;
+		}
 	}
 }

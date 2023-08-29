@@ -5,7 +5,7 @@ export const MenuData = [
 		cName: 'navbar-menu__link',
 	},
 	{
-		title: 'What I’ve done',
+		title: 'Who I’am',
 		url: '/nosotros',
 		cName: 'navbar-menu__link',
 	},

@@ -82,9 +82,9 @@ mark {
 	width: 100%;
 	padding: 0 2rem;
 
-	@include desktop {
+	@include desktop-sm {
 		max-width: 80rem;
 		margin: 0 auto;
-		padding: 0;
+		// padding: 0;
 	}
 }

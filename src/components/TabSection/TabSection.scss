@@ -1,0 +1,52 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.tabwork {
+	&-section {
+		padding-bottom: 10rem;
+		@include desktop-sm {
+			display: flex;
+			align-items: flex-start;
+			gap: 3rem;
+		}
+	}
+	&-title {
+		font-size: $fs-120;
+		margin-bottom: 1rem;
+	}
+	&-buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: stretch;
+		gap: 0.5rem;
+		// padding: 1rem;
+
+		@include desktop-sm {
+			flex: 1;
+		}
+	}
+
+	&-button {
+		font-size: $fs-100;
+		font-weight: $fw-400;
+		font-family: inherit;
+		background-color: #d9d9d9;
+		padding: 1rem;
+		text-align: left;
+
+		&.active {
+			border-left: solid 10px $primaryCta;
+			font-weight: $fw-700;
+		}
+	}
+
+	&-content {
+		margin-top: 2rem;
+
+		@include desktop-sm {
+			flex: 3;
+			margin-top: 0;
+		}
+	}
+}
