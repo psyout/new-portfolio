@@ -7,11 +7,11 @@ function Intro() {
 			<div className='intro__info'>
 				<h1 className='intro__info--title'>Hi there!</h1>
 				<p className='intro__info--text'>
-					I’m Felipe a <span>Front-end Developer</span> with a decade of multimedia experience. I’m based in Vancouver where I’m available for full-time or freelance work, as well as working remotely for clients worldwide.
+					I'm <mark>Felipe, a Front-end Developer</mark> with a decade of multimedia experience. I'm based in Vancouver where I'm available for full-time or freelance work, as well as working remotely for clients worldwide.
 				</p>
 				<br />
 				<p className='intro__info--text'>
-					I take a personal and creative approach to solving my clients’ problems – whether that’s designing a logo, building a new website, or managing a creative project from start to finish. My strength lies in my ten years of experience
+					I take a personal and creative approach to solving my clients' problems - whether that's designing a logo, building a new website, or managing a creative project from start to finish. My strength lies in my ten years of experience
 					working across the entire digital design and development process, as well as my self-motivated and collaborative nature.
 				</p>
 			</div>

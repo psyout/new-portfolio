@@ -6,11 +6,12 @@
 	display: none;
 	font-size: 16px;
 	background-color: $primaryCta;
-	color: #ffffff;
+	color: #000;
 	border-radius: 5px;
 	border: none;
 	padding: 0.6rem;
 	transition: background-color 0.3s ease;
+	font-weight: $fw-700;
 
 	@include desktop {
 		display: block;

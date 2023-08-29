@@ -7,10 +7,12 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 3rem;
-	margin-top: 2rem;
+	margin-top: 5rem;
+	// padding: 0 2rem;
 
 	@include desktop {
 		gap: 5rem;
+		padding: 0;
 	}
 
 	@include desktop-sm {
@@ -24,11 +26,16 @@
 
 	&__info {
 		flex: 3;
+		order: 2;
+
+		@include desktop-sm {
+			order: initial;
+		}
 
 		&--title {
 			font-size: 3rem;
 			font-family: 'Titillium Web', sans-serif;
-			text-align: center;
+			text-align: left;
 
 			@include desktop-sm {
 				font-size: 4rem;
@@ -38,11 +45,10 @@
 
 		&--text {
 			font-family: inherit;
-			font-size: 1.2rem;
+			font-size: $fs-120;
 			font-weight: $fw-300;
 			margin-top: 1rem;
-			text-align: center;
-			padding: 0 2.5rem;
+			text-align: left;
 
 			@include desktop-sm {
 				text-align: left;
@@ -52,10 +58,6 @@
 
 			&:last-child {
 				margin-top: 0;
-			}
-
-			span {
-				font-weight: $fw-700;
 			}
 		}
 	}
