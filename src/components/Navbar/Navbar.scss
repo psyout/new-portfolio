@@ -10,7 +10,7 @@
 
 	@include desktop {
 		width: 80rem;
-		height: 4.5rem;
+		height: 4rem;
 		margin: 0 auto;
 	}
 
@@ -73,7 +73,7 @@
 	list-style: none;
 	flex-direction: column;
 	width: 100%;
-	line-height: 4.5;
+	line-height: 3.5;
 	transition: height 0.3s ease;
 	position: absolute;
 	top: 4rem;
@@ -87,7 +87,7 @@
 		grid-template-columns: repeat(3, auto);
 		order: 1;
 		width: 500px;
-		height: 4.5rem;
+		height: 4rem;
 		position: initial;
 		justify-content: center;
 		gap: 2rem;
@@ -114,7 +114,7 @@
 				height: 4px;
 				left: 50%;
 				bottom: 0;
-				background-color: #0dd8cd;
+				background-color: $secondaryCta;
 				transition: all ease-in-out 0.2s;
 			}
 		}
@@ -130,8 +130,9 @@
 		text-decoration: none;
 
 		&--mobile {
-			display: 'block';
+			display: block;
 			color: inherit;
+
 			@include desktop {
 				display: none;
 			}

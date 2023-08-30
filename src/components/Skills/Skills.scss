@@ -9,6 +9,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 8rem;
+		margin-top: 5rem;
 	}
 }
 
@@ -30,8 +31,9 @@
 		}
 
 		&--image {
-			max-width: 5rem;
-			flex: 1;
+			max-width: 4rem;
+			color: $secondaryCta;
+			// flex: 1;
 		}
 	}
 

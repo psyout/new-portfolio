@@ -1,0 +1,81 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.section-footer {
+	&__title {
+		font-size: $fs-300;
+		font-family: 'Titillium Web', sans-serif;
+		line-height: 1;
+
+		@include desktop-sm {
+			font-size: $fs-350;
+		}
+	}
+
+	&__contact {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		&--link {
+			display: block;
+			font-size: $fs-150;
+			font-weight: $fw-300;
+			color: inherit;
+			margin-top: 2rem;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			&:last-child {
+				margin-top: 0;
+			}
+
+			@include desktop-sm {
+				font-size: 48px;
+			}
+		}
+	}
+
+	&__social {
+		display: flex;
+		gap: 1rem;
+		flex-direction: row;
+		margin-top: 1rem;
+
+		@include desktop-sm {
+			gap: 2;
+		}
+
+		&--link {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			background-color: $primary;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: background-color 0.5s ease;
+
+			@include desktop-sm {
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+			}
+
+			&:hover {
+				background-color: $primaryCta;
+			}
+		}
+
+		&--icon {
+			color: #fff;
+			font-size: $fs-200;
+
+			@include desktop-sm {
+				font-size: $fs-300;
+			}
+		}
+	}
+}

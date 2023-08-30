@@ -6,6 +6,7 @@ import Title from './components/Title/Title';
 import MainProject from './components/MainProject/MainProject';
 import TabSection from './components/TabSection/TabSection';
 import Skills from './components/Skills/Skills';
+import FooterContent from './components/FooterContent/FooterContent';
 
 function App({ head, body }) {
 	const [theme, setTheme] = useState('light');
@@ -23,15 +24,34 @@ function App({ head, body }) {
 				</header>
 				<main className='main'>
 					<Intro />
-					<Title head='check this out' body={`I've been working in some new projects that I'd be updating soon, meanwhile take a look of what I did when I was doing a Web Development Bootcamp last April.`} />
-					<MainProject />
+					<Title
+						head='check this out'
+						body={
+							<>
+								I've been working on some new projects that I'd be updating soon, meanwhile take a look at what I did when I was doing a<mark>Web Development Bootcamp</mark> a few months ago.
+							</>
+						}
+					/>
+					<div id='main'>
+						<MainProject />
+					</div>
 					<TabSection />
 					<Title
-						head={`These are my skills and more…`}
-						body={`I recently completed a web development bootcamp which allowed me to improve my skillset and also meet great people. During my time at BrainStation, I gained experience with a variety of web development technologies such as HTML5, CSS3.`}
+						head={`these are my skills and more…`}
+						body={
+							<>
+								I recently completed a web development bootcamp which allowed me to improve my skillset and also meet great people. During my time at <mark>BrainStation,</mark> I gained experience with a variety of web development
+								technologies such as <mark>HTML5, CSS3, JS</mark> and more.
+							</>
+						}
 					/>
-					<Skills />
+					<div id='skills'>
+						<Skills />
+					</div>
 				</main>
+				<footer id='footer' className='footer'>
+					<FooterContent />
+				</footer>
 			</div>
 		</>
 	);

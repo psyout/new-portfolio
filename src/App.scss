@@ -54,16 +54,26 @@ a:visited {
 }
 
 mark {
-	background-color: #0dd8cd;
+	background-color: $secondaryCta;
 	padding: 0.2rem;
 	font-weight: $fw-700;
+	color: $primaryLight;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $primary;
+}
+
+p {
+	color: $primary;
+}
 .container {
 	width: 100%;
-
-	@include desktop {
-	}
 }
 
 .header {
@@ -80,7 +90,23 @@ mark {
 
 .main {
 	width: 100%;
-	padding: 0 2rem;
+	padding: 0 2.5rem;
+
+	@include desktop-sm {
+		max-width: 80rem;
+		margin: 0 auto;
+		// padding: 0;
+	}
+}
+
+.footer {
+	width: 100%;
+	margin-top: 2rem;
+	padding: 0 2.5rem;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 
 	@include desktop-sm {
 		max-width: 80rem;

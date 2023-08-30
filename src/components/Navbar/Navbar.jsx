@@ -31,9 +31,12 @@ function Navbar({ theme, toggleTheme }) {
 
 			<ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>
 				{MenuData.map((item, index) => (
-					<li key={index}>
-						<Link className={item.cName} href={item.url} onClick={closeMobileMenu}>
+					<li className='navbar-menu__item' key={index}>
+						{/* <Link className={item.cName} href={item.url} onClick={closeMobileMenu}>
 							{item.title === 'Get Resume' ? <mark>Get Resume</mark> : item.title}
+						</Link> */}
+						<Link className={`${theme === 'light' ? 'light-link' : 'dark-link'} ${item.cName}`} to={item.url} onClick={closeMobileMenu}>
+							{item.title}
 						</Link>
 					</li>
 				))}
