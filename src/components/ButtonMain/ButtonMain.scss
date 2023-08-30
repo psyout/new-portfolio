@@ -4,8 +4,8 @@
 .button {
 	font-family: inherit;
 	font-size: 1rem;
-	background-color: $primaryCta;
-	color: #000;
+	background-color: $secondaryCta;
+	color: $primaryLight;
 	border-radius: 5px;
 	border: none;
 	display: inline-block;
@@ -15,7 +15,7 @@
 	margin-top: 1rem;
 
 	&:hover {
-		background-color: #2980b9;
+		background-color: #3978a3;
 		color: #fff;
 	}
 }

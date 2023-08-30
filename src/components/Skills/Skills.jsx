@@ -1,30 +1,57 @@
 import './Skills.scss';
-import image from '../../assets/images/bg-image.png';
 import SkillsPage from '../ProgressBar/SkillsPage';
+import { FaSquareJs, FaHtml5, FaCss3Alt } from 'react-icons/fa6';
 
 function Skills() {
 	return (
 		<section className='skills'>
 			<div className='skills-container'>
 				<div className='skills-container__group'>
-					<img className='skills-container__group--image' src={image} alt='skill 1' />
+					<FaHtml5
+						className='skills-container__group--image'
+						style={{
+							width: '80px',
+							height: '80px',
+						}}
+					/>
 					<div className='skills-container__text'>
-						<h2 className='skills-container__text--title'>These are my skills and more…</h2>
-						<p className='skills-container__text--body'>I recently completed a web development bootcamp which allowed me to improve my skillset and also meet great people. During my time at BrainStation.</p>
+						<h2 className='skills-container__text--title'>Since version 4.0</h2>
+						<p className='skills-container__text--body'>
+							My HTML skills prove incredibly useful in React. Writing JSX becomes intuitive, like crafting HTML with JavaScript's power. I create dynamic components, conditionally render content, and iterate through data arrays seamlessly.
+							This mix of HTML and JavaScript in JSX simplifies React development.
+						</p>
 					</div>
 				</div>
 				<div className='skills-container__group'>
-					<img className='skills-container__group--image' src={image} alt='skill 1' />
+					<FaCss3Alt
+						className='skills-container__group--image'
+						style={{
+							width: '80px',
+							height: '80px',
+						}}
+					/>
 					<div className='skills-container__text'>
-						<h2 className='skills-container__text--title'>These are my skills and more…</h2>
-						<p className='skills-container__text--body'>I recently completed a web development bootcamp which allowed me to improve my skillset and also meet great people. During my time at BrainStation.</p>
+						<h2 className='skills-container__text--title'>Styling for life</h2>
+						<p className='skills-container__text--body'>
+							{' '}
+							I've mastered the art of responsive design, creating layouts that seamlessly adapt to any screen size. Playing around with animations and transitions has also become second nature, adding that extra touch of life to websites.
+						</p>
 					</div>
 				</div>
 				<div className='skills-container__group'>
-					<img className='skills-container__group--image' src={image} alt='skill 1' />
+					<FaSquareJs
+						className='skills-container__group--image'
+						style={{
+							width: '80px',
+							height: '80px',
+						}}
+					/>
 					<div className='skills-container__text'>
-						<h2 className='skills-container__text--title'>These are my skills and more…</h2>
-						<p className='skills-container__text--body'>I recently completed a web development bootcamp which allowed me to improve my skillset and also meet great people. During my time at BrainStation.</p>
+						<h2 className='skills-container__text--title'>JavaScript, my daily adventure</h2>
+						<p className='skills-container__text--body'>
+							Able to create dynamic components, managing state, and handling logic. This leads to responsive, interactive, and high-performance React apps. Learning React Native and Electron.js for mobile apps at the moment. It's like a
+							treasure hunt, with discoveries growing.
+						</p>
 					</div>
 				</div>
 			</div>

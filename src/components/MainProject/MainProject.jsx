@@ -21,7 +21,10 @@ function MainProject() {
 			<div className='mainproject__text'>
 				<h5 className='mainproject__text--sub'>React.js | Axios | Mapbox.js | Node.js</h5>
 				<h2 className='mainproject__text--title'>Wülen Happy Hour Finder</h2>
-				<p className='mainproject__text--body'>Develop an interactive app that allow users to search or filter happy hour special based on its geolocation, able to click on markers to see more details about the place, its ratings and menu. </p>
+				<p className='mainproject__text--body'>
+					React App with Front / Back End development using Mapbox.js and Axios to make API requests. Used Material UI for enhance design. Allow users to search or filter happy hour special based on its geolocation, able to click on markers to
+					see more details about the place, its ratings and menu.{' '}
+				</p>
 				<ButtonMain url={`https://wulen.netlify.app`} title={`See Project`} />
 			</div>
 		</section>
