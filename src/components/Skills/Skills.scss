@@ -1,0 +1,59 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.skills {
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+
+	@include desktop-sm {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 8rem;
+	}
+}
+
+.skills-container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	&__group {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: 1rem;
+		border-bottom: solid 1px $primaryDark;
+		padding-bottom: 2rem;
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+		&--image {
+			max-width: 5rem;
+			flex: 1;
+		}
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		flex: 2;
+		line-height: 1.3;
+		&--title {
+			font-size: $fs-110;
+		}
+
+		&--body {
+			font-weight: $fw-300;
+		}
+	}
+}
+
+.skills-progress {
+	margin-top: 2rem;
+	@include desktop-sm {
+		margin-top: 0;
+		flex: 1;
+	}
+}

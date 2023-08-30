@@ -2,12 +2,13 @@
 @use '../../styles/variables' as *;
 
 .title {
-	margin-top: 8rem;
+	margin-top: 10rem;
 	text-align: left;
 
 	&__head {
 		font-family: 'Titillium Web', sans-serif;
 		font-size: 3rem;
+		line-height: 1;
 	}
 
 	&__body {

@@ -1,0 +1,18 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.project {
+	&__image {
+		aspect-ratio: 16/9;
+		background-size: cover;
+	}
+
+	&__title {
+		font-weight: $fw-700;
+	}
+
+	&__body {
+		font-weight: $fw-300;
+		line-height: 1.3;
+	}
+}
