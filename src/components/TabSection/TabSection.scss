@@ -3,7 +3,6 @@
 
 .tabwork {
 	&-section {
-		padding-bottom: 10rem;
 		@include desktop-sm {
 			display: flex;
 			align-items: flex-start;
@@ -34,6 +33,7 @@
 		background-color: #d9d9d9;
 		padding: 1rem;
 		text-align: left;
+		display: flex;
 
 		&.active {
 			border-left: solid 10px $primaryCta;
@@ -42,11 +42,18 @@
 	}
 
 	&-content {
+		// background-color: $primaryDark;
+		// border: solid 2px $primaryDark;
 		margin-top: 2rem;
+		// box-shadow: 7px 7px 0px darkslateblue;
+		padding: 0;
+		// height: 70vh;
 
 		@include desktop-sm {
+			height: auto;
 			flex: 3;
 			margin-top: 0;
+			// padding: 1rem;
 		}
 	}
 }

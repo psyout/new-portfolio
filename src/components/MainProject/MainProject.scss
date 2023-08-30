@@ -1,7 +1,7 @@
 @use '../../styles/mixins' as *;
 @use '../../styles/variables' as *;
 
-.mainwork {
+.mainproject {
 	margin-top: 2rem;
 	padding-bottom: 5rem;
 
@@ -25,6 +25,7 @@
 
 		&--body {
 			font-weight: $fw-300;
+			line-height: 1.3;
 		}
 	}
 

@@ -1,0 +1,29 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.project-section {
+	&--container {
+		&__list {
+			list-style-type: none;
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			flex-direction: column;
+			gap: 1rem;
+
+			@include tablet {
+				flex-wrap: wrap;
+				flex-direction: row;
+			}
+		}
+
+		&__element {
+			width: calc(100% - 10px);
+			margin-bottom: 20px;
+
+			@include tablet {
+				width: calc(50% - 10px);
+			}
+		}
+	}
+}
