@@ -4,7 +4,7 @@
 .button {
 	font-family: inherit;
 	font-size: 1rem;
-	background-color: $secondaryCta;
+	background-color: $colorPurple;
 	color: $primaryLight;
 	border-radius: 5px;
 	border: none;
@@ -12,7 +12,7 @@
 	padding: 0.6rem;
 	transition: background-color 0.5s ease;
 	font-weight: $fw-700;
-	margin-top: 1rem;
+	// margin-top: 1rem;
 
 	&:hover {
 		background-color: #3978a3;

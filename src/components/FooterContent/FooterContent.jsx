@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Formik } from 'formik';
 import './FooterContent.scss';
 // import { SocialIcon } from 'react-social-icons';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
@@ -15,6 +16,7 @@ function FooterContent() {
 					+1 (778) 697-7909
 				</a>
 			</div>
+
 			<div className='section-footer__social'>
 				<Link className='section-footer__social--link'>
 					<FaGithub className='section-footer__social--icon' />

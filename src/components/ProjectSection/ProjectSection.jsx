@@ -1,12 +1,13 @@
 import './ProjectSection.scss';
 import Project from '../Project/Project';
-import { BrandingData, DevelopmentData, WebData } from '../Project/ProjectData';
+import { LogoData, DevelopmentData, WebData, GraphicData } from '../Project/ProjectData';
 
 function ProjectSection({ dataKey }) {
 	const dataMap = {
 		development: DevelopmentData,
 		web: WebData,
-		branding: BrandingData,
+		graphic: GraphicData,
+		logo: LogoData,
 	};
 
 	const projectData = dataMap[dataKey] || [];

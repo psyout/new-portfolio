@@ -54,10 +54,10 @@ a:visited {
 }
 
 mark {
-	background-color: $secondaryCta;
+	background-color: $colorCream;
 	padding: 0.2rem;
 	font-weight: $fw-700;
-	color: $primaryLight;
+	color: $colorPurple;
 }
 
 h1,
@@ -84,13 +84,13 @@ p {
 		background-color: #000;
 	}
 	&.light {
-		background-color: #d9d9d9;
+		background-color: $colorLightGreen;
 	}
 }
 
 .main {
 	width: 100%;
-	padding: 0 2.5rem;
+	padding: 0 1.5rem;
 
 	@include desktop-sm {
 		max-width: 80rem;

@@ -9,20 +9,31 @@
 			flex-wrap: nowrap;
 			justify-content: space-between;
 			flex-direction: column;
-			gap: 1rem;
+			align-content: center;
+			align-items: stretch;
+			gap: 3rem;
 
 			@include tablet {
 				flex-wrap: wrap;
 				flex-direction: row;
+				gap: 2rem;
 			}
 		}
 
 		&__element {
-			width: calc(100% - 10px);
-			margin-bottom: 20px;
+			width: calc(100% - 0px);
+			// border-bottom: solid 1px $colorLightGreen;
+
+			&:last-child {
+				border-bottom: none;
+			}
 
 			@include tablet {
-				width: calc(50% - 10px);
+				width: calc(50% - 40px);
+			}
+
+			@include tablet {
+				border-bottom: none;
 			}
 		}
 	}

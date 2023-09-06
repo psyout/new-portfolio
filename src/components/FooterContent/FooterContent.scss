@@ -49,8 +49,8 @@
 		}
 
 		&--link {
-			width: 60px;
-			height: 60px;
+			width: 65px;
+			height: 65px;
 			border-radius: 50%;
 			background-color: $primary;
 			display: flex;
@@ -58,11 +58,11 @@
 			justify-content: center;
 			transition: background-color 0.5s ease;
 
-			@include desktop-sm {
-				width: 80px;
-				height: 80px;
-				border-radius: 50%;
-			}
+			// @include desktop-sm {
+			// 	width: 80px;
+			// 	height: 80px;
+			// 	border-radius: 50%;
+			// }
 
 			&:hover {
 				background-color: $primaryCta;

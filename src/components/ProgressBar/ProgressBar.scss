@@ -10,7 +10,7 @@
 .progress-bar__label {
 	font-weight: bold;
 	flex: 1;
-	background-color: $primary;
+	background-color: $colorPurple;
 	color: $primaryLight;
 	font-weight: $fw-400;
 	font-size: $fs-075;
@@ -39,7 +39,7 @@
 
 .progress-bar__inner {
 	height: 100%;
-	background-color: rgba($secondaryCta, 0.5);
+	background-color: rgba($colorLightGreen, 0.5);
 	transition: width 0.3s ease-in-out;
 }
 
