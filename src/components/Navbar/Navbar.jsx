@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CgMenuLeft, CgSun, CgMoon, CgClose } from 'react-icons/cg';
-import './Navbar.scss';
 import { MenuData } from './MenuData';
 import Button from '../Button/Button';
+import './Navbar.scss';
 
 function Navbar({ theme, toggleTheme }) {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
