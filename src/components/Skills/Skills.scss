@@ -22,7 +22,7 @@
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
-		gap: 1rem;
+		gap: 2rem;
 		border-bottom: solid 1px $primaryDark;
 		padding-bottom: 2rem;
 
@@ -32,7 +32,7 @@
 
 		&--image {
 			max-width: 4rem;
-			color: $secondaryCta;
+			color: $colorPurple;
 			// flex: 1;
 		}
 	}

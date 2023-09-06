@@ -1,19 +1,22 @@
 import './Skills.scss';
 import SkillsPage from '../ProgressBar/SkillsPage';
 import { FaSquareJs, FaHtml5, FaCss3Alt } from 'react-icons/fa6';
+import Slide from 'react-reveal/Slide';
 
 function Skills() {
 	return (
 		<section className='skills'>
 			<div className='skills-container'>
 				<div className='skills-container__group'>
-					<FaHtml5
-						className='skills-container__group--image'
-						style={{
-							width: '80px',
-							height: '80px',
-						}}
-					/>
+					<Slide left>
+						<FaHtml5
+							className='skills-container__group--image'
+							style={{
+								width: '80px',
+								height: '80px',
+							}}
+						/>
+					</Slide>
 					<div className='skills-container__text'>
 						<h2 className='skills-container__text--title'>Since version 4.0</h2>
 						<p className='skills-container__text--body'>
@@ -23,13 +26,15 @@ function Skills() {
 					</div>
 				</div>
 				<div className='skills-container__group'>
-					<FaCss3Alt
-						className='skills-container__group--image'
-						style={{
-							width: '80px',
-							height: '80px',
-						}}
-					/>
+					<Slide left>
+						<FaCss3Alt
+							className='skills-container__group--image'
+							style={{
+								width: '80px',
+								height: '80px',
+							}}
+						/>
+					</Slide>
 					<div className='skills-container__text'>
 						<h2 className='skills-container__text--title'>Styling for life</h2>
 						<p className='skills-container__text--body'>
@@ -39,13 +44,15 @@ function Skills() {
 					</div>
 				</div>
 				<div className='skills-container__group'>
-					<FaSquareJs
-						className='skills-container__group--image'
-						style={{
-							width: '80px',
-							height: '80px',
-						}}
-					/>
+					<Slide left>
+						<FaSquareJs
+							className='skills-container__group--image'
+							style={{
+								width: '80px',
+								height: '80px',
+							}}
+						/>
+					</Slide>
 					<div className='skills-container__text'>
 						<h2 className='skills-container__text--title'>JavaScript, my daily adventure</h2>
 						<p className='skills-container__text--body'>

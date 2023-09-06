@@ -1,7 +1,11 @@
 import './Button.scss';
 
-function Button({ title }) {
-	return <button className='button-prop'>{title}</button>;
+function Button({ title, url }) {
+	return (
+		<a href={url} target='_blank' className='button-prop'>
+			{title}
+		</a>
+	);
 }
 
 export default Button;

@@ -1,5 +1,6 @@
 import './Intro.scss';
 import ProfilePicture from '../../assets/images/profile-picture.png';
+// import ProfilePicture from '../../assets/images/bg-image.png';
 
 function Intro() {
 	return (

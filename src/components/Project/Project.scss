@@ -2,17 +2,28 @@
 @use '../../styles/variables' as *;
 
 .project {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
 	&__image {
 		aspect-ratio: 16/9;
+		margin-inline: auto;
 		background-size: cover;
+		background-color: rgba(217, 217, 217, 0.2);
 	}
 
 	&__title {
 		font-weight: $fw-700;
+		display: flex;
+		margin-top: 1rem;
 	}
 
 	&__body {
 		font-weight: $fw-300;
 		line-height: 1.3;
+		min-height: auto;
+		border-top: solid 1px black;
+		padding: 0.5rem 0;
 	}
 }
