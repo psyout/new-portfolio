@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { Formik } from 'formik';
 import './FooterContent.scss';
 // import { SocialIcon } from 'react-social-icons';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
@@ -29,17 +28,6 @@ function FooterContent() {
 				<Link className='section-footer__social--link'>
 					<FaInstagram className='section-footer__social--icon' />
 				</Link>
-
-				{/* <Link className='section-footer__social--link'>
-					<SocialIcon style={{ height: 80, width: 80 }} url='https://www.linkedin.com/in/fgonzalezcare/' />
-				</Link>
-				<Link className='section-footer__social--link'>
-					<SocialIcon style={{ height: 80, width: 80 }} network='github' url='https://www.linkedin.com/in/fgonzalezcare/' />
-				</Link>
-
-				<Link className='section-footer__social--link'>
-					<SocialIcon style={{ height: 80, width: 80 }} network='facebook' url='https://www.facebook.com/psypipe' />
-				</Link> */}
 			</div>
 		</section>
 	);
