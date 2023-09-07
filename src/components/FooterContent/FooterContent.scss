@@ -2,14 +2,12 @@
 @use '../../styles/variables' as *;
 
 .section-footer {
+	margin-top: 8rem;
+	width: 100%;
 	&__title {
 		font-size: $fs-300;
 		font-family: 'Titillium Web', sans-serif;
 		line-height: 1;
-
-		@include desktop-sm {
-			font-size: $fs-350;
-		}
 	}
 
 	&__contact {
@@ -21,7 +19,7 @@
 			display: block;
 			font-size: $fs-150;
 			font-weight: $fw-300;
-			color: inherit;
+			color: #323232;
 			margin-top: 2rem;
 
 			&:hover {
@@ -33,39 +31,46 @@
 			}
 
 			@include desktop-sm {
-				font-size: 48px;
+				font-size: $fs-200;
 			}
 		}
 	}
 
 	&__social {
+		border-top: solid 1px $colorPurple;
 		display: flex;
 		gap: 1rem;
 		flex-direction: row;
-		margin-top: 1rem;
+		align-items: center;
+		justify-content: flex-end;
+		margin: 10rem 0 2rem;
 
 		@include desktop-sm {
 			gap: 2;
 		}
 
+		&--title {
+			margin-top: 1rem;
+			font-weight: $fw-400;
+
+			@include desktop-sm {
+				font-size: $fs-120;
+			}
+		}
+
 		&--link {
-			width: 65px;
-			height: 65px;
+			width: 50px;
+			height: 50px;
 			border-radius: 50%;
-			background-color: $primary;
+			background-color: $colorPurple;
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			margin-top: 1rem;
 			transition: background-color 0.5s ease;
 
-			// @include desktop-sm {
-			// 	width: 80px;
-			// 	height: 80px;
-			// 	border-radius: 50%;
-			// }
-
 			&:hover {
-				background-color: $primaryCta;
+				background-color: #2980b9;
 			}
 		}
 
@@ -74,7 +79,7 @@
 			font-size: $fs-200;
 
 			@include desktop-sm {
-				font-size: $fs-300;
+				font-size: $fs-200;
 			}
 		}
 	}
