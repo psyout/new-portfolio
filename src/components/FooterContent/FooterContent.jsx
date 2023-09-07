@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
 import './FooterContent.scss';
-// import { SocialIcon } from 'react-social-icons';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import ContactForm from '../ContactForm/ContactForm';
 
 function FooterContent() {
 	return (
@@ -16,18 +15,21 @@ function FooterContent() {
 				</a>
 			</div>
 
+			<ContactForm />
+
 			<div className='section-footer__social'>
-				<Link className='section-footer__social--link'>
+				<h4 className='section-footer__social--title'>Follow me:</h4>
+				<a href='https://github.com/psyout/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
 					<FaGithub className='section-footer__social--icon' />
-				</Link>
+				</a>
 
-				<Link className='section-footer__social--link'>
+				<a href='https://www.linkedin.com/in/fgonzalezcare/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
 					<FaLinkedinIn className='section-footer__social--icon' />
-				</Link>
+				</a>
 
-				<Link className='section-footer__social--link'>
+				<a href='https://www.instagram.com/psyout' rel='noreferrer' target='_blank' className='section-footer__social--link'>
 					<FaInstagram className='section-footer__social--icon' />
-				</Link>
+				</a>
 			</div>
 		</section>
 	);

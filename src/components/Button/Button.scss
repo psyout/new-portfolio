@@ -14,12 +14,13 @@
 	font-weight: $fw-700;
 	cursor: pointer;
 
-	@include desktop {
+	@include desktop-sm {
 		display: block;
 	}
 
 	&:hover {
 		background-color: #2980b9;
+		// background-color: rgba($colorPurple, 0.5);
 		color: #fff;
 	}
 }

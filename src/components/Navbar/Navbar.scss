@@ -4,13 +4,12 @@
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	height: 3.5rem;
-	padding: 0 1.5rem;
+	height: 4rem;
+	padding: 0 2rem;
 	align-items: center;
 
 	@include desktop {
 		width: 80rem;
-		height: 4rem;
 		margin: 0 auto;
 	}
 
@@ -23,7 +22,7 @@
 		margin-top: 0.5rem;
 		color: $colorBlue;
 
-		@include desktop {
+		@include desktop-sm {
 			display: none;
 		}
 	}
@@ -62,11 +61,12 @@
 	}
 
 	&__right-col {
-		@include desktop {
+		@include desktop-sm {
 			order: 3;
 			display: flex;
 			gap: 1rem;
 			align-items: center;
+			flex-direction: row-reverse;
 		}
 	}
 }
@@ -83,23 +83,21 @@
 	left: 0;
 	background-color: $colorLightGreen;
 
-	@include desktop {
+	@include desktop-sm {
 		display: block;
 		margin: 0;
 		display: grid;
 		grid-template-columns: repeat(3, auto);
 		order: 1;
-		width: 500px;
+		width: 400px;
 		height: 3rem;
 		position: initial;
 		justify-content: center;
-		gap: 2rem;
+		gap: 1.5rem;
 	}
 
 	&__item {
 		font-size: $fs-110;
-		// display: flex;
-		// align-items: center;
 		border: none;
 		position: relative;
 
@@ -135,9 +133,18 @@
 
 		&--mobile {
 			display: block;
-			color: inherit;
+			font-size: $fs-090;
+			background-color: $colorPurple;
+			color: #fff;
+			border-radius: 5px;
+			border: none;
+			padding: 0.1rem 0.7rem;
+			transition: background-color 0.5s ease;
+			font-weight: $fw-700;
+			cursor: pointer;
+			margin-bottom: 1rem;
 
-			@include desktop {
+			@include desktop-sm {
 				display: none;
 			}
 		}
@@ -149,8 +156,9 @@
 		align-items: flex-start;
 		justify-content: center;
 		border-top: solid 1px white;
-		padding-left: 1.5rem;
+		padding-left: 2rem;
 		box-shadow: 0px 20px 50px -40px #000;
+		margin-top: 0.5rem;
 
 		@include desktop {
 			display: grid;

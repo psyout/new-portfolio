@@ -21,8 +21,6 @@
 		align-items: stretch;
 		gap: 0.5rem;
 
-		// padding: 1rem;
-
 		@include desktop-sm {
 			flex: 1;
 		}
@@ -32,32 +30,27 @@
 		font-size: $fs-100;
 		font-weight: $fw-400;
 		font-family: inherit;
-		background-color: #d9d9d9;
+		background-color: $secondaryDark;
 		padding: 1rem;
 		text-align: left;
 		display: flex;
 		color: $primary;
 
 		&.active {
-			border-left: solid 10px $colorPink;
+			border-left: solid 10px $colorLightGreen;
 			font-weight: $fw-700;
 		}
 	}
 
 	&-content {
-		// background-color: $primaryDark;
-		// border: solid 2px $primaryDark;
 		margin-top: 2rem;
-		// box-shadow: 7px 7px 0px darkslateblue;
 		padding: 0;
-		// height: 70vh;
 
 		@include desktop-sm {
 			height: auto;
 			flex: 3;
 			margin-top: 0;
 			margin-bottom: 5rem;
-			// padding: 1rem;
 		}
 	}
 }
