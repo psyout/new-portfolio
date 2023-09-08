@@ -150,6 +150,13 @@
 		}
 	}
 
+	&__icon {
+		margin-right: 0.5rem;
+		@include desktop-sm {
+			display: none;
+		}
+	}
+
 	&.active {
 		display: flex;
 		flex-direction: column;

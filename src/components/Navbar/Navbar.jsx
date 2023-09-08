@@ -4,6 +4,7 @@ import { CgMenuLeft, CgClose } from 'react-icons/cg';
 import { MenuData } from './MenuData';
 import Button from '../Button/Button';
 import './Navbar.scss';
+// import { FaAt, FaCode, FaCircleUser, FaRegFilePdf } from 'react-icons/fa6';
 
 function Navbar({ theme, toggleTheme }) {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,7 +37,8 @@ function Navbar({ theme, toggleTheme }) {
 				<ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>
 					{MenuData.map((item, index) => (
 						<li className='navbar-menu__item' key={index}>
-							<i className={item.iconClass}></i>
+							{/* <span className='navbar-menu__icon'>{renderIcon(item.iconClass)}</span> */}
+
 							<Link
 								className={`${theme === 'light' ? 'light-link' : 'dark-link'} ${item.cName}`}
 								to={item.url}
@@ -54,5 +56,18 @@ function Navbar({ theme, toggleTheme }) {
 		</nav>
 	);
 }
+
+// function renderIcon(iconClass) {
+// 	switch (iconClass) {
+// 		case 'FaAt':
+// 			return <FaAt />;
+// 		case 'FaCircleUser':
+// 			return <FaCircleUser />;
+// 		case 'FaCode':
+// 			return <FaCode />;
+// 		default:
+// 			return null;
+// 	}
+// }
 
 export default Navbar;
