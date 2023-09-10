@@ -17,6 +17,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
+		margin-top: 1rem;
 	}
 
 	&__group {
@@ -29,13 +30,14 @@
 
 		& .contact-form__input,
 		& .contact-form__textarea {
-			padding: 10px;
+			padding: 17px;
 			margin-top: 5px;
 			margin-bottom: 10px;
 			border: solid 1px $colorPurple;
 			width: 100%;
 			font-family: inherit;
 			color: $colorPurple;
+			font-size: $fs-100;
 		}
 
 		& .contact-form__textarea {
@@ -44,22 +46,23 @@
 		}
 
 		::placeholder {
-			font-size: $fs-090;
+			font-size: $fs-100;
 			color: $colorPurple;
 		}
 	}
 
 	&__submit {
-		font-size: $fs-090;
+		font-size: $fs-100;
 		background-color: $colorPurple;
 		color: #fff;
 		border-radius: 5px;
 		border: none;
 		padding: 1rem 1.5rem;
 		transition: background-color 0.5s ease;
-		font-weight: $fw-400;
+		font-weight: $fw-700;
 		cursor: pointer;
 		font-family: inherit;
+		margin-top: 1rem;
 
 		&:hover {
 			background-color: #0056b3;

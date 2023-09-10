@@ -1,22 +1,39 @@
-import React from 'react';
 import './ContactForm.scss';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function ContactForm() {
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs.sendForm('service_2jerfrk', 'template_tdtj0wf', form.current, 'YEEOb0VOHWhUjqWIu').then(
+			(result) => {
+				console.log(result.text);
+				console.log('message sent');
+				alert('Email sent!!');
+			},
+			(error) => {
+				console.log(error.text);
+			}
+		);
+	};
 	return (
 		<div className='contact-form'>
 			<h2 className='contact-form__title'>or complete this form to reach me</h2>
-			<form className='contact-form__form'>
+			<form className='contact-form__form' ref={form} onSubmit={sendEmail}>
 				<div className='contact-form__group'>
-					<input className='contact-form__input' type='text' id='name' name='name' required placeholder='Name' />
+					<input className='contact-form__input' type='text' id='name' name='user_name' required placeholder='Name' />
 				</div>
 				<div className='contact-form__group'>
-					<input className='contact-form__input' type='email' id='email' name='email' required placeholder='Email' />
+					<input className='contact-form__input' type='email' id='email' name='user_email' required placeholder='Email' />
 				</div>
 				<div className='contact-form__group'>
-					<textarea className='contact-form__textarea' id='comment' name='comment' required placeholder='Comment'></textarea>
+					<textarea className='contact-form__textarea' id='comment' name='message' required placeholder='Comment'></textarea>
 				</div>
 				<div className='contact-form__group'>
-					<button className='contact-form__submit' type='submit'>
+					<button className='contact-form__submit' type='submit' value='Send'>
 						Submit
 					</button>
 				</div>

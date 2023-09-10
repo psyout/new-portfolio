@@ -1,5 +1,5 @@
 import './FooterContent.scss';
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import ContactForm from '../ContactForm/ContactForm';
 
 function FooterContent() {
@@ -27,9 +27,9 @@ function FooterContent() {
 					<FaLinkedinIn className='section-footer__social--icon' />
 				</a>
 
-				<a href='https://www.instagram.com/psyout' rel='noreferrer' target='_blank' className='section-footer__social--link'>
+				{/* <a href='https://www.instagram.com/psyout' rel='noreferrer' target='_blank' className='section-footer__social--link'>
 					<FaInstagram className='section-footer__social--icon' />
-				</a>
+				</a> */}
 			</div>
 		</section>
 	);
