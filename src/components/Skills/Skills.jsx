@@ -1,7 +1,7 @@
 import './Skills.scss';
 import SkillsPage from '../ProgressBar/SkillsPage';
 import { FaSquareJs, FaHtml5, FaCss3Alt } from 'react-icons/fa6';
-import Slide from 'react-reveal/Slide';
+import { Slide } from 'react-awesome-reveal';
 
 function Skills() {
 	return (

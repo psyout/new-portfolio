@@ -6,7 +6,7 @@ import MainProject from './components/MainProject/MainProject';
 import TabSection from './components/TabSection/TabSection';
 import Skills from './components/Skills/Skills';
 import FooterContent from './components/FooterContent/FooterContent';
-import Slide from 'react-reveal/Slide';
+import { Slide } from 'react-awesome-reveal';
 import { TitleData } from './components/Title/TitleData';
 
 function App() {

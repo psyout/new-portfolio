@@ -1,6 +1,6 @@
 import React from 'react';
 import ProgressBar from './ProgressBar';
-import Slide from 'react-reveal/Slide';
+import { Slide } from 'react-awesome-reveal';
 
 function SkillsPage() {
 	const skillsData = [
