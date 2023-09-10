@@ -7,7 +7,7 @@ export const MenuData = [
 		iconClass: 'FaCode',
 	},
 	{
-		title: 'Who I’am',
+		title: 'Who I am',
 		url: '#skills',
 		cName: 'navbar-menu__link',
 		iconClass: 'FaCircleUser',
