@@ -33,25 +33,14 @@
 			margin-bottom: 1rem;
 		}
 	}
-
-	&-btn {
-		font-family: inherit;
-		font-size: $fs-090;
-		font-weight: $fw-400;
-		background-color: $primaryCta;
-		padding: 0.6rem 3rem;
-		margin-top: 1rem;
-		border-radius: 6px;
-	}
 }
 
 .carousel {
 	border: solid 2px $colorPurple;
-	// border-radius: 5px;
-	box-shadow: 5px 5px 0px black;
+	box-shadow: 5px 5px 0px $primary;
 }
 .carousel .control-arrow:hover {
-	background-color: rgba($secondaryCta, 0.4) !important;
+	background-color: rgba($colorLightBlue, 0.4) !important;
 }
 
 .carousel .slide img {
@@ -61,5 +50,5 @@
 
 .carousel .control-dots .dot {
 	box-shadow: none !important;
-	background-color: rgba($secondaryCta, 1) !important;
+	background-color: rgba(rgba($colorLightBlue, 0.4), 1) !important;
 }

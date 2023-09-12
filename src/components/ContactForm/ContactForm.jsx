@@ -13,9 +13,11 @@ function ContactForm() {
 			(result) => {
 				console.log(result.text);
 				console.log('message sent');
-				// setTimeout(() => {
-				// 	alert('Email sent!!');
-				// }, 2000);
+
+				form.current.user_name.value = '';
+				form.current.user_email.value = '';
+				form.current.message.value = '';
+
 				setEmailSent(true);
 			},
 			(error) => {
@@ -28,13 +30,13 @@ function ContactForm() {
 			<h2 className='contact-form__title'>or complete this form to reach me</h2>
 			<form className='contact-form__form' ref={form} onSubmit={sendEmail}>
 				<div className='contact-form__group'>
-					<input className='contact-form__input' type='text' id='name' name='user_name' required placeholder='Name' />
+					<input className='contact-form__input' type='text' name='user_name' required placeholder='Name' />
 				</div>
 				<div className='contact-form__group'>
-					<input className='contact-form__input' type='email' id='email' name='user_email' required placeholder='Email' />
+					<input className='contact-form__input' type='email' name='user_email' required placeholder='Email' />
 				</div>
 				<div className='contact-form__group'>
-					<textarea className='contact-form__textarea' id='comment' name='message' required placeholder='Comment'></textarea>
+					<textarea className='contact-form__textarea' name='message' required placeholder='Comment'></textarea>
 				</div>
 				<div className='contact-form__group'>
 					<button className='contact-form__submit' type='submit' value='Send'>

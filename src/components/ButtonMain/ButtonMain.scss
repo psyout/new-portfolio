@@ -4,7 +4,7 @@
 .button {
 	font-family: inherit;
 	font-size: 1rem;
-	background-color: $colorPurple;
+	background-color: $colorLightBlue;
 	color: $primaryLight;
 	border-radius: 5px;
 	border: none;
@@ -12,15 +12,10 @@
 	padding: 0.6rem;
 	transition: all 0.2s ease;
 	font-weight: $fw-700;
-	// margin-top: 1rem;
 
-	// &:hover {
-	// 	background-color: #3978a3;
-	// 	color: #fff;
-	// }
 	&:hover {
-		box-shadow: 5px 5px 0px $colorLightGreen;
-		background-color: #3978a3;
-		color: #fff;
+		box-shadow: 5px 5px 0px $colorLightBlue;
+		background-color: $colorLightGreen;
+		color: $colorLightBlue;
 	}
 }

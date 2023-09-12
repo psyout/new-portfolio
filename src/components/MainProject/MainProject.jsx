@@ -20,7 +20,7 @@ function MainProject() {
 			</div>
 			<div className='mainproject__text'>
 				<h5 className='mainproject__text--sub'>
-					<mark style={{ backgroundColor: '#87b1ac', color: '#ffffff' }}>React.js | Axios | Mapbox.js | Node.js</mark>
+					<mark style={{ backgroundColor: '#9fd3c7', color: '#ffffff' }}>React.js | Axios | Mapbox.js | Node.js</mark>
 				</h5>
 				<h2 className='mainproject__text--title'>Wülen Happy Hour Finder</h2>
 				<p className='mainproject__text--body'>

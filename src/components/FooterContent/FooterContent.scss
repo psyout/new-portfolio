@@ -19,7 +19,7 @@
 			display: block;
 			font-size: $fs-150;
 			font-weight: $fw-300;
-			color: #323232;
+			color: $primary;
 			margin-top: 2rem;
 
 			&:hover {
@@ -37,7 +37,7 @@
 	}
 
 	&__social {
-		border-top: solid 1px $colorPurple;
+		border-top: solid 1px $primary;
 		display: flex;
 		gap: 1rem;
 		flex-direction: row;
@@ -62,7 +62,7 @@
 			width: 50px;
 			height: 50px;
 			border-radius: 50%;
-			background-color: $colorPurple;
+			background-color: $colorLightBlue;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -70,12 +70,12 @@
 			transition: background-color 0.5s ease;
 
 			&:hover {
-				background-color: #2980b9;
+				background-color: $colorLightGreen;
 			}
 		}
 
 		&--icon {
-			color: #fff;
+			color: $primaryLight;
 			font-size: $fs-200;
 
 			@include desktop-sm {

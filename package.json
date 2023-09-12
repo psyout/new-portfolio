@@ -18,7 +18,6 @@
 		"react-scripts": "5.0.1",
 		"react-social-icons": "^5.15.0",
 		"sass": "^1.66.1",
-		"scroll-progress": "^1.1.1",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {

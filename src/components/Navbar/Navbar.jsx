@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { CgMenuLeft, CgClose } from 'react-icons/cg';
 import { MenuData } from './MenuData';
 import Button from '../Button/Button';
@@ -36,15 +35,17 @@ function Navbar({ theme, toggleTheme }) {
 				<ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>
 					{MenuData.map((item, index) => (
 						<li className='navbar-menu__item' key={index}>
-							<Link
-								className={`${theme === 'light' ? 'light-link' : 'dark-link'} ${item.cName}`}
-								to={item.url}
+							<a
+								className={item.cName}
+								href={item.url}
+								target='blank'
+								rel='noopener noreferrer'
 								onClick={(e) => {
 									e.preventDefault();
 									scrollToSection(item.url.substring(1));
 								}}>
 								{item.title}
-							</Link>
+							</a>
 						</li>
 					))}
 				</ul>

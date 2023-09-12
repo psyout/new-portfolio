@@ -23,7 +23,7 @@
 		flex-direction: row;
 		align-items: flex-start;
 		gap: 2rem;
-		border-bottom: solid 1px $primaryDark;
+		border-bottom: solid 1px $primary;
 		padding-bottom: 2rem;
 
 		&:last-child {
@@ -32,8 +32,7 @@
 
 		&--image {
 			max-width: 4rem;
-			color: $colorPurple;
-			// flex: 1;
+			color: $primary;
 		}
 	}
 

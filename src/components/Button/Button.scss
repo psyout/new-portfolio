@@ -6,7 +6,7 @@
 	display: none;
 	font-size: $fs-090;
 	background-color: $lightColour;
-	color: #373b61;
+	color: $colorLightBlue;
 	border-radius: 5px;
 	border: none;
 	padding: 0.6rem;
@@ -19,8 +19,7 @@
 	}
 
 	&:hover {
-		background-color: #2980b9;
-		// background-color: rgba($colorPurple, 0.5);
-		color: #fff;
+		background-color: $colorLightGreen;
+		color: $colorLightBlue;
 	}
 }

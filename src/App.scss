@@ -79,15 +79,8 @@ p {
 }
 
 .header {
-	background-color: #373b61;
+	background-color: $colorLightBlue;
 	color: #a7d5e5;
-
-	&.dark {
-		background-color: #000;
-	}
-	&.light {
-		background-color: $colorLightGreen;
-	}
 }
 
 .main {
