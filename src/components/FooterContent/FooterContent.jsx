@@ -26,10 +26,6 @@ function FooterContent() {
 				<a href='https://www.linkedin.com/in/fgonzalezcare/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
 					<FaLinkedinIn className='section-footer__social--icon' />
 				</a>
-
-				{/* <a href='https://www.instagram.com/psyout' rel='noreferrer' target='_blank' className='section-footer__social--link'>
-					<FaInstagram className='section-footer__social--icon' />
-				</a> */}
 			</div>
 		</section>
 	);

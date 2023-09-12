@@ -47,7 +47,8 @@
 
 .carousel {
 	border: solid 2px $colorPurple;
-	border-radius: 5px;
+	// border-radius: 5px;
+	box-shadow: 5px 5px 0px black;
 }
 .carousel .control-arrow:hover {
 	background-color: rgba($secondaryCta, 0.4) !important;

@@ -8,7 +8,7 @@ function Skills() {
 		<section className='skills'>
 			<div className='skills-container'>
 				<div className='skills-container__group'>
-					<Slide left>
+					<Slide left triggerOnce>
 						<FaHtml5
 							className='skills-container__group--image'
 							style={{
@@ -26,7 +26,7 @@ function Skills() {
 					</div>
 				</div>
 				<div className='skills-container__group'>
-					<Slide left>
+					<Slide left triggerOnce>
 						<FaCss3Alt
 							className='skills-container__group--image'
 							style={{
@@ -44,7 +44,7 @@ function Skills() {
 					</div>
 				</div>
 				<div className='skills-container__group'>
-					<Slide left>
+					<Slide left triggerOnce>
 						<FaSquareJs
 							className='skills-container__group--image'
 							style={{

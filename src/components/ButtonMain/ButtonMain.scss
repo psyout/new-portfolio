@@ -10,11 +10,16 @@
 	border: none;
 	display: inline-block;
 	padding: 0.6rem;
-	transition: background-color 0.5s ease;
+	transition: all 0.2s ease;
 	font-weight: $fw-700;
 	// margin-top: 1rem;
 
+	// &:hover {
+	// 	background-color: #3978a3;
+	// 	color: #fff;
+	// }
 	&:hover {
+		box-shadow: 5px 5px 0px $colorLightGreen;
 		background-color: #3978a3;
 		color: #fff;
 	}

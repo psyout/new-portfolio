@@ -1,9 +1,10 @@
 import './ContactForm.scss';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function ContactForm() {
 	const form = useRef();
+	const [emailSent, setEmailSent] = useState(false);
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -12,7 +13,10 @@ function ContactForm() {
 			(result) => {
 				console.log(result.text);
 				console.log('message sent');
-				alert('Email sent!!');
+				// setTimeout(() => {
+				// 	alert('Email sent!!');
+				// }, 2000);
+				setEmailSent(true);
 			},
 			(error) => {
 				console.log(error.text);
@@ -38,6 +42,7 @@ function ContactForm() {
 					</button>
 				</div>
 			</form>
+			{emailSent && <div className='contact-form__validator'>Email sent successfully!</div>}
 		</div>
 	);
 }

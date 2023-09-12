@@ -19,7 +19,7 @@ function SkillsPage() {
 	return (
 		<div>
 			{skillsData.map((skill, index) => (
-				<Slide left key={index}>
+				<Slide left triggerOnce key={index}>
 					<ProgressBar label={skill.label} percentage={skill.percentage} />
 				</Slide>
 			))}
