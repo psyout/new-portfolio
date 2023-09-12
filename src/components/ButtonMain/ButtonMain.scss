@@ -18,4 +18,10 @@
 		background-color: $colorLightGreen;
 		color: $colorLightBlue;
 	}
+
+	&:active {
+		background-color: $colorLightBlue;
+		color: $primaryLight;
+		box-shadow: none;
+	}
 }

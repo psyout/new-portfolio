@@ -8,13 +8,16 @@ import Skills from './components/Skills/Skills';
 import FooterContent from './components/FooterContent/FooterContent';
 import { Slide } from 'react-awesome-reveal';
 import { TitleData } from './components/Title/TitleData';
+import Headroom from 'react-headroom';
 
 function App() {
 	return (
 		<div className='container'>
-			<header className='header'>
-				<Navbar />
-			</header>
+			<Headroom>
+				<header className='header'>
+					<Navbar />
+				</header>
+			</Headroom>
 			<main className='main'>
 				<Intro />
 				<div>

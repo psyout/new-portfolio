@@ -9,7 +9,7 @@
 	color: $colorLightBlue;
 	border-radius: 5px;
 	border: none;
-	padding: 0.6rem;
+	padding: 0.5rem;
 	transition: background-color 0.5s ease;
 	font-weight: $fw-700;
 	cursor: pointer;
@@ -20,6 +20,11 @@
 
 	&:hover {
 		background-color: $colorLightGreen;
+		color: $colorLightBlue;
+	}
+
+	&:active {
+		background-color: $lightColour;
 		color: $colorLightBlue;
 	}
 }

@@ -4,6 +4,7 @@
 .contact-form {
 	margin-top: 3rem;
 	max-width: 600px;
+
 	&__title {
 		font-size: 1.2rem;
 		font-family: inherit;
@@ -38,11 +39,19 @@
 			font-family: inherit;
 			color: $colorPurple;
 			font-size: $fs-100;
+			border-radius: 0;
+			transition: border-color 0.3s ease;
 		}
 
 		& .contact-form__textarea {
 			resize: none;
 			height: 150px;
+		}
+
+		& .contact-form__input:active,
+		& .contact-form__textarea:active {
+			border-color: $colorLightBlue;
+			box-shadow: 0 0 5px $colorLightBlue;
 		}
 
 		::placeholder {
@@ -54,7 +63,7 @@
 	&__submit {
 		font-size: $fs-100;
 		background-color: $colorPurple;
-		color: $lightColour;
+		color: $primaryLight;
 		border-radius: 5px;
 		border: none;
 		padding: 1rem 1.5rem;
@@ -68,6 +77,12 @@
 			box-shadow: 5px 5px 0px $colorLightBlue;
 			background-color: $colorLightGreen;
 			color: $colorLightBlue;
+		}
+
+		&:active {
+			background-color: $colorPurple;
+			color: $primaryLight;
+			box-shadow: none;
 		}
 	}
 
