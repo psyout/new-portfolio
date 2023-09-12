@@ -20,7 +20,7 @@
 		cursor: pointer;
 		font-size: 1.8rem;
 		margin-top: 0.5rem;
-		color: $colorBlue;
+		color: #fcefe9;
 
 		@include desktop-sm {
 			display: none;
@@ -31,7 +31,7 @@
 		font-family: 'Titillium Web', sans-serif;
 		font-size: 2.3rem;
 		letter-spacing: 0.1rem;
-		color: $colorBlue;
+		color: #a7d5e5;
 
 		@include desktop {
 			order: 0;
@@ -81,7 +81,7 @@
 	position: absolute;
 	top: 3.5rem;
 	left: 0;
-	background-color: $colorLightGreen;
+	background-color: #373b61;
 
 	@include desktop-sm {
 		display: block;
@@ -115,7 +115,7 @@
 				height: 3px;
 				left: 50%;
 				bottom: 0;
-				background-color: $colorPurple;
+				background-color: #fcefe9;
 				transition: all ease-in-out 0.2s;
 			}
 		}
@@ -127,15 +127,15 @@
 	}
 
 	&__link {
-		color: $colorPurple;
+		color: #a7d5e5;
 		text-decoration: none;
 		font-weight: $fw-400;
 
 		&--mobile {
 			display: block;
 			font-size: $fs-090;
-			background-color: $colorPurple;
-			color: #fff;
+			background-color: #fcefe9;
+			color: #373b61;
 			border-radius: 5px;
 			border: none;
 			padding: 0.1rem 0.7rem;

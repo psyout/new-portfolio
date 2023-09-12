@@ -1,7 +1,7 @@
 export const DevelopmentData = [
 	{
 		title: 'Transportes Moran',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: 'This Earthworks company website was developed using a combination of HTML, CSS, and React. HTML and CSS were employed to structure and style the content, while React was utilized to enhance interactivity, resulting in a seamless user experience.',
 		url: 'https://wulen.netlify.app',
 		image: require('../../assets/images/wulen-2.jpg'),
 	},
@@ -28,39 +28,39 @@ export const DevelopmentData = [
 export const WebData = [
 	{
 		title: 'Deportes Nordicos Web',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: 'This website was designed to introduce and promote the world of Cross-country skiing in the beautiful southern region of Chile.',
 		image: require('../../assets/images/branding/deportes-nordicos-web.jpg'),
 	},
 	{
 		title: 'Especial Verano Landing page',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products for the upcoming summer season.',
 		image: require('../../assets/images/branding/especial-verano.jpg'),
 	},
 	{
 		title: 'Value For Waste',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: 'This website was specifically designed for a company specializing in the regulation of industrial waste.',
 		image: require('../../assets/images/branding/value-for-waste-web.jpg'),
 	},
 ];
 export const GraphicData = [
 	{
 		title: 'Novios Falabella',
-		body: 'Landing Page designed for a retail company',
+		body: 'This landing page was created for Falabella.com, a renowned retail company that specializes in assisting with wedding planning and organization.',
 		image: require('../../assets/images/branding/novios-falabella.jpg'),
 	},
 	{
 		title: 'Natura Cosmetics',
-		body: 'Infographic about social media trends',
+		body: 'Infographic designed for Natura, a prominent Brazilian cosmetics company with a presence in Chile, to showcase the latest social media trends for its influencers.',
 		image: require('../../assets/images/branding/infografia-natura.jpg'),
 	},
 	{
 		title: 'Natura Ekos',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: 'This digital invitation, designed for Natura Ekos, highlights the rich history and numerous benefits of one of their outstanding beauty products.',
 		image: require('../../assets/images/branding/natura-ekos.jpg'),
 	},
 	{
 		title: 'Natura',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: "Newsletter designed for Natura to highlights the company's growth through key numbers and statistics.",
 		image: require('../../assets/images/branding/infografia-natura-mensual.jpg'),
 	},
 ];
@@ -68,33 +68,17 @@ export const GraphicData = [
 export const LogoData = [
 	{
 		title: 'Covprotect',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: 'Logo crafted for Covprotec, a company specializing in the development of acrylic shields for businesses during the COVID-19 pandemic.',
 		image: require('../../assets/images/branding/covprotect.png'),
 	},
 	{
 		title: 'Sustainable Harvest',
-		body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
+		body: "Logo designed for Sustainable Harvest Inc., a company dedicated to Non-Timber Forest Products within the temperate rainforests of Canada's Southwest.",
 		image: require('../../assets/images/branding/sustainable-harvest.png'),
 	},
 	{
 		title: 'Patagon Nordic Sports',
-		body: 'Logo design for Toing, an inflatable bouncy castle rental company.',
+		body: 'This logo was crafted for an entrepreneurial friend with a passion for promoting Nordic sports in Chile.',
 		image: require('../../assets/images/branding/patagon.png'),
 	},
-	// {
-	// 	title: 'Moran Maquinarias',
-	// 	body: 'Design of logo and branding for Moran Transport, a land excavation and transportation company.',
-	// 	image: require('../../assets/images/branding/moran-maquinarias.jpg'),
-	// },
-	// {
-	// 	title: 'Zona Xc',
-	// 	body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
-	// 	image: require('../../assets/images/branding/zona-xc.jpg'),
-	// },
-
-	// {
-	// 	title: 'Koi',
-	// 	body: 'Every day is taco ipsum tuesday. I’ve been following that taco truck around all day. Tacos for breakfast, lunch and dinner.',
-	// 	image: require('../../assets/images/branding/koi.jpg'),
-	// },
 ];

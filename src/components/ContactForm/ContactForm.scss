@@ -58,14 +58,27 @@
 		border-radius: 5px;
 		border: none;
 		padding: 1rem 1.5rem;
-		transition: background-color 0.5s ease;
+		transition: all 0.2s ease;
 		font-weight: $fw-700;
 		cursor: pointer;
 		font-family: inherit;
 		margin-top: 1rem;
 
 		&:hover {
-			background-color: #0056b3;
+			box-shadow: 5px 5px 0px $colorLightGreen;
+			background-color: #3978a3;
+			color: #fff;
 		}
+	}
+
+	&__validator {
+		font-size: 1rem;
+		background-color: #87b1ac;
+		font-weight: $fw-700;
+		padding: 0.1rem 0.3rem;
+		color: white;
+		margin-top: 1rem;
+		position: absolute;
+		border-radius: 0.2rem;
 	}
 }

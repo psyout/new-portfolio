@@ -18,14 +18,14 @@ function App() {
 			<main className='main'>
 				<Intro />
 				<div>
-					<Slide bottom>
+					<Slide bottom triggerOnce>
 						<div id='main'>
 							<Title head={TitleData[0].title} body={TitleData[0].body} />
 							<MainProject />
 						</div>
 						<TabSection />
 					</Slide>
-					<Slide bottom>
+					<Slide bottom triggerOnce>
 						<div id='skills'>
 							<Title head={TitleData[1].title} body={TitleData[1].body} />
 							<Skills />
@@ -34,7 +34,7 @@ function App() {
 				</div>
 			</main>
 			<div>
-				<Slide bottom>
+				<Slide bottom triggerOnce>
 					<footer id='footer' className='footer'>
 						<FooterContent />
 					</footer>

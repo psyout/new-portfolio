@@ -28,8 +28,12 @@
 		margin-bottom: 1rem;
 		width: 100%;
 
+		@include tablet {
+			min-height: 185px;
+		}
+
 		@include desktop-sm {
-			min-height: 120px;
+			min-height: 125px;
 		}
 	}
 }
