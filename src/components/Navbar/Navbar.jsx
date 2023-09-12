@@ -28,8 +28,17 @@ function Navbar({ theme, toggleTheme }) {
 			<button className='navbar__toggle' onClick={toggleMobileMenu}>
 				{mobileMenuOpen ? <CgClose /> : <CgMenuLeft />}
 			</button>
-
-			<h1 className='navbar__name'>{'{Fe}'}</h1>
+			<a
+				href='container'
+				className='navbar__name'
+				role='button'
+				aria-label='Scroll to top'
+				onClick={(e) => {
+					e.preventDefault();
+					window.scrollTo(0, 0);
+				}}>
+				{'{Fe}'}
+			</a>
 
 			<div className='navbar__right-col'>
 				<ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>

@@ -12,7 +12,7 @@ import Headroom from 'react-headroom';
 
 function App() {
 	return (
-		<div className='container'>
+		<div id='container' className='container'>
 			<Headroom>
 				<header className='header'>
 					<Navbar />
