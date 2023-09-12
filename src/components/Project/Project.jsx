@@ -7,7 +7,7 @@ function Project({ image, title, body, url }) {
 			<img className='project__image' src={image} alt={title} />
 			<h3 className='project__title'>{title}</h3>
 			<p className='project__body'>{body}</p>
-			{url && <ButtonMain url={url} title={`See Project`} />}
+			<ButtonMain url={url} title={`See Project`} />
 		</div>
 	);
 }
