@@ -47,7 +47,7 @@ function Navbar({ theme, toggleTheme }) {
 							<a
 								className={item.cName}
 								href={item.url}
-								target='blank'
+								target={item.target}
 								rel='noopener noreferrer'
 								onClick={(e) => {
 									e.preventDefault();
@@ -58,7 +58,7 @@ function Navbar({ theme, toggleTheme }) {
 						</li>
 					))}
 				</ul>
-				<Button title={`Get my Resume`} url={`https://www.felipegonzalez.ca/felipe-gonzalez-cv.pdf`} />
+				<Button title={`Get Resume`} url={`https://www.felipegonzalez.ca/felipe-gonzalez-cv.pdf`} />
 			</div>
 		</nav>
 	);

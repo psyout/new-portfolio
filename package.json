@@ -1,6 +1,7 @@
 {
 	"name": "web-app",
 	"version": "0.1.0",
+	"homepage": "https://www.felipegonzalez.ca",
 	"private": true,
 	"dependencies": {
 		"@emailjs/browser": "^3.11.0",

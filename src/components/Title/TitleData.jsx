@@ -3,7 +3,7 @@ export const TitleData = [
 		title: 'check this out',
 		body: (
 			<span>
-				I've been working on some new projects that I'd be updating soon, meanwhile take a look at what I did when I was doing a <mark>Web Development Bootcamp</mark> a few months ago.
+				I've been working on some new projects that I'll be updating soon, meanwhile take a look at what I did when I was doing a <mark>Web Development Bootcamp</mark> a few months ago.
 			</span>
 		),
 	},

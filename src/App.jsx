@@ -1,7 +1,7 @@
 import './App.scss';
 import Intro from './components/Intro/Intro';
-import Navbar from './components/Navbar/Navbar';
 import Title from './components/Title/Title';
+import Navigation from './components/Navegation/Navigation';
 import MainProject from './components/MainProject/MainProject';
 import TabSection from './components/TabSection/TabSection';
 import Skills from './components/Skills/Skills';
@@ -15,7 +15,7 @@ function App() {
 		<div id='container' className='container'>
 			<Headroom>
 				<header className='header'>
-					<Navbar />
+					<Navigation />
 				</header>
 			</Headroom>
 			<main className='main'>

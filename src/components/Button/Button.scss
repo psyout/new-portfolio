@@ -3,7 +3,7 @@
 
 .button-prop {
 	font-family: inherit;
-	display: none;
+	display: block;
 	font-size: $fs-090;
 	background-color: $lightColour;
 	color: $colorLightBlue;
@@ -13,10 +13,6 @@
 	transition: background-color 0.2s ease;
 	font-weight: $fw-700;
 	cursor: pointer;
-
-	@include desktop-sm {
-		display: block;
-	}
 
 	&:hover {
 		background-color: $colorLightGreen;

@@ -20,7 +20,7 @@
 		cursor: pointer;
 		font-size: 1.8rem;
 		margin-top: 0.5rem;
-		color: #fcefe9;
+		color: $lightColour;
 
 		@include desktop-sm {
 			display: none;
