@@ -9,6 +9,7 @@
 	padding: 0 2rem;
 
 	@include desktop {
+		align-items: stretch;
 		width: 80rem;
 		margin: 0 auto;
 	}
@@ -30,16 +31,40 @@
 	color: $lightColour;
 	font-family: 'Titillium Web', sans-serif;
 	letter-spacing: 0.1rem;
+	display: flex;
+	align-items: center;
 }
 
 .nav-link {
 	transition: 0.2s ease;
 	color: $lightColour;
 	font-size: 1.1rem;
-}
+	border: none;
+	position: relative;
 
-.nav-link:hover {
-	color: $colorLightGreen;
+	&:hover {
+		border: none;
+	}
+
+	&::after {
+		height: 0px;
+
+		@include desktop {
+			content: '';
+			position: absolute;
+			width: 0px;
+			height: 5px;
+			left: 50%;
+			bottom: -27px;
+			background-color: $colorLightGreen;
+			transition: all ease-in-out 0.2s;
+		}
+	}
+
+	&:hover::after {
+		width: 100%;
+		left: 0;
+	}
 }
 
 .hamburger {
