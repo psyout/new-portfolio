@@ -1,6 +1,6 @@
 import './MainProject.scss';
-import Wulen from '../../assets/images/wulen.jpg';
-import WulenTwo from '../../assets/images/wulen2.jpg';
+import Wulen from '../../assets/images/code/wulen.jpg';
+import WulenTwo from '../../assets/images/code/wulen2.jpg';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import ButtonMain from '../ButtonMain/ButtonMain';
