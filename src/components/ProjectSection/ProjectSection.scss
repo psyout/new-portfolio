@@ -11,12 +11,12 @@
 			flex-direction: column;
 			align-content: center;
 			align-items: stretch;
-			gap: 3rem;
+			gap: 5rem;
 
 			@include tablet {
 				flex-wrap: wrap;
 				flex-direction: row;
-				gap: 2rem;
+				gap: 5rem;
 			}
 		}
 

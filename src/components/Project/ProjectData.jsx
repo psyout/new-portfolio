@@ -3,7 +3,7 @@ export const DevelopmentData = [
 		title: 'Transportes Moran',
 		body: 'This Earthworks company website was developed using a combination of HTML, CSS, and React. Including web design using Figma.',
 		url: 'https://www.transportesmoran.cl',
-		image: require('../../assets/images/code/transportes-moran.jpg'),
+		image: require('../../assets/images/code/transportes-moran-full.jpg'),
 	},
 	{
 		title: 'InStock App',

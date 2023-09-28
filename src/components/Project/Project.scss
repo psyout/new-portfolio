@@ -8,10 +8,12 @@
 
 	&__image {
 		aspect-ratio: 16/9;
-		margin-inline: auto;
-		background-size: cover;
-		background-color: rgba(217, 217, 217, 0.2);
-		border: solid 1px $colorPurple;
+		outline: solid 1px $colorPurple;
+		max-height: 100%;
+
+		img {
+			margin-bottom: -10px;
+		}
 	}
 
 	&__title {
@@ -35,5 +37,11 @@
 		@include desktop-sm {
 			min-height: 125px;
 		}
+	}
+}
+
+.react-custom-scrollbars-wrapper > .react-custom-scrollbars-container {
+	.track-vertical {
+		margin-bottom: 0 !important;
 	}
 }
