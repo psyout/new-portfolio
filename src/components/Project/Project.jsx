@@ -1,13 +1,14 @@
 import ButtonMain from '../ButtonMain/ButtonMain';
 import './Project.scss';
-import { Scrollbars } from 'react-custom-scrollbars';
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
 
 function Project({ image, title, body, url }) {
 	return (
 		<div className='project'>
-			<Scrollbars className='project__image' style={{ width: '100%' }}>
+			<SimpleBar className='project__image' style={{ width: '100%', height: '100%' }}>
 				<img src={image} alt={title} />
-			</Scrollbars>
+			</SimpleBar>
 			<h3 className='project__title'>{title}</h3>
 			<p className='project__body'>{body}</p>
 			{url && <ButtonMain url={url} title={`See Project`} />}
