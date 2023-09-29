@@ -20,6 +20,21 @@
 		font-weight: $fw-700;
 		display: flex;
 		margin-top: 1rem;
+
+		&--link {
+			margin-top: 1rem;
+			color: $colorLightBlue;
+			cursor: pointer !important;
+		}
+
+		&--icon {
+			font-size: 1.4rem;
+			transition: all ease 0.3s;
+
+			&:hover {
+				color: $colorLightGreen;
+			}
+		}
 	}
 
 	&__body {
@@ -29,19 +44,5 @@
 		padding: 0.5rem 0;
 		margin-bottom: 1rem;
 		width: 100%;
-
-		@include tablet {
-			min-height: 185px;
-		}
-
-		@include desktop-sm {
-			min-height: 125px;
-		}
 	}
 }
-
-// .react-custom-scrollbars-wrapper > .react-custom-scrollbars-container {
-// 	.track-vertical {
-// 		margin-bottom: 0 !important;
-// 	}
-// }

@@ -4,24 +4,25 @@ export const DevelopmentData = [
 		body: 'This Earthworks company website was developed using a combination of HTML, CSS, and React. Including web design using Figma.',
 		url: 'https://www.transportesmoran.cl',
 		image: require('../../assets/images/code/transportes-moran-full.jpg'),
+		git: 'https://github.com/psyout/transportes-moran',
 	},
 	{
 		title: 'InStock App',
 		body: '"InStock" was a collaborative project during my Bootcamp. We aimed to build a scalable Inventory Management System for a client. Our work involved Agile practices, Scrum methodologies, and tools like JIRA and GitHub. We used React, Node, Express, MySQL and Knex.',
-		url: 'https://github.com/mannyv123/instock-client',
+		git: 'https://github.com/mannyv123/instock-client',
 		image: require('../../assets/images/code/instock.jpg'),
 	},
 	{
 		title: 'BrainFlix',
 		body: 'Full-Stack React application that handles the main functionality of displaying videos, fetching video data from an API, and managing state. It uses various React hooks to manage data fetching and state updates. Developed with React, Express.js and JSON.',
-		url: 'https://github.com/psyout/felipe-gonzalez-brainflix',
-		image: require('../../assets/images/code/brainflix.jpg'),
+		git: 'https://github.com/psyout/felipe-gonzalez-brainflix',
+		image: require('../../assets/images/code/brainflix-full.jpg'),
 	},
 	{
 		title: 'Bandsite Web',
 		body: 'Full responive website for a band site. It includes sections for displaying information about the band, a photo gallery, and a comment section. It also loads external styles and scripts to enhance the page functionality and appearance. Developed with HTML, CSS and JS.',
-		url: 'https://github.com/psyout/felipe-gonzalez-bandsite',
-		image: require('../../assets/images/code/bandsite.jpg'),
+		git: 'https://github.com/psyout/felipe-gonzalez-bandsite',
+		image: require('../../assets/images/code/bandsite-full.jpg'),
 	},
 ];
 
