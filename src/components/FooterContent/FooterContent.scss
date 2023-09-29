@@ -2,9 +2,11 @@
 @use '../../styles/variables' as *;
 
 .section-footer {
-	margin-top: 3rem;
 	width: 100%;
 	padding-top: 10rem;
+	@include desktop-sm {
+		margin-top: 3rem;
+	}
 	&__title {
 		font-size: $fs-300;
 		font-family: 'Titillium Web', sans-serif;

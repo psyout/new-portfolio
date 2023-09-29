@@ -2,11 +2,9 @@
 @use '../../styles/variables' as *;
 
 .contact-form {
-	margin-top: 3rem;
 	max-width: 600px;
-	// height: 50vh;
 	@include desktop-sm {
-		// margin-top: 5rem;
+		margin-top: 3rem;
 	}
 
 	&__title {

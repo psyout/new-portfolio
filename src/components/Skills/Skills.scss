@@ -26,6 +26,14 @@
 		border-bottom: solid 1px $primary;
 		padding-bottom: 2rem;
 
+		&:first-child {
+			margin-top: 3rem;
+
+			@include desktop-sm {
+				margin-top: 0;
+			}
+		}
+
 		&:last-child {
 			border-bottom: none;
 		}
@@ -52,7 +60,7 @@
 }
 
 .skills-progress {
-	margin-top: 2rem;
+	margin-top: 5rem;
 	@include desktop-sm {
 		margin-top: 0;
 		flex: 1;

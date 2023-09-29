@@ -36,9 +36,11 @@ function App() {
 					</Slide>
 				</div>
 			</main>
-			<footer id='footer' className='footer'>
+			<footer className='footer'>
 				<Slide bottom triggerOnce>
-					<FooterContent />
+					<div id='footer'>
+						<FooterContent />
+					</div>
 				</Slide>
 			</footer>
 		</div>
