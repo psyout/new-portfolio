@@ -96,11 +96,12 @@ p {
 
 .footer {
 	width: 100%;
-	padding: 0 2.5rem;
-
+	padding: 0 2rem;
+	margin-top: 10rem;
 	@include desktop-sm {
 		max-width: 80rem;
 		margin: 0 auto;
 		height: auto;
+		padding-top: 5rem;
 	}
 }

@@ -3,9 +3,7 @@
 
 .contact-form {
 	max-width: 600px;
-	@include desktop-sm {
-		margin-top: 3rem;
-	}
+	margin-top: 4rem;
 
 	&__title {
 		font-size: 1.1rem;
