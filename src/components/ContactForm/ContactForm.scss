@@ -4,6 +4,10 @@
 .contact-form {
 	margin-top: 3rem;
 	max-width: 600px;
+	// height: 50vh;
+	@include desktop-sm {
+		// margin-top: 5rem;
+	}
 
 	&__title {
 		font-size: 1.1rem;

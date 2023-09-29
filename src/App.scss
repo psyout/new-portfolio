@@ -96,15 +96,11 @@ p {
 
 .footer {
 	width: 100%;
-	margin-top: 2rem;
 	padding: 0 2.5rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
 
 	@include desktop-sm {
 		max-width: 80rem;
 		margin: 0 auto;
-		height: 90vh;
+		height: auto;
 	}
 }
