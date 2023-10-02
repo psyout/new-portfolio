@@ -21,7 +21,21 @@
 	}
 
 	&__text {
-		margin-top: 1rem;
+		margin-top: 1.5rem;
+
+		&--icon {
+			transition: all ease 0.3s;
+			color: $primary;
+
+			&:hover {
+				color: $colorLightGreen;
+			}
+		}
+
+		&--link {
+			margin-top: 0.3rem;
+			margin-left: 0.5rem;
+		}
 
 		&--title {
 			margin-top: 0.5rem;

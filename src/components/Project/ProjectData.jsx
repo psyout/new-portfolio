@@ -24,9 +24,20 @@ export const DevelopmentData = [
 		git: 'https://github.com/psyout/felipe-gonzalez-bandsite',
 		image: require('../../assets/images/code/bandsite-full.jpg'),
 	},
+	{
+		title: 'Value For Waste',
+		body: 'This website was specifically designed for a company specializing in the regulation of industrial waste. Developed with HTML, CSS and JS.',
+		image: require('../../assets/images/web-design/value-for-waste-web-full.jpg'),
+		url: 'https://felipegonzalez.ca/value-for-waste/',
+	},
 ];
 
 export const WebData = [
+	{
+		title: 'Novios Falabella',
+		body: 'This landing page was created for Falabella.com, a renowned retail company that specializes in assisting with wedding planning and organization.',
+		image: require('../../assets/images/web-design/beneficios_novios_web.jpg'),
+	},
 	{
 		title: 'Deportes Nordicos Web',
 		body: 'This website was designed to introduce and promote the world of Cross-country skiing in the beautiful southern region of Chile.',
@@ -37,22 +48,12 @@ export const WebData = [
 		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products for the upcoming summer season.',
 		image: require('../../assets/images/web-design/especial-verano.jpg'),
 	},
-	{
-		title: 'Value For Waste',
-		body: 'This website was specifically designed for a company specializing in the regulation of industrial waste.',
-		image: require('../../assets/images/web-design/value-for-waste-web.jpg'),
-	},
 ];
 export const GraphicData = [
 	{
-		title: 'Novios Falabella',
-		body: 'This landing page was created for Falabella.com, a renowned retail company that specializes in assisting with wedding planning and organization.',
-		image: require('../../assets/images/graphic-design/novios-falabella.jpg'),
-	},
-	{
 		title: 'Natura Cosmetics',
 		body: 'Infographic designed for Natura, a prominent Brazilian cosmetics company with a presence in Chile, to showcase the latest social media trends for its influencers.',
-		image: require('../../assets/images/graphic-design/infografia-natura.jpg'),
+		image: require('../../assets/images/graphic-design/infografia-natura-full.jpg'),
 	},
 	{
 		title: 'Natura Ekos',
@@ -62,7 +63,7 @@ export const GraphicData = [
 	{
 		title: 'Natura',
 		body: "Newsletter designed for Natura to highlights the company's growth through key numbers and statistics.",
-		image: require('../../assets/images/graphic-design/infografia-natura-mensual.jpg'),
+		image: require('../../assets/images/graphic-design/infografia-natura-mensual-full.jpg'),
 	},
 ];
 
