@@ -4,16 +4,16 @@ import { Slide } from 'react-awesome-reveal';
 
 function SkillsPage() {
 	const skillsData = [
-		{ label: 'HTML', percentage: 90 },
-		{ label: 'CSS', percentage: 80 },
+		{ label: 'HTML', percentage: 95 },
+		{ label: 'CSS', percentage: 95 },
+		{ label: 'Sass', percentage: 85 },
 		{ label: 'JS', percentage: 65 },
 		{ label: 'React', percentage: 65 },
-		{ label: 'Sass', percentage: 75 },
 		{ label: 'Axios', percentage: 58 },
-		{ label: 'Node', percentage: 50 },
-		{ label: 'RWD', percentage: 80 },
+		{ label: 'Node', percentage: 55 },
+		{ label: 'RWD', percentage: 95 },
 		{ label: 'Figma', percentage: 70 },
-		{ label: 'Design', percentage: 75 },
+		{ label: 'Design', percentage: 90 },
 	];
 
 	return (

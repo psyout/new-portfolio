@@ -1,15 +1,23 @@
-import ButtonMain from '../ButtonMain/ButtonMain';
+import React, { useState } from 'react';
 import './Project.scss';
 import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
 import { FaGithub } from 'react-icons/fa6';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import ButtonMain from '../ButtonMain/ButtonMain';
 
 function Project({ image, title, body, url, git }) {
+	const [open, setOpen] = useState(false);
+
 	return (
 		<div className='project'>
-			<SimpleBar className='project__image' style={{ width: '100%', height: '100%' }}>
-				<img src={image} alt={title} />
-			</SimpleBar>
+			<button type='button' onClick={() => setOpen(true)} style={{ width: '100%' }}>
+				{open && <Lightbox open={open} close={() => setOpen(false)} slides={[{ src: image }]} initialIndex={0} disableArrows={true} disableScroll={true} />}
+				<SimpleBar className='project__image' style={{ width: '100%', height: '100%' }}>
+					<img src={image} alt={title} />
+				</SimpleBar>
+			</button>
 			<div style={{ display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-between' }}>
 				<h3 className='project__title'>{title}</h3>
 				{git && (
@@ -18,6 +26,7 @@ function Project({ image, title, body, url, git }) {
 					</a>
 				)}
 			</div>
+
 			<p className='project__body'>{body}</p>
 			{url && <ButtonMain url={url} title={`See Project`} />}
 		</div>

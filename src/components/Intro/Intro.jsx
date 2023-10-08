@@ -11,8 +11,8 @@ function Intro() {
 						<h1 className='intro__info--title'>Hi there!</h1>
 
 						<p className='intro__info--text'>
-							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for <mark>ReactJS.</mark> Enthusiastic and hardworking, driven by a desire to learn and explore ideas. Based in Vancouver where I'm available for full-time or
-							freelance work, as well as working remotely for clients worldwide.
+							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for <mark>Javascript and React.</mark> Enthusiastic and hardworking, driven by a desire to learn and explore ideas. Based in Vancouver where I'm available for
+							full-time or freelance work, as well as working remotely for clients worldwide.
 						</p>
 
 						<br />

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './TabSection.scss';
-import { FaCodeMerge, FaObjectGroup, FaFeatherPointed, FaSwatchbook } from 'react-icons/fa6';
+import { FaCodeMerge, FaObjectGroup, FaSwatchbook } from 'react-icons/fa6';
 import ProjectSection from '../ProjectSection/ProjectSection';
 
 function TabSection() {
@@ -26,16 +26,16 @@ function TabSection() {
 						<FaSwatchbook style={{ marginRight: '0.3rem' }} />
 						Graphic Design
 					</button>
-					<button className={`tabwork-button ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>
+					{/* <button className={`tabwork-button ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>
 						<FaFeatherPointed style={{ marginRight: '0.3rem' }} />
 						Logos
-					</button>
+					</button> */}
 				</div>
 				<div className='tabwork-content'>
 					{activeTab === 1 && <ProjectSection dataKey='development' />}
 					{activeTab === 2 && <ProjectSection dataKey='web' />}
 					{activeTab === 3 && <ProjectSection dataKey='graphic' />}
-					{activeTab === 4 && <ProjectSection dataKey='logo' />}
+					{/* {activeTab === 4 && <ProjectSection dataKey='logo' />} */}
 				</div>
 			</div>
 		</section>
