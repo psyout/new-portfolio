@@ -16,13 +16,20 @@
 
 	&:hover {
 		// box-shadow: 5px 5px 0px $colorLightBlue;
-		background-color: $colorLightGreen;
-		color: $colorLightBlue;
+		// background-color: $colorLightGreen;
+		// color: $colorLightBlue;
+
+		color: #000;
+		transform: translate(-0.25rem, -0.25rem);
+		background: $colorLightGreen;
+		box-shadow: 0.25rem 0.25rem $primary;
 	}
 
 	&:active {
-		background-color: $colorLightBlue;
-		color: $primaryLight;
+		// background-color: $colorLightBlue;
+		// color: $primaryLight;
+		// box-shadow: none;
+		transform: translate(0);
 		box-shadow: none;
 	}
 }
