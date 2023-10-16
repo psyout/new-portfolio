@@ -62,15 +62,19 @@
 		}
 
 		&--link {
-			width: 50px;
-			height: 50px;
+			width: 40px;
+			height: 40px;
 			border-radius: 50%;
 			background-color: $colorLightBlue;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			margin-top: 1rem;
-			transition: background-color 0.5s ease;
+			transition: all ease 0.5s;
+			@include desktop-sm {
+				width: 50px;
+				height: 50px;
+			}
 
 			&:hover {
 				background-color: $colorLightGreen;
@@ -79,7 +83,7 @@
 
 		&--icon {
 			color: $primaryLight;
-			font-size: $fs-200;
+			font-size: $fs-150;
 
 			@include desktop-sm {
 				font-size: $fs-200;
