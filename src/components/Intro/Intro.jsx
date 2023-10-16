@@ -1,5 +1,5 @@
 import './Intro.scss';
-import ProfilePicture from '../../assets/images/profile-picture.png';
+import ProfilePhoto from '../../assets/images/profile-picture-square.jpg';
 import { Fade, Slide } from 'react-awesome-reveal';
 
 function Intro() {
@@ -11,8 +11,8 @@ function Intro() {
 						<h1 className='intro__info--title'>Hi there!</h1>
 
 						<p className='intro__info--text'>
-							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for <mark>Javascript and React.</mark> Enthusiastic and hardworking, driven by a desire to learn and explore ideas. Based in Vancouver where I'm available for
-							full-time or freelance work, as well as working remotely for clients worldwide.
+							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for Javascript and React. Enthusiastic and hardworking, driven by a desire to learn and explore ideas. Based in Vancouver where I'm available for full-time or
+							freelance work, as well as working remotely for clients worldwide.
 						</p>
 
 						<br />
@@ -25,7 +25,9 @@ function Intro() {
 				</div>
 				<Slide left triggerOnce>
 					<div className='intro__placeholder'>
-						<img className='intro__placeholder--img' src={ProfilePicture} alt='this-is-myself' />
+						<div className='intro__placeholder--img'>
+							<img src={ProfilePhoto} alt='this-is-myself' />
+						</div>
 					</div>
 				</Slide>
 			</section>

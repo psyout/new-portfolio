@@ -30,6 +30,12 @@ export const DevelopmentData = [
 		image: require('../../assets/images/web-design/value-for-waste-web-full.jpg'),
 		url: 'https://felipegonzalez.ca/value-for-waste/',
 	},
+	{
+		title: 'Especial Verano Landing page',
+		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products for the upcoming summer season.',
+		image: require('../../assets/images/web-design/especial-verano-full.jpg'),
+		url: 'https://felipegonzalez.ca/paris-outdoor/',
+	},
 ];
 
 export const WebData = [
@@ -42,11 +48,6 @@ export const WebData = [
 		title: 'Deportes Nordicos Web',
 		body: 'This website was designed to introduce and promote the world of Cross-country skiing in the beautiful southern region of Chile.',
 		image: require('../../assets/images/web-design/deportes-nordicos-web.jpg'),
-	},
-	{
-		title: 'Especial Verano Landing page',
-		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products for the upcoming summer season.',
-		image: require('../../assets/images/web-design/especial-verano.jpg'),
 	},
 ];
 export const GraphicData = [

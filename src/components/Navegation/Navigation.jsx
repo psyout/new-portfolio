@@ -53,7 +53,7 @@ function Header() {
 					</a>
 				</li>
 
-				<Button title={`Get Resume`} url={`https://www.felipegonzalez.ca/felipe-gonzalez-cv.pdf`} />
+				<Button title={`Get Resume`} url={`https://www.felipegonzalez.ca/resume_fgonzalez.pdf`} />
 			</ul>
 			<div className={`hamburger ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
 				<span className='bar'></span>

@@ -2,34 +2,12 @@
 @use '../../styles/variables' as *;
 
 .button {
-	font-family: inherit;
-	font-size: 1rem;
-	background-color: $colorLightBlue;
-	color: $primaryLight;
-	border-radius: 5px;
-	border: none;
-	display: inline-block;
-	padding: 0.6rem;
-	transition: all 0.2s ease;
-	// font-weight: $fw-700;
-	cursor: pointer;
-
+	@include button;
 	&:hover {
-		// box-shadow: 5px 5px 0px $colorLightBlue;
-		// background-color: $colorLightGreen;
-		// color: $colorLightBlue;
-
-		color: #000;
-		transform: translate(-0.25rem, -0.25rem);
-		background: $colorLightGreen;
-		box-shadow: 0.25rem 0.25rem $primary;
+		@include hover;
 	}
 
 	&:active {
-		// background-color: $colorLightBlue;
-		// color: $primaryLight;
-		// box-shadow: none;
-		transform: translate(0);
-		box-shadow: none;
+		@include active;
 	}
 }

@@ -27,6 +27,12 @@
 	&__group {
 		display: flex;
 
+		&:last-child {
+			@include desktop-sm {
+				margin-top: 0;
+			}
+		}
+
 		& .contact-form__label {
 			font-weight: bold;
 			flex: 1 0 140px;
@@ -77,15 +83,11 @@
 		margin-top: 1rem;
 
 		&:hover {
-			// box-shadow: 5px 5px 0px $colorLightBlue;
-			background-color: $colorLightGreen;
-			color: $colorLightBlue;
+			@include hover;
 		}
 
 		&:active {
-			background-color: $colorPurple;
-			color: $primaryLight;
-			box-shadow: none;
+			@include active;
 		}
 	}
 

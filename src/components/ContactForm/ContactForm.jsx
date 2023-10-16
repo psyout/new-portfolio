@@ -42,6 +42,7 @@ function ContactForm() {
 					<button className='contact-form__submit' type='submit' value='Send'>
 						Submit
 					</button>
+					{/* <ButtonMain url={`https://wulen.netlify.app`} title={`Submit`} type='submit' value='Send' /> */}
 				</div>
 			</form>
 			{emailSent && <div className='contact-form__validator'>Email sent successfully!</div>}
