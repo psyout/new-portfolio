@@ -18,7 +18,15 @@ function ProjectSection({ dataKey }) {
 				<ul className='project-section--container__list'>
 					{projectData.map((project, index) => (
 						<li key={index} className='project-section--container__element'>
-							<Project title={project.title} body={project.body} image={project.image} url={project.url} git={project.git} />
+							<Project
+								title={project.title}
+								body={project.body}
+								image={project.image}
+								url={project.url}
+								git={project.git}
+								// Disable lightbox for logos
+								logo={dataKey === 'logo'}
+							/>
 						</li>
 					))}
 				</ul>
