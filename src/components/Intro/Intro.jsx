@@ -1,16 +1,37 @@
 import './Intro.scss';
 import ProfilePhoto from '../../assets/images/profile-picture-square.jpg';
 import { Fade, Slide } from 'react-awesome-reveal';
-import ReactTyped from 'react-typed';
+import { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
 
 function Intro() {
+	const titleTyped = useRef(null);
+
+	useEffect(() => {
+		const options = {
+			strings: ['Hi there!', 'Hola!', 'Howdy!', 'Hello!'],
+			typeSpeed: 100,
+			backSpeed: 100,
+			backDelay: 1000,
+			loop: true,
+			showCursor: true,
+			cursorChar: '&nbsp;',
+		};
+
+		const typed = new Typed(titleTyped.current, options);
+
+		return () => {
+			typed.destroy();
+		};
+	}, []);
+
 	return (
 		<Fade triggerOnce cascade>
 			<section id='intro' className='intro'>
 				<div className='intro__info'>
 					<Fade triggerOnce cascade damping={0.1}>
 						<h1 className='intro__info--title'>
-							<ReactTyped strings={['Hi there!', 'Hello!', 'Hola!']} typeSpeed={150} backSpeed={50} loop showCursor={true} cursorChar='&nbsp;' />
+							<span ref={titleTyped}></span>
 						</h1>
 
 						<p className='intro__info--text'>
