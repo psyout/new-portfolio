@@ -1,6 +1,7 @@
 import './Intro.scss';
 import ProfilePhoto from '../../assets/images/profile-picture-square.jpg';
 import { Fade, Slide } from 'react-awesome-reveal';
+import ReactTyped from 'react-typed';
 
 function Intro() {
 	return (
@@ -8,11 +9,13 @@ function Intro() {
 			<section id='intro' className='intro'>
 				<div className='intro__info'>
 					<Fade triggerOnce cascade damping={0.1}>
-						<h1 className='intro__info--title'>Hi there!</h1>
+						<h1 className='intro__info--title'>
+							<ReactTyped strings={['Hi there!', 'Hello!', 'Hola!']} typeSpeed={150} backSpeed={50} loop showCursor={true} cursorChar='&nbsp;' />
+						</h1>
 
 						<p className='intro__info--text'>
-							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for Javascript and React. Enthusiastic and hardworking, driven by a desire to learn and explore ideas. Based in Vancouver where I'm available for full-time or
-							freelance work, as well as working remotely for clients worldwide.
+							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for Javascript and React. Enthusiastic and hardworking, driven by a desire to learn and explore ideas. Currently based in the vibrant city of Vancouver where I'm
+							available for full-time or freelance work, as well as working remotely for clients worldwide.
 						</p>
 
 						<br />
