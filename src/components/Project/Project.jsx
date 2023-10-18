@@ -7,11 +7,9 @@ import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import ButtonMain from '../ButtonMain/ButtonMain';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Project({ image, title, body, url, git, logo }) {
 	const [open, setOpen] = useState(false);
-	const [imageLoaded, setImageLoaded] = useState(false);
 
 	const handleLogoClick = () => {
 		if (!logo) {
@@ -19,16 +17,12 @@ function Project({ image, title, body, url, git, logo }) {
 		}
 	};
 
-	const handleImageLoad = () => {
-		setImageLoaded(true);
-	};
-
 	return (
 		<div className='project'>
 			<button type='button' onClick={handleLogoClick} style={{ width: '100%' }}>
 				{open && !logo && <Lightbox open={open} close={() => setOpen(false)} slides={[{ src: image }]} initialIndex={0} disableArrows={true} disableScroll={true} />}
 				<SimpleBar className='project__image' style={{ width: '100%', height: '100%' }}>
-					<LazyLoadImage alt={title} src={image} effect={imageLoaded ? 'blur' : 'none'} onLoad={handleImageLoad} delayTime={300} />
+					<LazyLoadImage alt={title} src={image} effect='blur' wrapperClassName='blurry-image-wrapper' imageClassName='blurry-image' />
 				</SimpleBar>
 			</button>
 			<div style={{ display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'space-between' }}>
