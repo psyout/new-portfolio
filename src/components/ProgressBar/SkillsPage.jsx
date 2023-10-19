@@ -12,7 +12,7 @@ function SkillsPage() {
 		{ label: 'Axios', percentage: 58 },
 		{ label: 'Node', percentage: 55 },
 		{ label: 'RWD', percentage: 95 },
-		{ label: 'Figma', percentage: 70 },
+		{ label: 'Figma', percentage: 76 },
 		{ label: 'Design', percentage: 90 },
 	];
 
