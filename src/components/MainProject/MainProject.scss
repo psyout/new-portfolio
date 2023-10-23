@@ -23,6 +23,10 @@
 	&__text {
 		margin-top: 1.5rem;
 
+		@include desktop-sm {
+			margin-top: 0;
+		}
+
 		&--icon {
 			transition: all ease 0.3s;
 			color: $primary;
@@ -39,6 +43,11 @@
 
 		&--title {
 			margin-top: 0.5rem;
+			font-size: 1.3rem;
+
+			@include tablet {
+				font-size: 1.5rem;
+			}
 		}
 
 		&--body {

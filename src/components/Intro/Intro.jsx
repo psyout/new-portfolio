@@ -42,7 +42,7 @@ function Intro() {
 						<br />
 
 						<p className='intro__info--text'>
-							I take a personal and creative approach to solving my clients' problems - whether that's developing a web app, designing a logo or managing a creative project from start to finish. My strength lies in my ten years of experience
+							I take a personal and creative approach to solving my clients' problems - whether that's developing a web app, landing page or managing a creative project from start to finish. My strength lies in almost ten years of experience
 							working across the entire digital design and development process, as well as my self-motivated and collaborative nature.
 						</p>
 					</Fade>
