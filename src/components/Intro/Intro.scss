@@ -17,7 +17,7 @@
 	}
 
 	@include desktop {
-		gap: 5rem;
+		gap: 7rem;
 		padding: 0;
 		align-items: center;
 		transition: all 0.5s ease;
@@ -70,12 +70,12 @@
 		justify-content: flex-end;
 
 		&--img {
-			width: 270px;
-			height: 270px;
+			width: 250px;
+			height: 250px;
 			border-radius: 50%;
 			overflow: hidden;
 			transition: all ease-in 0.5s;
-			outline: solid 1px $primary;
+			// outline: solid 1px $primary;
 			// box-shadow: 3px 3px 5px rgba($primary, 0.5);
 
 			@include tablet {
@@ -84,8 +84,8 @@
 			}
 
 			@include desktop-sm {
-				width: 380px;
-				height: 380px;
+				width: 350px;
+				height: 350px;
 			}
 
 			img {
