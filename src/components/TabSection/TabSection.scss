@@ -35,10 +35,15 @@
 		text-align: left;
 		display: flex;
 		color: $primary;
+		transition: all ease 0.3s;
 
 		&.active {
 			border-left: solid 10px $colorLightGreen;
 			font-weight: $fw-700;
+			color: $colorLightBlue;
+		}
+		&:hover {
+			color: $colorLightBlue;
 		}
 	}
 
