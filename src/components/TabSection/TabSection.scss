@@ -39,11 +39,11 @@
 
 		&.active {
 			border-left: solid 10px $colorLightGreen;
-			font-weight: $fw-700;
-			color: $colorLightBlue;
+			color: $primary;
+			font-weight: 700;
 		}
 		&:hover {
-			color: $colorLightBlue;
+			color: $primary;
 		}
 	}
 

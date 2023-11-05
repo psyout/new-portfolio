@@ -10,8 +10,8 @@ function Intro() {
 	useEffect(() => {
 		const options = {
 			strings: ['Hi there!', 'Hola!', 'Howdy!', 'Hello!'],
-			typeSpeed: 100,
-			backSpeed: 100,
+			typeSpeed: 150,
+			backSpeed: 70,
 			backDelay: 1000,
 			loop: true,
 			showCursor: true,

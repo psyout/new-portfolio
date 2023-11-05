@@ -68,10 +68,15 @@
 		display: flex;
 		justify-content: center;
 		justify-content: flex-end;
+		margin-top: 2rem;
+
+		@include tablet {
+			margin-top: 0;
+		}
 
 		&--img {
-			width: 250px;
-			height: 250px;
+			width: 270px;
+			height: 270px;
 			border-radius: 50%;
 			overflow: hidden;
 			transition: all ease-in 0.5s;
