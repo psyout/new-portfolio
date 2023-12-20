@@ -103,3 +103,16 @@
 		}
 	}
 }
+
+.read-more-btn{
+	font-family: inherit;
+	font-size: $fs-120;
+	font-weight: 500;
+	color: $colorLightBlue;
+	margin-top: 1rem;
+	display: block;
+
+	@include desktop-sm{
+		display: none;
+	}
+}
