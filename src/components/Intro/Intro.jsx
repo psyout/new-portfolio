@@ -13,7 +13,7 @@ function Intro() {
 			typeSpeed: 150,
 			backSpeed: 70,
 			backDelay: 1000,
-			loop: true,
+			loop: false,
 			showCursor: true,
 			cursorChar: '&nbsp;',
 		};
