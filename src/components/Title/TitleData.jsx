@@ -11,7 +11,7 @@ export const TitleData = [
 		title: 'these are my skills and more…',
 		body: (
 			<span>
-				During my time at BrainStation, I had the opportunity to learn and work with a variety of web development technologies, including <mark>HTML5, CSS3, JavaScript, React.js, Axios, and more.</mark> This experience not only enhanced my skills
+				During my time at BrainStation, I had the opportunity to learn and work with a variety of Web Development languages, including <mark>HTML5, CSS3, JavaScript, React.js and Axios. As well as NodeJS on the Back-End.</mark> This experience not only enhanced my skills
 				but also provided me with the chance to connect with talented individuals.
 			</span>
 		),
