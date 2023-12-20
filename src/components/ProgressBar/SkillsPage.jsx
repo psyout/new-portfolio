@@ -10,7 +10,7 @@ function SkillsPage() {
 		{ label: 'JS', percentage: 65 },
 		{ label: 'React', percentage: 65 },
 		{ label: 'Axios', percentage: 58 },
-		{ label: 'Node', percentage: 55 },
+		{ label: 'NodeJS', percentage: 55 },
 		{ label: 'RWD', percentage: 95 },
 		{ label: 'Figma', percentage: 76 },
 		{ label: 'Design', percentage: 90 },
