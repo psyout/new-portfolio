@@ -47,9 +47,7 @@ function Intro() {
               
             >
               I'm <mark>Felipe, a Front-end Developer</mark> with a passion for
-              Javascript, ReactJS adn web technologies. Enthusiastic,
-              hardworking and innovative, driven by a desire to learn and
-              explore new ideas. Currently based in the vibrant city of
+              Javascript, ReactJS adn web technologies. Enthusiastic, hardworking, and innovative, I am driven by a relentless desire to learn and explore novel ideas. Presently located in the vibrant city of
               Vancouver where I'm available for full-time or freelance work
               opportunities, as well as working remotely for clients worldwide.
               <br />
