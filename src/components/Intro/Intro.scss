@@ -106,12 +106,13 @@
 
 .read-more-btn{
 	font-family: inherit;
-	font-size: $fs-120;
-	font-weight: 500;
-	color: $colorLightBlue;
+	font-size: $fs-090;
+	font-weight: $fw-400;
+	background-color: #feffdf;
+    padding: 0.5rem;
+    color: $colorLightBlue;
 	margin-top: 1rem;
 	display: block;
-	text-decoration: underline;
 
 	@include tablet{
 		display: none;

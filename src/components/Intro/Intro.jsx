@@ -63,7 +63,7 @@ function Intro() {
             </p>
             
               <button className="read-more-btn" onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? "less.." : "more..."}
+                {isOpen ? "less .." : "read more ..."}
               </button>
             
           </Fade>
