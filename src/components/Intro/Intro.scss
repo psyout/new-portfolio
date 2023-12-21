@@ -112,7 +112,7 @@
 	margin-top: 1rem;
 	display: block;
 
-	@include desktop-sm{
+	@include tablet{
 		display: none;
 	}
 }
