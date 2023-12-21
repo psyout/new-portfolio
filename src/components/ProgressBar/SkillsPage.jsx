@@ -6,14 +6,15 @@ function SkillsPage() {
 	const skillsData = [
 		{ label: 'HTML', percentage: 95 },
 		{ label: 'CSS', percentage: 95 },
-		{ label: 'Sass', percentage: 85 },
-		{ label: 'JS', percentage: 65 },
-		{ label: 'React', percentage: 65 },
-		{ label: 'Axios', percentage: 58 },
-		{ label: 'NodeJS', percentage: 55 },
+		{ label: 'JS', percentage: 60 },
+		{ label: 'React', percentage: 55 },
+		{ label: 'Next', percentage: 38 },
+		{ label: 'Node', percentage: 65 },
+		{ label: 'API', percentage: 70 },
+		{ label: 'MySQL', percentage: 20 },
 		{ label: 'RWD', percentage: 95 },
-		{ label: 'Figma', percentage: 76 },
-		{ label: 'Design', percentage: 90 },
+		{ label: 'Design', percentage: 95 },
+		{ label: 'Figma', percentage: 90 },
 	];
 
 	return (
