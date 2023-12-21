@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 
 const paragraphStyles = {
-  WebkitLineClamp: 7,
+  WebkitLineClamp: 1,
   WebkitBoxOrient: "vertical",
   overflow: "hidden",
   display: "-webkit-box",
@@ -44,7 +44,7 @@ function Intro() {
 
             <p
               className="intro__info--text"
-              style={isOpen ? null : paragraphStyles}
+              
             >
               I'm <mark>Felipe, a Front-end Developer</mark> with a passion for
               Javascript, ReactJS adn web technologies. Enthusiastic,
@@ -53,6 +53,8 @@ function Intro() {
               Vancouver where I'm available for full-time or freelance work
               opportunities, as well as working remotely for clients worldwide.
               <br />
+			  </p>
+			  <p className="intro__info--text" style={isOpen ? null : paragraphStyles}>
               <br />
 			  I take a personal and creative approach to solving my
               clients' problems - whether that's developing a web app, landing
@@ -63,7 +65,7 @@ function Intro() {
             </p>
             
               <button className="read-more-btn" onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? "read less.." : "read more..."}
+                {isOpen ? "less.." : "more..."}
               </button>
             
           </Fade>

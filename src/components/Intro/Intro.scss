@@ -111,6 +111,7 @@
 	color: $colorLightBlue;
 	margin-top: 1rem;
 	display: block;
+	text-decoration: underline;
 
 	@include tablet{
 		display: none;
