@@ -8,32 +8,29 @@ import { FaGithub } from 'react-icons/fa6';
 
 function MainProject() {
 	return (
-		<section className='mainproject'>
-			<div className='mainproject__figure'>
+		<section className="mainproject">
+			<div className="mainproject__figure">
 				<Carousel showThumbs={false} showStatus={false} showIndicators={true}>
 					<div>
-						<img src={Wulen} alt='this-is-myself' />
+						<img src={Wulen} alt="this-is-myself" />
 					</div>
 					<div>
-						<img src={WulenTwo} alt='this-is-myself' />
+						<img src={WulenTwo} alt="this-is-myself" />
 					</div>
 				</Carousel>
 			</div>
-			<div className='mainproject__text'>
+			<div className="mainproject__text">
 				<div style={{ display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'flex-start' }}>
-					<h5 className='mainproject__text--sub'>
+					<h5 className="mainproject__text--sub">
 						<mark style={{ backgroundColor: '#9fd3c7', color: '#ffffff' }}>React.js | Axios | Mapbox.js | Node.js</mark>
 					</h5>
-					<a className='mainproject__text--link' href='https://github.com/psyout/capstone-client' rel='noreferrer' target='_blank'>
-						<FaGithub className='mainproject__text--icon' />
+					<a className="mainproject__text--link" href="https://github.com/psyout/capstone-client" rel="noreferrer" target="_blank">
+						<FaGithub className="mainproject__text--icon" />
 					</a>
 				</div>
-				<h2 className='mainproject__text--title'>Wülen Happy Hour Finder</h2>
-				<p className='mainproject__text--body'>
-					This React app was my Capstone project that combines Front and Back-end development using Mapbox.js and Axios for API requests. I used Material UI for an attractive design and allows users to search and filter nearby happy hour
-					specials based on geolocation. Users can click on markers to view details, ratings, and menus for each place.
-				</p>
-				<ButtonMain url={`https://wulen.netlify.app`} title={`See Project`} />
+				<h2 className="mainproject__text--title">Wülen Happy Hour Finder</h2>
+				<p className="mainproject__text--body">This React app was my Capstone project that combines Front and Back-end development using Mapbox.js and Axios for API requests. I used Material UI for an attractive design and allows users to search and filter nearby happy hour specials based on geolocation. Users can click on markers to view details, ratings, and menus for each place.</p>
+				<ButtonMain url={`https://wulenhappyhour.com`} title={`See Project`} />
 			</div>
 		</section>
 	);
