@@ -20,7 +20,7 @@ function App() {
 			</Headroom>
 			<main className='main'>
 				<Intro />
-				<div>
+				<>
 					<Slide bottom triggerOnce>
 						<div id='main'>
 							<Title head={TitleData[0].title} body={TitleData[0].body} />
@@ -34,7 +34,7 @@ function App() {
 							<Skills />
 						</div>
 					</Slide>
-				</div>
+				</>
 			</main>
 			<footer className='footer'>
 				<Slide bottom triggerOnce>

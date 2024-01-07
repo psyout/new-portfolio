@@ -2,120 +2,116 @@
 @use '../../styles/variables' as *;
 
 .intro {
-	display: flex;
-	flex-grow: 1;
-	flex-direction: column;
-	align-items: center;
-	gap: 3rem;
-	margin-top: 3rem;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
 
-	@include tablet {
-		flex-direction: row;
-		align-content: space-around;
-		margin: 8rem auto 0 auto;
-		align-items: flex-start;
-	}
+  @include tablet {
+    flex-direction: row;
+    align-content: space-around;
+    margin: 8rem auto 0 auto;
+    align-items: flex-start;
+  }
 
-	@include desktop {
-		gap: 7rem;
-		padding: 0;
-		align-items: center;
-		transition: all 0.5s ease;
-		height: 80vh;
-		height: 80svh;
-		margin-top: 0;
-	}
+  @include desktop {
+    gap: 7rem;
+    padding: 0;
+    align-items: center;
+    transition: all 0.5s ease;
+    height: 80vh;
+    height: 80svh;
+    margin-top: 0;
+  }
 
-	&__info {
-		flex: 3;
-		order: 2;
+  &__info {
+    flex: 3;
+    order: 2;
 
-		@include tablet {
-			order: initial;
-		}
+    @include tablet {
+      order: initial;
+    }
 
-		&--title {
-			font-size: 3rem;
-			font-family: 'Titillium Web', sans-serif;
-			text-align: left;
-			margin-bottom: 1rem;
+    &--title {
+      font-size: 3rem;
+      font-family: 'Titillium Web', sans-serif;
+      text-align: left;
+      margin-bottom: 1rem;
 
-			@include desktop-sm {
-				font-size: 4rem;
-				text-align: left;
-			}
-		}
+      @include desktop-sm {
+        font-size: 4rem;
+        text-align: left;
+      }
+    }
 
-		&--text {
-			font-family: inherit;
-			font-size: $fs-120;
-			font-weight: $fw-300;
-			margin-top: 1rem;
-			text-align: left;
+    &--text {
+      font-family: inherit;
+      font-size: $fs-120;
+      font-weight: $fw-300;
+      margin-top: 1rem;
+      text-align: left;
 
-			@include desktop-sm {
-				text-align: left;
-				font-size: 1.3rem;
-				padding: 0;
-			}
+      @include desktop-sm {
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0;
+      }
 
-			&:last-child {
-				margin-top: 0;
-			}
-		}
-	}
+      &:last-child {
+        margin-top: 0;
+      }
+    }
+  }
 
-	&__placeholder {
-		flex: 1;
-		display: flex;
-		justify-content: center;
-		justify-content: flex-end;
-		margin-top: 2rem;
+  &__placeholder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
 
-		@include tablet {
-			margin-top: 0;
-		}
+    @include tablet {
+      margin-top: 0;
+    }
 
-		&--img {
-			width: 270px;
-			height: 270px;
-			border-radius: 50%;
-			overflow: hidden;
-			transition: all ease-in 0.5s;
-			// outline: solid 1px $primary;
-			// box-shadow: 3px 3px 5px rgba($primary, 0.5);
+    &--img {
+      width: 270px;
+      height: 270px;
+      border-radius: 50%;
+      overflow: hidden;
+      transition: all ease-in 0.5s;
 
-			@include tablet {
-				width: 300px;
-				height: 300px;
-			}
+      @include tablet {
+        width: 300px;
+        height: 300px;
+      }
 
-			@include desktop-sm {
-				width: 350px;
-				height: 350px;
-			}
+      @include desktop-sm {
+        width: 350px;
+        height: 350px;
+      }
 
-			img {
-				max-width: 100%;
-				max-height: 100%;
-				object-fit: cover;
-				object-position: center center;
-			}
-		}
-	}
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  }
 }
 
-.read-more-btn{
-	font-family: inherit;
-	font-size: $fs-090;
-	font-weight: $fw-400;
-	background-color: #feffdf;
-    padding: 0.5rem;
-    color: $colorLightBlue;
-	margin-top: 1rem;
-	display: block;
+.read-more-btn {
+  font-family: inherit;
+  font-size: $fs-090;
+  font-weight: $fw-700;
+  color: $colorLightBlue;
+  margin-top: 1rem;
+  display: block;
 
-	@include tablet{
-		display: none;
-	}
+  @include tablet {
+    display: none;
+  }
 }
