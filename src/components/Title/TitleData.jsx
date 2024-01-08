@@ -12,9 +12,8 @@ export const TitleData = [
 		title: 'these are my skills and more…',
 		body: (
 			<span>
-				During my time at BrainStation, I mastered crucial web development languages and frameworks, such as <mark>HTML, CSS, JavaScript, and React.</mark> This enhanced both my technical skills and
-				empowered me in crafting captivating web interfaces. With React, I enhanced my proficiency in building scalable UI components, while Axios and NodeJS significantly boosted my Back-End development
-				expertise.
+				During my time at BrainStation, I mastered crucial web development languages and frameworks, such as <mark>HTML, CSS, JavaScript, and React.</mark> With React, I enhanced my proficiency in
+				building scalable UI components, while Axios and NodeJS significantly boosted my Back-End development expertise.
 			</span>
 		),
 	},

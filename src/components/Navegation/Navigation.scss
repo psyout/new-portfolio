@@ -42,9 +42,13 @@
 .nav-link {
 	transition: 0.2s ease;
 	color: $lightColour;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	border: none;
 	position: relative;
+
+	@include tablet {
+		font-size: 1.1rem;
+	}
 
 	&:hover {
 		border: none;
@@ -53,7 +57,7 @@
 	&::after {
 		height: 0px;
 
-		@include desktop {
+		@include tablet {
 			content: '';
 			position: absolute;
 			width: 0px;
