@@ -1,0 +1,22 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.bubbles-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bubbles-item {
+    background: $colorLightBlue;
+    border-radius: 1rem;
+    font-weight: 400;
+    padding: 0.1rem 1.5rem;
+    color: #fff;
+    font-size: $fs-100;
+
+    &:nth-child(even) {
+        background: $colorLightGreen;
+    }
+}
