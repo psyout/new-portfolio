@@ -3,11 +3,14 @@
 
 .button {
 	@include button;
-	&:hover {
-		@include hover;
-	}
 
-	&:active {
-		@include active;
+	@include tablet {
+		&:hover {
+			@include hover;
+		}
+
+		&:active {
+			@include active;
+		}
 	}
 }

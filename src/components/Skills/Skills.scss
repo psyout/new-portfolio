@@ -62,7 +62,7 @@
 			font-weight: $fw-300;
 
 			@include tablet {
-				font-size: 1.1rem;
+				font-size: 1rem;
 			}
 		}
 	}
@@ -70,7 +70,6 @@
 
 .skills-progress {
 	margin-top: 3rem;
-
 
 	@include tablet {
 		margin-left: 4rem;

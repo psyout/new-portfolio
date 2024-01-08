@@ -24,16 +24,15 @@
 	}
 }
 @mixin button {
-	font-family: inherit;
 	font-size: 1rem;
 	background-color: $colorLightBlue;
 	color: $primaryLight;
-	border-radius: 5px;
+	border-radius: 1rem;
 	border: none;
 	display: inline-block;
-	padding: 0.6rem;
+	padding: 0.3rem 1rem;
 	transition: all 0.2s ease;
-	font-weight: $fw-700;
+	font-weight: $fw-400;
 	cursor: pointer;
 }
 @mixin hover {
