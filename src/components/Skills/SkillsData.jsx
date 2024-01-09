@@ -9,8 +9,7 @@ export const SkillsData = [
 	},
 	{
 		title: 'Styling for life',
-		body:
-			'I have mastered the art of responsive design, creating layouts that seamlessly adapt to any screen size. Playing around with animations and transitions has also become second nature, adding that extra touch of life to websites.',
+		body: "I'm skilled in responsive design, creating adaptable layouts for any screen size. I specialize in optimizing CSS for performance, enhancing user experiences by reducing page load times.",
 		icon: <FaCss3Alt />,
 	},
 	{

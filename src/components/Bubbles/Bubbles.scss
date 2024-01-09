@@ -21,8 +21,18 @@
 	padding: 0.1rem 1.5rem;
 	color: #fff;
 	font-size: $fs-100;
+	transition: background-color 0.3s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		background: $colorLightGreen;
+	}
 
 	&:nth-child(even) {
 		background: $colorLightGreen;
+
+		&:hover {
+			background: $colorLightBlue;
+		}
 	}
 }
