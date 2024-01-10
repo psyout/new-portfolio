@@ -34,7 +34,7 @@ function Header() {
 					e.preventDefault();
 					window.scrollTo(0, 0);
 				}}>
-				{'{Fe}'}
+				{'[Fe]'}
 			</a>
 			<ul className={`nav-menu ${isActive ? 'active' : ''}`}>
 				<li className='nav-item'>

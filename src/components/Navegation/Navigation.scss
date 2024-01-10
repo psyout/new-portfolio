@@ -33,9 +33,10 @@
 .nav-branding {
 	font-size: 2.2rem;
 	color: $lightColour;
-	font-family: 'Titillium Web', sans-serif;
+	// font-family: 'Titillium Web', sans-serif;
 	letter-spacing: 0.1rem;
 	display: flex;
+	font-weight: 500;
 	align-items: center;
 }
 

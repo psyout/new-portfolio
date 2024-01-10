@@ -3,8 +3,8 @@ export const TitleData = [
 		title: 'check this out',
 		body: (
 			<span>
-				I've been working on some new projects that I'll be updating soon, in the meantime, take a look at what I did when I was doing a <mark>Web Development Bootcamp</mark> a few months ago. Stay tuned
-				for updates, and thanks for your support!
+				I have been working on some new projects that I'll be updating soon, in the meantime, take a look at what I did when I was doing a <mark>Web Development Bootcamp</mark> a few months ago. Stay
+				tuned for updates, and thanks for your support!
 			</span>
 		),
 	},
@@ -13,7 +13,7 @@ export const TitleData = [
 		body: (
 			<span>
 				During my time at BrainStation, I mastered crucial web development languages and frameworks, such as <mark>HTML, CSS, JavaScript, and React.</mark> With React, I enhanced my proficiency in
-				building scalable UI components, while Axios and NodeJS significantly boosted my Back-End development expertise.
+				building scalable UI components, while Axios and NodeJS boosted my Back-End development expertise.
 			</span>
 		),
 	},

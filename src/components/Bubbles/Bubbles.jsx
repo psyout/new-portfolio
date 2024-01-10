@@ -14,6 +14,7 @@ function Bubbles() {
 		'Tailwind',
 		'JavaScript',
 		'React',
+		'UI Components',
 		'Git',
 		'Next',
 		'Node',
