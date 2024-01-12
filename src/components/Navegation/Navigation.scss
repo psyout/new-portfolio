@@ -32,8 +32,7 @@
 
 .nav-branding {
 	font-size: 2.2rem;
-	color: $lightColour;
-	// font-family: 'Titillium Web', sans-serif;
+	color: $primaryLight;
 	letter-spacing: 0.1rem;
 	display: flex;
 	font-weight: 500;
@@ -42,7 +41,7 @@
 
 .nav-link {
 	transition: 0.2s ease;
-	color: $lightColour;
+	color: $primaryLight;
 	font-size: 1.3rem;
 	border: none;
 	position: relative;
@@ -65,7 +64,7 @@
 			height: 5px;
 			left: 50%;
 			bottom: -27px;
-			background-color: $colorLightGreen;
+			background-color: $primaryLightGreen;
 			transition: all ease-in-out 0.2s;
 		}
 	}
@@ -92,7 +91,7 @@
 	border-radius: 2px;
 	margin: 6px auto;
 	transition: all 0.3s ease-in-out;
-	background-color: $lightColour;
+	background-color: $primaryLight;
 }
 
 @media only screen and (max-width: 720px) {
@@ -112,7 +111,7 @@
 		top: 0px;
 		gap: 0;
 		flex-direction: column;
-		background-color: rgba($colorLightBlue, 0.95);
+		background-color: rgba($primaryLightBlue, 0.95);
 		width: 100%;
 		min-height: 100vh;
 		text-align: center;

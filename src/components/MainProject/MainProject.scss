@@ -29,10 +29,10 @@
 
 		&--icon {
 			transition: all ease 0.3s;
-			color: $primary;
+			color: var(var(--primary));
 
 			&:hover {
-				color: $colorLightGreen;
+				color: var(var(--primary)LightGreen);
 			}
 		}
 
@@ -60,11 +60,11 @@
 }
 
 .carousel {
-	border: solid 2px $colorPurple;
-	box-shadow: 5px 5px 0px $primary;
+	// outline: solid 1px var(--primary);
+	// box-shadow: 5px 5px 0px var(--primary);
 }
 .carousel .control-arrow:hover {
-	background-color: rgba($colorLightBlue, 0.4) !important;
+	background-color: var(var(--primary)LightBlue, 0.4) !important;
 }
 
 .carousel .slide img {
@@ -74,5 +74,5 @@
 
 .carousel .control-dots .dot {
 	box-shadow: none !important;
-	background-color: rgba(rgba($colorLightBlue, 0.4), 1) !important;
+	background-color: var(var(--primary)LightBlue, 0.4) !important;
 }

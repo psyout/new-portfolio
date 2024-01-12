@@ -30,20 +30,20 @@
 		font-size: $fs-100;
 		font-weight: $fw-400;
 		font-family: inherit;
-		background-color: $secondaryDark;
+		background-color: var(var(--primary)LightBlue, 0.1);
 		padding: 1rem;
 		text-align: left;
 		display: flex;
-		color: $primary;
+		color: var(--primary);
 		transition: all ease 0.3s;
 
 		&.active {
-			border-left: solid 10px $colorLightGreen;
-			color: $primary;
+			border-left: solid 10px var(--primary)LightGreen;
+			color: var(--primary);
 			font-weight: 700;
 		}
 		&:hover {
-			color: $primary;
+			color: var(--primary);
 		}
 	}
 

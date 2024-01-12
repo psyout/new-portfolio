@@ -4,17 +4,19 @@ $tablet-breakpoint: 720px;
 $desktop-sm-breakpoint: 940px;
 $desktop-breakpoint: 1280px;
 
-//Primary Colors
-$primary: #233142;
+//Light colours
+$primary: #334051;
 $primaryLight: #ffffff;
-$primaryDark: #afafaf;
-$primaryCta: #0dd8cd;
-$lightColour: #e3e3e3;
-$colorLightGreen: #9fd3c7;
-$colorPurple: #2c3950;
-$colorCream: #feffdf;
-$colorLightBlue: #455d7a;
-$secondaryDark: #e1e1e1;
+$primaryLightGreen: #8fd1c2;
+$primaryLightBlue: #455d7a;
+$primaryCream: #feffdf;
+
+//Dark colours
+$secondary: #ffffff;
+$secondaryLight: #334051;
+$secondaryLightGreen: #2a8471;
+$secondaryLightBlue: #1a2b3a;
+$secondaryCream: #bfb38e;
 
 //Font Size
 $fs-075: 0.75rem;

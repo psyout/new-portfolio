@@ -8,7 +8,6 @@
 
 	&__image {
 		aspect-ratio: 16/9;
-		// outline: solid 1px $colorPurple;
 		min-height: 100px;
 
 		img {
@@ -23,17 +22,17 @@
 
 		&--link {
 			margin-top: 1rem;
-			color: $colorLightBlue;
+			color: var(--primary)LightBlue;
 			cursor: pointer !important;
 		}
 
 		&--icon {
 			font-size: 1.4rem;
 			transition: all ease 0.3s;
-			color: $primary;
+			color: var(--primary);
 
 			&:hover {
-				color: $colorLightGreen;
+				color: var(--primary)LightGreen;
 			}
 		}
 	}
@@ -41,7 +40,7 @@
 	&__body {
 		font-weight: $fw-300;
 		line-height: 1.3;
-		border-top: solid 1px $primary;
+		border-top: solid 1px var(--primary);
 		padding: 0.5rem 0;
 		margin-bottom: 1rem;
 		width: 100%;

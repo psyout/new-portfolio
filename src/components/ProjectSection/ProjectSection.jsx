@@ -21,6 +21,7 @@ function ProjectSection({ dataKey }) {
 							<Project
 								title={project.title}
 								body={project.body}
+								loading='lazy'
 								image={project.image}
 								url={project.url}
 								git={project.git}

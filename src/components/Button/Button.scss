@@ -5,8 +5,8 @@
 	font-family: inherit;
 	display: block;
 	font-size: $fs-090;
-	background-color: $lightColour;
-	color: $colorLightBlue;
+	background-color: var(--primary)Light;
+	color: var(--primary)LightBlue;
 	border-radius: 1rem;
 	border: none;
 	padding: 0.3rem 1rem;
@@ -20,12 +20,12 @@
 	}
 
 	&:hover {
-		background-color: $colorLightGreen;
-		color: $colorLightBlue;
+		background-color: var(--primary)LightGreen;
+		color: var(--primary)LightBlue;
 	}
 
 	&:active {
-		background-color: $lightColour;
-		color: $colorLightBlue;
+		background-color: var(--primary)Light;
+		color: var(--primary)LightBlue;
 	}
 }

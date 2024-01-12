@@ -22,6 +22,7 @@ function Bubbles() {
 		'RESTful API',
 		'JSON',
 		'MySQL',
+		'MERN',
 		'Wordpress',
 		'Hosting',
 		'Figma',

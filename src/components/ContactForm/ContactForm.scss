@@ -4,6 +4,7 @@
 .contact-form {
 	max-width: 600px;
 	margin-top: 1.5rem;
+	height: 50vh;
 	@include desktop-sm {
 		margin-bottom: 10rem;
 	}
@@ -43,10 +44,10 @@
 			padding: 17px;
 			margin-top: 5px;
 			margin-bottom: 10px;
-			border: solid 1px $colorPurple;
+			border: solid 1px var(--primary);
 			width: 100%;
 			font-family: inherit;
-			color: $colorPurple;
+			color: var(--primary)LightBlue;
 			font-size: $fs-100;
 			border-radius: 0;
 			transition: border-color 0.3s ease;
@@ -59,20 +60,20 @@
 
 		& .contact-form__input:active,
 		& .contact-form__textarea:active {
-			border-color: $colorLightBlue;
-			box-shadow: 0 0 5px $colorLightBlue;
+			border-color: var(--primary)LightBlue;
+			box-shadow: 0 0 5px var(--primary)LightBlue;
 		}
 
 		::placeholder {
 			font-size: $fs-100;
-			color: $colorPurple;
+			color: var(--primary);
 		}
 	}
 
 	&__submit {
 		font-size: $fs-100;
-		background-color: $colorPurple;
-		color: $primaryLight;
+		background-color: var(--primary)LightBlue;
+		color: var(--primary)Light;
 		border-radius: 1rem;
 		border: none;
 		padding: 0.6rem 1.5rem;
@@ -93,10 +94,10 @@
 
 	&__validator {
 		font-size: 1rem;
-		background-color: $colorLightGreen;
+		background-color: var(--primary)LightGreen;
 		font-weight: $fw-700;
 		padding: 0.1rem 0.3rem;
-		color: $colorLightBlue;
+		color: var(--primary)LightBlue;
 		margin-top: 1rem;
 		position: absolute;
 		border-radius: 0.2rem;

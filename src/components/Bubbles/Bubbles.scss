@@ -2,7 +2,7 @@
 @use '../../styles/variables' as *;
 
 .bubbles-title {
-	color: $primary;
+	color: var(--primary);
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
@@ -15,7 +15,7 @@
 }
 
 .bubbles-item {
-	background: $colorLightBlue;
+	background: var(--primary)LightBlue;
 	border-radius: 1rem;
 	font-weight: 400;
 	padding: 0.1rem 1.5rem;
@@ -25,14 +25,14 @@
 	cursor: pointer;
 
 	&:hover {
-		background: $colorLightGreen;
+		background: var(--primary)LightGreen;
 	}
 
 	&:nth-child(even) {
-		background: $colorLightGreen;
+		background: var(--primary)LightGreen;
 
 		&:hover {
-			background: $colorLightBlue;
+			background: var(--primary)LightBlue;
 		}
 	}
 }
