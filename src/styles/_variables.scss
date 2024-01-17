@@ -4,19 +4,35 @@ $tablet-breakpoint: 720px;
 $desktop-sm-breakpoint: 940px;
 $desktop-breakpoint: 1280px;
 
-//Light colours
-$primary: #334051;
-$primaryLight: #ffffff;
-$primaryLightGreen: #8fd1c2;
-$primaryLightBlue: #455d7a;
-$primaryCream: #feffdf;
+// Root colours
+:root {
+	--primary: rgba(51, 64, 81);
+	--primaryLight: #ffffff;
+	--primaryLightGreen: #8fd1c2;
+	--primaryLightBlue: #455d7a;
+	--primaryCream: #feffdf;
+	--primaryLightBlack: #eaeaea;
+}
 
-//Dark colours
-$secondary: #ffffff;
-$secondaryLight: #334051;
-$secondaryLightGreen: #2a8471;
-$secondaryLightBlue: #1a2b3a;
-$secondaryCream: #bfb38e;
+ // Light colours 
+.light-theme {
+	--primary: rgba(51, 64, 81);
+	--primaryLight: #ffffff;
+	--primaryLightGreen: #8fd1c2;
+	--primaryLightBlue: #455d7a;
+	--primaryCream: #feffdf;
+	--primaryLightBlack: #eaeaea;
+  }
+
+// Dark colours
+.dark-theme {
+	--secondary: #ffffff;
+	--secondaryLight: #334051;
+	--secondaryLightGreen: #2a8471;
+	--secondaryLightBlue: #1a2b3a;
+	--secondaryCream: #bfb38e;
+  }
+
 
 //Font Size
 $fs-075: 0.75rem;

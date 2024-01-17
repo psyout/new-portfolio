@@ -25,8 +25,8 @@
 }
 @mixin button {
 	font-size: 1rem;
-	background-color: var(--primary)LightBlue;
-	color: var(--primary)Light;
+	background-color: var(--primaryLightBlue);
+	color: var(--primaryLight);
 	border-radius: 1rem;
 	border: none;
 	display: inline-block;
@@ -38,7 +38,7 @@
 @mixin hover {
 	color: #000;
 	transform: translate(-0.25rem, -0.25rem);
-	background: var(--primary)LightGreen;
+	background: var(--primaryLightGreen);
 	box-shadow: 0.25rem 0.25rem var(--primary);
 }
 

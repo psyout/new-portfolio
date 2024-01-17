@@ -32,7 +32,7 @@
 
 .nav-branding {
 	font-size: 2.2rem;
-	color: $primaryLight;
+	color: var(--primaryLight);
 	letter-spacing: 0.1rem;
 	display: flex;
 	font-weight: 500;
@@ -41,7 +41,7 @@
 
 .nav-link {
 	transition: 0.2s ease;
-	color: $primaryLight;
+	color: var(--primaryLight);
 	font-size: 1.3rem;
 	border: none;
 	position: relative;
@@ -64,7 +64,7 @@
 			height: 5px;
 			left: 50%;
 			bottom: -27px;
-			background-color: $primaryLightGreen;
+			background-color: var(--primaryl);
 			transition: all ease-in-out 0.2s;
 		}
 	}
@@ -91,7 +91,7 @@
 	border-radius: 2px;
 	margin: 6px auto;
 	transition: all 0.3s ease-in-out;
-	background-color: $primaryLight;
+	background-color: var(--primaryLight);
 }
 
 @media only screen and (max-width: 720px) {
@@ -111,7 +111,7 @@
 		top: 0px;
 		gap: 0;
 		flex-direction: column;
-		background-color: rgba($primaryLightBlue, 0.95);
+		background-color: var(--primaryLightBlue);
 		width: 100%;
 		min-height: 100vh;
 		text-align: center;

@@ -44,7 +44,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: $primaryLight;
+	background: var(--primaryLight);
 }
 
 img {
@@ -59,10 +59,10 @@ a:visited {
 }
 
 mark {
-	background-color: $primaryCream;
+	background-color: var(--primaryCream);
 	padding: 0.2rem;
 	font-weight: $fw-700;
-	color: $primary;
+	color: var(--primary);
 }
 
 h1,
@@ -71,11 +71,11 @@ h3,
 h4,
 h5,
 h6 {
-	color: $primary;
+	color: var(--primary);
 }
 
 p {
-	color: $primary;
+	color: var(--primary);
 }
 
 .container {
@@ -83,7 +83,7 @@ p {
 }
 
 .header {
-	background-color: $primaryLightBlue;
+	background-color: var(--primaryLightBlue);
 	color: #a7d5e5;
 	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
 }

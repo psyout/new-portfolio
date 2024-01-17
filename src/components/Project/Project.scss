@@ -22,7 +22,7 @@
 
 		&--link {
 			margin-top: 1rem;
-			color: var(--primary)LightBlue;
+			color: var(--primaryLightBlue);
 			cursor: pointer !important;
 		}
 
@@ -32,7 +32,7 @@
 			color: var(--primary);
 
 			&:hover {
-				color: var(--primary)LightGreen;
+				color: var(--primaryLightGreen);
 			}
 		}
 	}

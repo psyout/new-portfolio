@@ -47,7 +47,7 @@
 			border: solid 1px var(--primary);
 			width: 100%;
 			font-family: inherit;
-			color: var(--primary)LightBlue;
+			color: var(--primaryLightBlue);
 			font-size: $fs-100;
 			border-radius: 0;
 			transition: border-color 0.3s ease;
@@ -60,8 +60,8 @@
 
 		& .contact-form__input:active,
 		& .contact-form__textarea:active {
-			border-color: var(--primary)LightBlue;
-			box-shadow: 0 0 5px var(--primary)LightBlue;
+			border-color: var(--primaryLightBlue);
+			box-shadow: 0 0 5px var(--primaryLightBlue);
 		}
 
 		::placeholder {
@@ -72,8 +72,8 @@
 
 	&__submit {
 		font-size: $fs-100;
-		background-color: var(--primary)LightBlue;
-		color: var(--primary)Light;
+		background-color: var(--primaryLightBlue);
+		color: var(--primaryLight);
 		border-radius: 1rem;
 		border: none;
 		padding: 0.6rem 1.5rem;
@@ -94,10 +94,10 @@
 
 	&__validator {
 		font-size: 1rem;
-		background-color: var(--primary)LightGreen;
+		background-color: var(--primaryLightGreen);
 		font-weight: $fw-700;
 		padding: 0.1rem 0.3rem;
-		color: var(--primary)LightBlue;
+		color: var(--primaryLightBlue);
 		margin-top: 1rem;
 		position: absolute;
 		border-radius: 0.2rem;

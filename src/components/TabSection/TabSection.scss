@@ -30,7 +30,7 @@
 		font-size: $fs-100;
 		font-weight: $fw-400;
 		font-family: inherit;
-		background-color: var(var(--primary)LightBlue, 0.1);
+		background-color: var(--primaryLightBlack);
 		padding: 1rem;
 		text-align: left;
 		display: flex;
@@ -38,7 +38,7 @@
 		transition: all ease 0.3s;
 
 		&.active {
-			border-left: solid 10px var(--primary)LightGreen;
+			border-left: solid 10px var(--primaryLightGreen);
 			color: var(--primary);
 			font-weight: 700;
 		}
