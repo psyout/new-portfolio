@@ -13,7 +13,6 @@
 	}
 
 	@include desktop {
-		align-items: stretch;
 		width: 80rem;
 		margin: 0 auto;
 	}
@@ -30,24 +29,31 @@
 	gap: 1.5rem;
 }
 
+.navbar-container {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
 .nav-branding {
-	font-size: 2.2rem;
-	color: var(--primaryLight);
+	font-size: 1.8rem;
+	color: var(--navbar-color);
 	letter-spacing: 0.1rem;
 	display: flex;
-	font-weight: 500;
+	font-weight: 400;
 	align-items: center;
+	z-index: 999;
 }
 
 .nav-link {
 	transition: 0.2s ease;
-	color: var(--primaryLight);
+	color: var(--navbar-color);
 	font-size: 1.3rem;
 	border: none;
 	position: relative;
 
 	@include tablet {
-		font-size: 1.1rem;
+		font-size: 1.05rem;
 	}
 
 	&:hover {
@@ -64,7 +70,7 @@
 			height: 5px;
 			left: 50%;
 			bottom: -27px;
-			background-color: var(--primaryl);
+			background-color: var(--primaryLightGreen);
 			transition: all ease-in-out 0.2s;
 		}
 	}
@@ -91,7 +97,7 @@
 	border-radius: 2px;
 	margin: 6px auto;
 	transition: all 0.3s ease-in-out;
-	background-color: var(--primaryLight);
+	background-color: var(--navbar-color);
 }
 
 @media only screen and (max-width: 720px) {
@@ -111,7 +117,7 @@
 		top: 0px;
 		gap: 0;
 		flex-direction: column;
-		background-color: var(--primaryLightBlue);
+		background-color: var(--header-color);
 		width: 100%;
 		min-height: 100vh;
 		text-align: center;

@@ -28,7 +28,6 @@
 		}
 
 		&--icon {
-			transition: all ease 0.3s;
 			color: var(--primary);
 
 			&:hover {
@@ -73,7 +72,16 @@
 	height: auto;
 }
 
+.carousel .control-dots {
+	z-index: 0 !important;
+}
+
 .carousel .control-dots .dot {
 	box-shadow: none !important;
 	background-color: var(--primaryLightBlue) !important;
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+	z-index: 0 !important;
 }

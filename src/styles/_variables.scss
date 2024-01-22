@@ -7,32 +7,50 @@ $desktop-breakpoint: 1280px;
 // Root colours
 :root {
 	--primary: rgba(51, 64, 81);
-	--primaryLight: #ffffff;
 	--primaryLightGreen: #8fd1c2;
 	--primaryLightBlue: #455d7a;
-	--primaryCream: #feffdf;
-	--primaryLightBlack: #eaeaea;
+	--bg-color: #ffffff;
+	--header-color: #455d7a;
+	--btn-color: #eaeaea;
+	--btn-text: #fff;
+	--btn-bg: #455d7a;
+	--btn-hover: #8fd1c2;
+	--social-color: rgba(51, 64, 81);
+	--social-color-hover: #8fd1c2;
+	--tab-color: rgba(51, 64, 81, 0.2);
+	--tab-color-active: #455d7a;
+	--project-bg: rgba(255, 255, 255, 0);
+	--navbar-color: #eaeaea;
+	--icon-color: #455d7a;
+	--bubbles-light-color: #9db0ce;
+	--bubbles-dark-color: #455d7a;
+	--highlight-color: #8fd1c2;
+	--highlight-color-text: rgba(51, 64, 81);
 }
 
- // Light colours 
-.light-theme {
-	--primary: rgba(51, 64, 81);
-	--primaryLight: #ffffff;
+// Dark colours
+[data-theme='dark'] {
+	--primary: #ffffff;
 	--primaryLightGreen: #8fd1c2;
 	--primaryLightBlue: #455d7a;
-	--primaryCream: #feffdf;
-	--primaryLightBlack: #eaeaea;
-  }
-
-// Dark colours
-.dark-theme {
-	--secondary: #ffffff;
-	--secondaryLight: #334051;
-	--secondaryLightGreen: #2a8471;
-	--secondaryLightBlue: #1a2b3a;
-	--secondaryCream: #bfb38e;
-  }
-
+	--bg-color: #334051;
+	--header-color: #182e47;
+	--btn-color: #eaeaea;
+	--btn-text: rgba(51, 64, 81);
+	--btn-bg: #8fd1c2;
+	--btn-hover: #455d7a;
+	--social-color: #eaeaea;
+	--social-color-hover: #8fd1c2;
+	--tab-color: #1a2b3a;
+	--tab-color-active: #8fd1c2;
+	--project-bg: rgba(255, 255, 255, 1);
+	--navbar-color: #ffffff;
+	--icon-color: #8fd1c2;
+	--bubbles-light-color: #455d7a;
+	--bubbles-dark-color: #8fd1c2;
+	--highlight-color: #feffdf;
+	--highlight-color-text: rgba(51, 64, 81);
+}
 
 //Font Size
 $fs-075: 0.75rem;

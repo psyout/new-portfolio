@@ -65,7 +65,7 @@
 			width: 40px;
 			height: 40px;
 			border-radius: 50%;
-			background-color: var(--primaryLightBlue);
+			background-color: var(--social-color);
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -77,12 +77,12 @@
 			}
 
 			&:hover {
-				background-color: var(--primaryLightGreen);
+				background-color: var(--social-color-hover);
 			}
 		}
 
 		&--icon {
-			color: var(--primaryLight);
+			color: var(--bg-color);
 			font-size: $fs-150;
 
 			@include desktop-sm {

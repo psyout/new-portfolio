@@ -11,6 +11,10 @@ html {
 	scroll-padding-top: 2rem;
 }
 
+* {
+	transition: background-color 0.3s ease-in-out;
+}
+
 *,
 *::before,
 *::after {
@@ -44,7 +48,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: var(--primaryLight);
+	background: var(--bg-color);
 }
 
 img {
@@ -59,10 +63,10 @@ a:visited {
 }
 
 mark {
-	background-color: var(--primaryCream);
+	background-color: var(--highlight-color);
 	padding: 0.2rem;
 	font-weight: $fw-700;
-	color: var(--primary);
+	color: var(--highlight-color-text);
 }
 
 h1,
@@ -83,7 +87,7 @@ p {
 }
 
 .header {
-	background-color: var(--primaryLightBlue);
+	background-color: var(--header-color);
 	color: #a7d5e5;
 	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
 }
@@ -91,7 +95,7 @@ p {
 .main {
 	width: 100%;
 	padding: 0 2rem;
-	margin-top: 2rem;
+	margin-top: 1rem;
 
 	@include tablet {
 		padding: 0 2.5rem;

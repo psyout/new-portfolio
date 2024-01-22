@@ -15,7 +15,7 @@
 }
 
 .bubbles-item {
-	background: var(--primaryLightBlue);
+	background: var(--bubbles-light-color);
 	border-radius: 1rem;
 	font-weight: 400;
 	padding: 0.1rem 1.5rem;
@@ -25,14 +25,14 @@
 	cursor: pointer;
 
 	&:hover {
-		background: var(--primaryLightGreen);
+		background: var(--bubbles-dark-color);
 	}
 
 	&:nth-child(even) {
-		background: var(--primaryLightGreen);
+		background: var(--bubbles-dark-color);
 
 		&:hover {
-			background: var(--primaryLightBlue);
+			background: var(--bubbles-light-color);
 		}
 	}
 }

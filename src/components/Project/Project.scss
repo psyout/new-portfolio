@@ -9,6 +9,7 @@
 	&__image {
 		aspect-ratio: 16/9;
 		min-height: 100px;
+		background: var(--project-bg);
 
 		img {
 			margin-bottom: -15px;

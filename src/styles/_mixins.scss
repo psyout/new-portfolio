@@ -25,8 +25,8 @@
 }
 @mixin button {
 	font-size: 1rem;
-	background-color: var(--primaryLightBlue);
-	color: var(--primaryLight);
+	background-color: var(--btn-bg);
+	color: var(--btn-text);
 	border-radius: 1rem;
 	border: none;
 	display: inline-block;
@@ -36,13 +36,6 @@
 	cursor: pointer;
 }
 @mixin hover {
-	color: #000;
-	transform: translate(-0.25rem, -0.25rem);
-	background: var(--primaryLightGreen);
-	box-shadow: 0.25rem 0.25rem var(--primary);
-}
-
-@mixin active {
-	transform: translate(0);
-	box-shadow: none;
+	background: var(--btn-hover);
+	color: var(--primary);
 }

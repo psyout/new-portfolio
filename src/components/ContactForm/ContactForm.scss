@@ -72,8 +72,8 @@
 
 	&__submit {
 		font-size: $fs-100;
-		background-color: var(--primaryLightBlue);
-		color: var(--primaryLight);
+		background-color: var(--btn-bg);
+		color: var(--btn-text);
 		border-radius: 1rem;
 		border: none;
 		padding: 0.6rem 1.5rem;
@@ -85,10 +85,6 @@
 
 		&:hover {
 			@include hover;
-		}
-
-		&:active {
-			@include active;
 		}
 	}
 

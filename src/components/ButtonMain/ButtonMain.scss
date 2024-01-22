@@ -8,9 +8,5 @@
 		&:hover {
 			@include hover;
 		}
-
-		&:active {
-			@include active;
-		}
 	}
 }
