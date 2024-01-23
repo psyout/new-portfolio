@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.bfbe7805.css",
+    "main.js": "/new-portfolio/static/js/main.3d6e08ae.js",
+    "static/media/infografia-natura-full.jpg": "/new-portfolio/static/media/infografia-natura-full.78498fd60f8469769ec2.jpg",
+    "static/media/transportes-moran-full.jpg": "/new-portfolio/static/media/transportes-moran-full.b6a9f2d94f396fd686bd.jpg",
+    "static/media/infografia-natura-mensual-full.jpg": "/new-portfolio/static/media/infografia-natura-mensual-full.83a25c88765df617e77b.jpg",
+    "static/media/profile-picture-square.jpg": "/new-portfolio/static/media/profile-picture-square.f6ca4d7002bd982a3f5f.jpg",
+    "static/media/especial-verano-full.jpg": "/new-portfolio/static/media/especial-verano-full.51b3cb8ea1c2842885ff.jpg",
+    "static/media/beneficios_novios_web.jpg": "/new-portfolio/static/media/beneficios_novios_web.2a11b1b3a035498ea1af.jpg",
+    "static/media/value-for-waste-web-full.jpg": "/new-portfolio/static/media/value-for-waste-web-full.e0036eea1b533321c3f0.jpg",
+    "static/media/bandsite-full.jpg": "/new-portfolio/static/media/bandsite-full.a455a46012675bdec572.jpg",
+    "static/media/sustainable-harvest.png": "/new-portfolio/static/media/sustainable-harvest.bb1087f07c261ae34a4d.png",
+    "static/media/covprotect.png": "/new-portfolio/static/media/covprotect.3df96876d8a322fb7b07.png",
+    "static/media/brainflix-full.jpg": "/new-portfolio/static/media/brainflix-full.dfb361aac81c8b28085b.jpg",
+    "static/media/deportes-nordicos-web.jpg": "/new-portfolio/static/media/deportes-nordicos-web.9a448a2a0640114c274c.jpg",
+    "static/media/natura-ekos.jpg": "/new-portfolio/static/media/natura-ekos.662482b9a78e569fec67.jpg",
+    "static/media/wulen.jpg": "/new-portfolio/static/media/wulen.281c7bb7d31c3a78257d.jpg",
+    "static/media/wulen2.jpg": "/new-portfolio/static/media/wulen2.b3ba5f171efb64b21a35.jpg",
+    "static/media/JosefinSans-Light.ttf": "/new-portfolio/static/media/JosefinSans-Light.35b36ff1cdc4b922862d.ttf",
+    "static/media/JosefinSans-Regular.ttf": "/new-portfolio/static/media/JosefinSans-Regular.a050e9c2c506cf97e616.ttf",
+    "static/media/JosefinSans-Bold.ttf": "/new-portfolio/static/media/JosefinSans-Bold.64d23f1d9987b7c12b36.ttf",
+    "static/media/TitilliumWeb-Black.ttf": "/new-portfolio/static/media/TitilliumWeb-Black.762f9fbee9e7dacc37c5.ttf",
+    "static/media/JosefinSans-Regular.woff": "/new-portfolio/static/media/JosefinSans-Regular.1a86d4dd486b9c76fb4a.woff",
+    "static/media/JosefinSans-Light.woff": "/new-portfolio/static/media/JosefinSans-Light.039cd7ffc3568ba7e2cf.woff",
+    "static/media/instock.jpg": "/new-portfolio/static/media/instock.fa409439d910a7362bc3.jpg",
+    "static/media/JosefinSans-Bold.woff": "/new-portfolio/static/media/JosefinSans-Bold.ba36f80e185842df987e.woff",
+    "static/media/TitilliumWeb-Black.woff": "/new-portfolio/static/media/TitilliumWeb-Black.49c722cacf931c541970.woff",
+    "static/media/JosefinSans-Regular.woff2": "/new-portfolio/static/media/JosefinSans-Regular.98030fddf6cb6d0a7bb4.woff2",
+    "static/media/JosefinSans-Light.woff2": "/new-portfolio/static/media/JosefinSans-Light.31ff3989ab8e3a10881f.woff2",
+    "static/media/JosefinSans-Bold.woff2": "/new-portfolio/static/media/JosefinSans-Bold.df846cc26ffbfdc2fbfb.woff2",
+    "static/media/patagon.png": "/new-portfolio/static/media/patagon.17e6e78081134c19c950.png",
+    "index.html": "/new-portfolio/index.html",
+    "main.bfbe7805.css.map": "/new-portfolio/static/css/main.bfbe7805.css.map",
+    "main.3d6e08ae.js.map": "/new-portfolio/static/js/main.3d6e08ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfbe7805.css",
+    "static/js/main.3d6e08ae.js"
+  ]
+}
