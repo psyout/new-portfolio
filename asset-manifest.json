@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.6a3338b1.css",
+    "main.css": "/new-portfolio/static/css/main.aca4721b.css",
     "main.js": "/new-portfolio/static/js/main.18d6a7cc.js",
     "static/media/infografia-natura-full.jpg": "/new-portfolio/static/media/infografia-natura-full.78498fd60f8469769ec2.jpg",
     "static/media/transportes-moran-full.jpg": "/new-portfolio/static/media/transportes-moran-full.b6a9f2d94f396fd686bd.jpg",
@@ -37,11 +37,11 @@
     "static/media/JosefinSans-Bold.woff2": "/new-portfolio/static/media/JosefinSans-Bold.df846cc26ffbfdc2fbfb.woff2",
     "static/media/patagon.png": "/new-portfolio/static/media/patagon.17e6e78081134c19c950.png",
     "index.html": "/new-portfolio/index.html",
-    "main.6a3338b1.css.map": "/new-portfolio/static/css/main.6a3338b1.css.map",
+    "main.aca4721b.css.map": "/new-portfolio/static/css/main.aca4721b.css.map",
     "main.18d6a7cc.js.map": "/new-portfolio/static/js/main.18d6a7cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a3338b1.css",
+    "static/css/main.aca4721b.css",
     "static/js/main.18d6a7cc.js"
   ]
 }
