@@ -5,12 +5,14 @@
 @use '../../styles/variables' as *;
 
 .theme-icon {
-	display: inline-block;
-	position: relative;
 	cursor: pointer;
+	// display: inline-block;
 	font-size: 1.5rem;
-	margin-top: 0.5rem;
-	color: var(--btn-text);
+	// position: relative;
+	// border: solid 1px white;
+	// padding: 0.1rem 0.5rem;
+	// border-radius: 1.5rem;
+	line-height: 0.2;
 }
 
 .dark_mode_input {
@@ -20,18 +22,17 @@
 }
 
 label {
-	display: inline-flex;
-	align-items: center;
-	padding: 4px;
-	color: var(--btn-text);
-	transition: transform 0.35s ease-in-out;
+	color: var(--btn-hover);
+	margin-top: 0.4rem;
+	// transition: transform 0.35s ease-in-out;
 }
 
 input[type='checkbox']:checked + label {
-	transform: translateX(-5px);
-	color: var(--primaryLightBlue);
+	// transform: translateX(-5px);
 }
 
 input[type='checkbox']:not(:checked) + label {
-	transform: translateX(5px);
+	color: tan;
+	// transform: translateX(5px);
+	border-radius: 50%;
 }

@@ -10,7 +10,7 @@ $desktop-breakpoint: 1280px;
 	--primaryLightGreen: #8fd1c2;
 	--primaryLightBlue: #455d7a;
 	--bg-color: #ffffff;
-	--header-color: #455d7a;
+	--header-color: #f4f6fb;
 	--btn-color: #eaeaea;
 	--btn-text: #fff;
 	--btn-bg: #455d7a;
@@ -34,7 +34,7 @@ $desktop-breakpoint: 1280px;
 	--primaryLightGreen: #8fd1c2;
 	--primaryLightBlue: #455d7a;
 	--bg-color: #334051;
-	--header-color: #182e47;
+	--header-color: rgba(51, 64, 81);
 	--btn-color: #eaeaea;
 	--btn-text: rgba(51, 64, 81);
 	--btn-bg: #8fd1c2;
@@ -69,6 +69,8 @@ $fs-350: 3.5rem;
 //Weight
 $fw-300: 300;
 $fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
 $fw-700: 700;
 
 //Font Family

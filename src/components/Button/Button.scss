@@ -5,13 +5,13 @@
 	font-family: inherit;
 	display: block;
 	font-size: $fs-090;
-	background-color: var(--btn-color);
-	color: var(--primaryLightBlue);
+	background-color: var(--btn-bg);
+	color: var(--btn-text);
 	border-radius: 1rem;
 	border: none;
 	padding: 0.3rem 1rem;
 	transition: background-color 0.2s ease;
-	font-weight: $fw-700;
+	font-weight: $fw-600;
 	cursor: pointer;
 	margin-top: 1rem;
 
@@ -20,8 +20,8 @@
 	}
 
 	&:hover {
-		background-color: var(--primaryLightGreen);
-		color: var(--primaryLightBlue);
+		background-color: var(--btn-hover);
+		color: var(--primary);
 	}
 
 	&:active {

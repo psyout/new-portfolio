@@ -32,7 +32,7 @@ function MainProject({ id }) {
 							justifyContent: 'flex-start',
 						}}>
 						<h5 className='mainproject__text--sub'>
-							<mark style={{ backgroundColor: '#455d7a', color: '#ffffff' }}>JS | React | Axios | Node | Mapbox.js</mark>
+							<mark>JS | React | Axios | Node | Mapbox.js | Yelp</mark>
 						</h5>
 						<a className='mainproject__text--link' href='https://github.com/psyout/capstone-client' rel='noreferrer' target='_blank'>
 							<FaGithub className='mainproject__text--icon' />

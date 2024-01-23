@@ -32,12 +32,12 @@
 .navbar-container {
 	display: flex;
 	align-items: center;
-	gap: 1rem;
+	gap: 0.5rem;
 }
 
 .nav-branding {
 	font-size: 1.8rem;
-	color: var(--navbar-color);
+	color: var(--primary);
 	letter-spacing: 0.1rem;
 	display: flex;
 	font-weight: 400;
@@ -47,7 +47,7 @@
 
 .nav-link {
 	transition: 0.2s ease;
-	color: var(--navbar-color);
+	color: var(--primary);
 	font-size: 1.3rem;
 	border: none;
 	position: relative;
