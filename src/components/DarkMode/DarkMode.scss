@@ -6,13 +6,9 @@
 
 .theme-icon {
 	cursor: pointer;
-	// display: inline-block;
 	font-size: 1.5rem;
-	// position: relative;
-	// border: solid 1px white;
-	// padding: 0.1rem 0.5rem;
-	// border-radius: 1.5rem;
 	line-height: 0.2;
+	z-index: 999;
 }
 
 .dark_mode_input {
