@@ -33,7 +33,7 @@ function Header() {
 					e.preventDefault();
 					window.scrollTo(0, 0);
 				}}>
-				{'felipe'}
+				{'FG'}
 			</a>
 			<div className='navbar-container'>
 				<ul className={`nav-menu ${isActive ? 'active' : ''}`}>

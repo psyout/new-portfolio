@@ -38,11 +38,8 @@ function MainProject({ id }) {
 							<FaGithub className='mainproject__text--icon' />
 						</a>
 					</div>
-					<h2 className='mainproject__text--title'>Wülen Happy Hour Finder</h2>
-					<p className='mainproject__text--body'>
-						This React app was my Capstone project that combines Front and Back-end development using Mapbox.js and Axios for API requests. I used Material UI for an attractive design and allows users to
-						search and filter nearby happy hour specials based on geolocation. Users can click on markers to view details, ratings, and menus for each place.
-					</p>
+					<h2 className='mainproject__text--title'>{TitleData[2].title}</h2>
+					<p className='mainproject__text--body'>{TitleData[2].body}</p>
 					<ButtonMain url={`https://wulenhappyhour.com`} title={`See Project`} />
 				</div>
 			</section>

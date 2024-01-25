@@ -72,8 +72,8 @@
 			margin-top: 1rem;
 			transition: all ease 0.5s;
 			@include desktop-sm {
-				width: 50px;
-				height: 50px;
+				width: 40px;
+				height: 40px;
 			}
 
 			&:hover {
@@ -86,7 +86,7 @@
 			font-size: $fs-150;
 
 			@include desktop-sm {
-				font-size: $fs-200;
+				font-size: $fs-150;
 			}
 		}
 	}

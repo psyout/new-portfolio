@@ -16,7 +16,7 @@ function DarkMode() {
 	return (
 		<div className='theme-icon'>
 			<input className='dark_mode_input' type='checkbox' id='darkmode-toggle' onChange={toggleTheme} checked={isDarkMode} />
-			<label htmlFor='darkmode-toggle'>{isDarkMode ? <FiMoon /> : <FiSun />}</label>
+			<label htmlFor='darkmode-toggle'>{isDarkMode ? <FiSun className='fa-ico' /> : <FiMoon className='fa-ico' />}</label>
 		</div>
 	);
 }

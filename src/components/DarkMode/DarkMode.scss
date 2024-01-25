@@ -6,7 +6,7 @@
 
 .theme-icon {
 	cursor: pointer;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	line-height: 0.2;
 	z-index: 999;
 }
@@ -18,17 +18,25 @@
 }
 
 label {
-	color: var(--btn-hover);
+	color: var(--btn-color);
 	margin-top: 0.4rem;
-	// transition: transform 0.35s ease-in-out;
 }
 
 input[type='checkbox']:checked + label {
-	// transform: translateX(-5px);
 }
 
 input[type='checkbox']:not(:checked) + label {
-	color: tan;
-	// transform: translateX(5px);
+	color: var(--primary);
 	border-radius: 50%;
+}
+
+.fa-ico {
+	font-size: 2rem;
+	background: var(--ico-bg);
+	border-radius: 50%;
+	padding: 0.3rem;
+}
+
+.fa-ico:hover {
+	background: var(--btn-text);
 }
