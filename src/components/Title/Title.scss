@@ -13,6 +13,10 @@
 		@include tablet {
 			font-size: 3rem;
 		}
+
+		@media (orientation: landscape) {
+			font-size: 2.5rem;
+		}
 	}
 
 	&__body {
@@ -20,8 +24,15 @@
 		font-size: $fs-120;
 		font-weight: $fw-300;
 
+		@include tablet {
+			@media (orientation: landscape) {
+				font-size: 1.2rem;
+			}
+		}
+
 		@include desktop-sm {
 			width: 90%;
+			font-size: 1.3rem;
 		}
 	}
 }

@@ -81,7 +81,6 @@ h6 {
 
 p {
 	color: var(--primary);
-	text-wrap: balance;
 }
 
 .container {
@@ -90,14 +89,12 @@ p {
 
 .header {
 	background-color: var(--header-color);
-	color: #a7d5e5;
 	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
 .main {
 	width: 100%;
-	padding: 0 2rem;
-	margin-top: 1rem;
+	padding: 0 1.5rem;
 
 	@include tablet {
 		padding: 0 2.5rem;
@@ -111,7 +108,7 @@ p {
 
 .footer {
 	width: 100%;
-	padding: 0 2rem;
+	padding: 0 1.5rem;
 	margin-top: 10rem;
 	@include tablet {
 		padding: 0 2.5rem;

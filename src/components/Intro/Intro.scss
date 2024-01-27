@@ -2,6 +2,7 @@
 @use '../../styles/variables' as *;
 
 .intro {
+	margin-top: 3rem;
 	display: flex;
 	flex-grow: 1;
 	flex-direction: column;
@@ -69,7 +70,6 @@
 		display: flex;
 		justify-content: center;
 		justify-content: flex-end;
-		margin-top: 2rem;
 
 		@include tablet {
 			margin-top: 0;
@@ -110,7 +110,7 @@
 	margin-top: 1rem;
 	display: block;
 
-	@include desktop {
+	@include desktop-sm {
 		display: none;
 	}
 }

@@ -1,42 +1,15 @@
 @use '../../styles/mixins' as *;
 @use '../../styles/variables' as *;
 
-@use '../../styles/mixins' as *;
-@use '../../styles/variables' as *;
-
 .theme-icon {
 	cursor: pointer;
-	font-size: 1.4rem;
-	line-height: 0.2;
 	z-index: 999;
-}
-
-.dark_mode_input {
-	width: 0;
-	height: 0;
-	visibility: hidden;
-}
-
-label {
-	color: var(--btn-color);
-	margin-top: 0.4rem;
-}
-
-input[type='checkbox']:checked + label {
-}
-
-input[type='checkbox']:not(:checked) + label {
-	color: var(--primary);
-	border-radius: 50%;
+	display: flex;
+	transition: all ease-in-out 0.3s;
 }
 
 .fa-ico {
-	font-size: 2rem;
-	background: var(--ico-bg);
-	border-radius: 50%;
-	padding: 0.3rem;
-}
-
-.fa-ico:hover {
-	background: var(--btn-text);
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: var(--primary);
 }
