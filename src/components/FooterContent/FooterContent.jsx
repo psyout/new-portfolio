@@ -18,7 +18,7 @@ function FooterContent() {
 			<ContactForm />
 
 			<div className='section-footer__copyright'>
-				<p style={{ fontSize: 'clamp(0.9rem, 3vw, 1rem)' }}>
+				<p style={{ fontSize: 'clamp(0.9rem, 2vw, 1rem)' }}>
 					Designed in Vancouver and developed with{' '}
 					<span role='img' aria-label='heart emoji'>
 						❤️
