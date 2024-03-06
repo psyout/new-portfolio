@@ -1,5 +1,6 @@
 import './App.scss';
 import Intro from './components/Intro/Intro';
+import About from './components/About/About';
 import Navigation from './components/Navegation/Navigation';
 import MainProject from './components/MainProject/MainProject';
 import TabSection from './components/TabSection/TabSection';
@@ -17,6 +18,7 @@ function App() {
 			</Headroom>
 			<main className='main'>
 				<Intro />
+				<About id='about' />
 				<MainProject id='main' />
 				<TabSection />
 				<Skills id='skills' />

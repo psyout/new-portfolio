@@ -17,18 +17,27 @@ function FooterContent() {
 
 			<ContactForm />
 
-			<div className='section-footer__social'>
-				<h4 className='section-footer__social--title'>Follow me:</h4>
-				<a href='https://www.instagram.com/psyout/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
-					<FaInstagram className='section-footer__social--icon' />
-				</a>
-				<a href='https://github.com/psyout/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
-					<FaGithub className='section-footer__social--icon' />
-				</a>
+			<div className='section-footer__copyright'>
+				<p>
+					Designed in Vancouver and developed with{' '}
+					<span role='img' aria-label='heart emoji'>
+						❤️
+					</span>{' '}
+					React
+				</p>
+				<div className='section-footer__social'>
+					<h4 className='section-footer__social--title'>Follow me:</h4>
+					<a href='https://www.instagram.com/psyout/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
+						<FaInstagram className='section-footer__social--icon' />
+					</a>
+					<a href='https://github.com/psyout/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
+						<FaGithub className='section-footer__social--icon' />
+					</a>
 
-				<a href='https://www.linkedin.com/in/fgonzalezcare/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
-					<FaLinkedinIn className='section-footer__social--icon' />
-				</a>
+					<a href='https://www.linkedin.com/in/fgonzalezcare/' rel='noreferrer' target='_blank' className='section-footer__social--link'>
+						<FaLinkedinIn className='section-footer__social--icon' />
+					</a>
+				</div>
 			</div>
 		</section>
 	);

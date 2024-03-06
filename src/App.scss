@@ -89,7 +89,7 @@ p {
 
 .header {
 	background-color: var(--header-color);
-	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+	// box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
 .main {
@@ -101,7 +101,7 @@ p {
 	}
 
 	@include desktop-sm {
-		max-width: 80rem;
+		max-width: 70rem;
 		margin: 0 auto;
 	}
 }
@@ -114,7 +114,7 @@ p {
 		padding: 0 2.5rem;
 	}
 	@include desktop-sm {
-		max-width: 80rem;
+		max-width: 70rem;
 		margin: 0 auto;
 		height: auto;
 		padding-top: 5rem;

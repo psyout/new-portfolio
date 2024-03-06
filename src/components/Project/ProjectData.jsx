@@ -1,43 +1,46 @@
 export const DevelopmentData = [
 	{
 		title: 'Transportes Moran',
-		body: 'This Earthworks company website was developed using a combination of HTML, CSS, and React. Including web design using Figma.',
+		body: "Front-End earthworks website for a friend's entrepreneurial venture, ensuring a unique and effective online presence.",
 		url: 'https://www.transportesmoran.cl',
 		image: require('../../assets/images/code/transportes-moran-full.jpg'),
 		git: 'https://github.com/psyout/transportes-moran',
+		tech: ['HTML', 'CSS', 'React', 'Figma'],
 	},
 	{
 		title: 'InStock App',
-		body:
-			'"InStock" was a collaborative project during my Bootcamp. We aimed to build a scalable Inventory Management System. Our work involved Agile practices, Scrum methodologies, and tools such as JIRA and GitHub. We used React, Node, Express and MySQL.',
+		body: '"InStock" was a collaborative project during my Bootcamp. We aimed to build a scalable Inventory Management System.',
 		git: 'https://github.com/mannyv123/instock-client',
 		image: require('../../assets/images/code/instock.jpg'),
+		tech: ['React', 'React Router', 'Node', 'Express', 'MySQL', 'Figma'],
 	},
 	{
 		title: 'BrainFlix',
-		body:
-			'Full-Stack React application that handles the main functionality of displaying videos, fetching video data from an API, and managing state. It uses various React hooks to manage data fetching and state updates. Developed with React, Express.js and JSON.',
+		body: 'Full-Stack React application that handles the main functionality of displaying videos, fetching video data from an API, and managing state.',
 		git: 'https://github.com/psyout/felipe-gonzalez-brainflix',
 		image: require('../../assets/images/code/brainflix-full.jpg'),
+		tech: ['React', 'Express', 'JSON', 'API'],
 	},
 	{
 		title: 'Bandsite Web',
-		body:
-			'Full responive website for a band site. It includes sections for displaying information about the band, a photo gallery, and a comment section. It also loads external styles and scripts to enhance the page functionality and appearance. Developed with HTML, CSS and JS.',
+		body: 'Full responive website for a band site. It includes sections for displaying information about the band, a photo gallery, and a comment section.',
 		git: 'https://github.com/psyout/felipe-gonzalez-bandsite',
 		image: require('../../assets/images/code/bandsite-full.jpg'),
+		tech: ['HTML', 'CSS', 'JS'],
 	},
 	{
 		title: 'Value For Waste',
-		body: 'This website was specifically designed for a company specializing in the regulation of industrial waste. Developed with HTML, CSS and JS.',
+		body: 'This website was specifically designed for a company specializing in the regulation of industrial waste',
 		image: require('../../assets/images/web-design/value-for-waste-web-full.jpg'),
 		url: 'https://felipegonzalez.ca/value-for-waste/',
+		tech: ['HTML', 'CSS', 'JS'],
 	},
 	{
-		title: 'Especial Verano Landing page',
-		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products for the upcoming summer season.',
+		title: 'Especial Verano',
+		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products.',
 		image: require('../../assets/images/web-design/especial-verano-full.jpg'),
 		url: 'https://felipegonzalez.ca/paris-outdoor/',
+		tech: ['HTML', 'CSS', 'JS'],
 	},
 ];
 

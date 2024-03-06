@@ -3,7 +3,7 @@
 
 .section-footer {
 	width: 100%;
-	margin-top: 5rem;
+	margin: 5rem 0 2rem;
 	@include desktop-sm {
 		margin-top: 3rem;
 	}
@@ -40,25 +40,39 @@
 		}
 	}
 
-	&__social {
+	&__copyright {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		border-top: solid 1px var(--primary);
+		padding-top: 1rem;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 1rem;
+		margin: 3rem 0 0;
+
+		@include tablet {
+			flex-direction: row;
+			align-items: center;
+		}
+	}
+
+	&__social {
 		display: flex;
 		gap: 1rem;
 		flex-direction: row;
 		align-items: center;
 		justify-content: flex-end;
-		margin: 5rem 0 2rem;
 
 		@include desktop-sm {
 			gap: 2;
 		}
 
 		&--title {
-			margin-top: 1rem;
 			font-weight: $fw-400;
 
 			@include desktop-sm {
-				font-size: $fs-120;
+				font-size: $fs-100;
 			}
 		}
 
@@ -70,7 +84,6 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin-top: 1rem;
 			transition: all ease 0.5s;
 			@include desktop-sm {
 				width: 40px;

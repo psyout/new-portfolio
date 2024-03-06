@@ -26,10 +26,10 @@ function TabSection() {
 						<FaSwatchbook style={{ marginRight: '0.3rem' }} />
 						Graphic Design
 					</button>
-					<button className={`tabwork-button ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>
+					{/* <button className={`tabwork-button ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>
 						<FaFeatherPointed style={{ marginRight: '0.3rem' }} />
 						Logos
-					</button>
+					</button> */}
 				</div>
 				<div className='tabwork-content'>
 					{activeTab === 1 && <ProjectSection dataKey='development' />}

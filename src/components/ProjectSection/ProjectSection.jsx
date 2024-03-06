@@ -27,6 +27,7 @@ function ProjectSection({ dataKey }) {
 								git={project.git}
 								// Disable lightbox for logos
 								logo={dataKey === 'logo'}
+								tech={project.tech}
 							/>
 						</li>
 					))}

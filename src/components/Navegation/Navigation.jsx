@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Navigation.scss';
-import Button from '../Button/Button';
 import DarkMode from '../DarkMode/DarkMode';
 
 function Header() {
@@ -38,22 +37,25 @@ function Header() {
 			<div className='navbar-container'>
 				<ul className={`nav-menu ${isActive ? 'active' : ''}`}>
 					<li className='nav-item'>
+						<a href='#about' className='nav-link' onClick={(e) => handleMenuClick(e, 'about')} rel='noopener noreferrer'>
+							About
+						</a>
+					</li>
+					<li className='nav-item'>
 						<a href='#main' className='nav-link' onClick={(e) => handleMenuClick(e, 'main')} rel='noopener noreferrer'>
-							What I've done
+							Projects
 						</a>
 					</li>
 					<li className='nav-item'>
 						<a href='#skills' className='nav-link' onClick={(e) => handleMenuClick(e, 'skills')} rel='noopener noreferrer'>
-							Who I am
+							Skill-set
 						</a>
 					</li>
 					<li className='nav-item'>
 						<a href='#footer' className='nav-link' onClick={(e) => handleMenuClick(e, 'footer')} rel='noopener noreferrer'>
-							Contact me
+							Contact
 						</a>
 					</li>
-
-					<Button title={`Get Resume`} url={`https://www.felipegonzalez.ca/resume_fgonzalez.pdf`} />
 				</ul>
 				<div style={{ order: '2' }} className={`hamburger ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
 					<span className='bar'></span>

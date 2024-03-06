@@ -1,10 +1,11 @@
 import './Intro.scss';
-import ProfilePhoto from '../../assets/images/profile-picture-square.jpg';
-import { Fade, Slide } from 'react-awesome-reveal';
 import { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
+import ImageComponent from '../ImageComponent/ImageComponent';
 
 function Intro() {
+	const imgLazyLoadSrc = 'https://felipegonzalez.ca/static/media/profile-picture-square.f6ca4d7002bd982a3f5f.jpg';
+
 	const titleTyped = useRef(null);
 
 	const [isOpen, setIsOpen] = useState(false);
@@ -38,36 +39,23 @@ function Intro() {
 	}, []);
 
 	return (
-		<Fade triggerOnce cascade>
-			<section id='intro' className='intro'>
-				<div className='intro__info'>
-					<Fade triggerOnce cascade damping={0.1}>
-						<h1 className='intro__info--title'>
-							<span ref={titleTyped}></span>
-						</h1>
+		<section id='intro' className='intro'>
+			<div className='intro__info'>
+				<h1 className='intro__info--title'>
+					<span ref={titleTyped}></span>
+				</h1>
 
-						<p className='intro__info--text' style={isOpen ? null : mobileParagraphStyles}>
-							I'm <mark>Felipe, a Front-end Developer</mark> with a passion for Javascript, ReactJS and web technologies. Enthusiastic, hardworking and innovative. I'm driven by a relentless desire to learn
-							and explore novel ideas. Presently located in the vibrant city of Vancouver where I'm available for full-time or freelance work opportunities, as well as working remotely for clients worldwide.
-							<br />
-							<br />I take a personal and creative approach to solving my clients' problems - whether that's developing a web app, landing page, or managing a creative project from start to finish. My
-							strength lies in almost ten years of experience working across the entire digital design and development process, as well as my self-motivated and collaborative nature.
-						</p>
+				<p className='intro__info--text' style={isOpen ? null : mobileParagraphStyles}>
+					I'm <mark>Felipe, a Front-end Developer</mark>. Building simple and beautiful things for complex interfaces is what I enjoy most.
+				</p>
+			</div>
 
-						<button className='read-more-btn' onClick={() => setIsOpen(!isOpen)}>
-							{isOpen ? 'hide this' : 'read more about me'}
-						</button>
-					</Fade>
+			<div className='intro__placeholder'>
+				<div className='intro__placeholder--img'>
+					<ImageComponent src={imgLazyLoadSrc} />
 				</div>
-				<Slide left triggerOnce>
-					<div className='intro__placeholder'>
-						<div className='intro__placeholder--img'>
-							<img src={ProfilePhoto} alt='this-is-myself' />
-						</div>
-					</div>
-				</Slide>
-			</section>
-		</Fade>
+			</div>
+		</section>
 	);
 }
 

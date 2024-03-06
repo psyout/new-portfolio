@@ -22,7 +22,6 @@
 		align-items: center;
 		transition: all 0.5s ease;
 		height: 80vh;
-		height: 80svh;
 		margin-top: 0;
 	}
 
@@ -48,14 +47,14 @@
 
 		&--text {
 			font-family: inherit;
-			font-size: $fs-120;
+			font-size: $fs-150;
 			font-weight: $fw-300;
 			margin-top: 1rem;
 			text-align: left;
 
 			@include desktop-sm {
 				text-align: left;
-				font-size: 1.3rem;
+				font-size: 1.5rem;
 				padding: 0;
 			}
 
@@ -85,11 +84,6 @@
 			@include tablet {
 				width: 300px;
 				height: 300px;
-			}
-
-			@include desktop-sm {
-				width: 350px;
-				height: 350px;
 			}
 
 			img {

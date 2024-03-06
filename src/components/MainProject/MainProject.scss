@@ -2,8 +2,12 @@
 @use '../../styles/variables' as *;
 
 .mainproject {
-	margin-top: 5rem;
-	padding-bottom: 5rem;
+	margin: 5rem 0;
+	padding: 1rem;
+	background: var(--project-color);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+	// border-radius: 10px;
+	// background: rgb(243, 244, 246);
 
 	@include desktop-sm {
 		display: flex;
@@ -53,7 +57,7 @@
 			font-weight: $fw-300;
 			line-height: 1.3;
 			margin-bottom: 1rem;
-			font-size: 1.1rem;
+			font-size: 1rem;
 		}
 	}
 }

@@ -20,6 +20,7 @@
 		font-weight: $fw-700;
 		display: flex;
 		margin-top: 1rem;
+		font-size: $fs-110;
 
 		&--link {
 			margin-top: 1rem;
@@ -28,7 +29,7 @@
 		}
 
 		&--icon {
-			font-size: 1.4rem;
+			font-size: 1rem;
 			transition: all ease 0.3s;
 			color: var(--primary);
 
@@ -43,8 +44,23 @@
 		line-height: 1.3;
 		border-top: solid 1px var(--primary);
 		padding: 0.5rem 0;
-		margin-bottom: 1rem;
 		width: 100%;
+	}
+
+	&__tech {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-top: 1rem;
+
+		&--list {
+			background: var(--btn-bg);
+			border-radius: 20px;
+			padding: 0.3rem 0.7rem 0.1rem;
+			color: var(--btn-text);
+			font-size: 0.85rem;
+		}
 	}
 }
 

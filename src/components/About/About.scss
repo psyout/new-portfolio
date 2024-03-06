@@ -1,0 +1,57 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
+
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	margin: 10rem 0;
+
+	@include tablet {
+		flex-direction: row;
+		height: 40vh;
+		margin: 10rem 0 20rem;
+	}
+
+	& > div {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	& > div:first-child {
+		flex: 1;
+		order: 2;
+
+		@include tablet {
+			order: 1;
+		}
+	}
+
+	& > div:last-child {
+		flex-basis: 65%;
+		order: 1;
+
+		@include tablet {
+			order: 2;
+		}
+	}
+
+	&__intro {
+		font-weight: 300;
+		margin: 5rem 0 1rem;
+		font-size: 1.5rem;
+	}
+
+	&__title {
+		font-family: $ff-web;
+		font-size: $fs-250;
+	}
+
+	&__text {
+		font-size: $fs-120;
+		font-weight: 300;
+		margin-top: 1rem;
+		margin-bottom: 1.5rem;
+	}
+}

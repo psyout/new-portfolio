@@ -22,6 +22,9 @@
 
 		&__element {
 			width: calc(100% - 0px);
+			padding: 1rem;
+			background: var(--project-color);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 			&:last-child {
 				border-bottom: none;
