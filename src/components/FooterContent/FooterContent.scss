@@ -55,6 +55,10 @@
 			flex-direction: row;
 			align-items: center;
 		}
+
+		p {
+			font-size: clamp(0.8rem, 2vw, 1.05rem);
+		}
 	}
 
 	&__social {

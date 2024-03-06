@@ -18,10 +18,10 @@ function FooterContent() {
 			<ContactForm />
 
 			<div className='section-footer__copyright'>
-				<p style={{ fontSize: 'clamp(0.8rem, 2vw, 1rem)' }}>
+				<p>
 					Designed in Vancouver and developed with{' '}
 					<span role='img' aria-label='heart emoji'>
-						❤️
+						⚛️️
 					</span>{' '}
 					React
 				</p>
