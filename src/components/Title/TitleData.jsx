@@ -8,9 +8,7 @@ const doubleBreak =
 			<br />
 		</>
 	) : (
-		<>
-			<br />
-		</>
+		''
 	);
 
 export const TitleData = [
@@ -37,17 +35,13 @@ export const TitleData = [
 		),
 	},
 	{
-		title: '', // Empty title
-		body: 'With a passion for Javascript, ReactJS and web technologies. Enthusiastic, hardworking and innovative.',
-	},
-	{
 		title: 'About Me',
 		body: (
 			<span>
 				I'm driven by a relentless desire to learn and explore novel ideas. Presently located in the vibrant city of Vancouver where I'm available for full-time or freelance work opportunities, as well as
 				working remotely for clients worldwide. {doubleBreak} I take a personal and creative approach to solving my clients' problems - whether that's developing a web app, landing page, or managing a
-				creative project from start to finish. My strength lies in almost ten years of experience working across the entire digital design and development process, as well as my self-motivated and
-				collaborative
+				creative project from start to finish. My strength lies in my ten years of experience working across the entire digital design and development process, as well as my self-motivated and
+				collaborative nature.
 			</span>
 		),
 	},

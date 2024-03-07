@@ -74,10 +74,7 @@
 
 		&--title {
 			font-weight: $fw-400;
-
-			@include desktop-sm {
-				font-size: $fs-100;
-			}
+			font-size: clamp(0.8rem, 2vw, 1.05rem);
 		}
 
 		&--link {
