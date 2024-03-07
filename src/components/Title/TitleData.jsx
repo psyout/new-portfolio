@@ -8,7 +8,9 @@ const doubleBreak =
 			<br />
 		</>
 	) : (
-		''
+		<>
+			<br />
+		</>
 	);
 
 export const TitleData = [
