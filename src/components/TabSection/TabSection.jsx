@@ -3,11 +3,25 @@ import './TabSection.scss';
 import { FaCodeMerge, FaObjectGroup, FaSwatchbook, FaFeatherPointed } from 'react-icons/fa6';
 import ProjectSection from '../ProjectSection/ProjectSection';
 
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
 function TabSection() {
 	const [activeTab, setActiveTab] = useState(1);
 	const handleTabClick = (tabNumber) => {
 		setActiveTab(tabNumber);
 	};
+
+	// Define content for each tab
+	const tabContent = [
+		{ tab: 1, content: <ProjectSection dataKey='development' /> },
+		{ tab: 2, content: <ProjectSection dataKey='web' /> },
+		{ tab: 3, content: <ProjectSection dataKey='graphic' /> },
+		{ tab: 4, content: <ProjectSection dataKey='logo' /> },
+	];
+
+	// Filter content based on active tab
+	const carouselItems = tabContent.filter((item) => item.tab === activeTab).map((item) => item.content);
 
 	return (
 		<section className='tabwork'>
@@ -26,17 +40,12 @@ function TabSection() {
 						<FaSwatchbook style={{ marginRight: '0.3rem' }} />
 						Graphic Design
 					</button>
-					{/* <button className={`tabwork-button ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>
+					<button className={`tabwork-button ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>
 						<FaFeatherPointed style={{ marginRight: '0.3rem' }} />
 						Logos
-					</button> */}
+					</button>
 				</div>
-				<div className='tabwork-content'>
-					{activeTab === 1 && <ProjectSection dataKey='development' />}
-					{activeTab === 2 && <ProjectSection dataKey='web' />}
-					{activeTab === 3 && <ProjectSection dataKey='graphic' />}
-					{activeTab === 4 && <ProjectSection dataKey='logo' />}
-				</div>
+				<div className='tabwork-content'>{carouselItems}</div>
 			</div>
 		</section>
 	);

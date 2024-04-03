@@ -76,18 +76,12 @@ export const GraphicData = [
 
 export const LogoData = [
 	{
-		title: 'Covprotect',
-		body: 'Logo crafted for Covprotec, a company specializing in the development of acrylic shields for businesses during the COVID-19 pandemic.',
 		image: require('../../assets/images/logos/covprotect.png'),
 	},
 	{
-		title: 'Sustainable Harvest',
-		body: "Logo designed for Sustainable Harvest Inc., a company dedicated to Non-Timber Forest Products within the temperate rainforests of Canada's Southwest.",
 		image: require('../../assets/images/logos/sustainable-harvest.png'),
 	},
 	{
-		title: 'Patagon Nordic Sports',
-		body: 'This logo was crafted for an entrepreneurial friend with a passion for promoting Nordic sports in Chile.',
 		image: require('../../assets/images/logos/patagon.png'),
 	},
 ];

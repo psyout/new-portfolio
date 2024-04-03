@@ -38,22 +38,22 @@ function Header() {
 				<ul className={`nav-menu ${isActive ? 'active' : ''}`}>
 					<li className='nav-item'>
 						<a href='#about' className='nav-link' onClick={(e) => handleMenuClick(e, 'about')} rel='noopener noreferrer'>
-							About
+							01. About
 						</a>
 					</li>
 					<li className='nav-item'>
 						<a href='#main' className='nav-link' onClick={(e) => handleMenuClick(e, 'main')} rel='noopener noreferrer'>
-							Projects
+							02. Projects
 						</a>
 					</li>
 					<li className='nav-item'>
 						<a href='#skills' className='nav-link' onClick={(e) => handleMenuClick(e, 'skills')} rel='noopener noreferrer'>
-							Skill-set
+							03. Skill-set
 						</a>
 					</li>
 					<li className='nav-item'>
 						<a href='#footer' className='nav-link' onClick={(e) => handleMenuClick(e, 'footer')} rel='noopener noreferrer'>
-							Contact
+							04. Contact
 						</a>
 					</li>
 				</ul>

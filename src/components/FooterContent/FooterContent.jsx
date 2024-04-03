@@ -5,7 +5,7 @@ import ContactForm from '../ContactForm/ContactForm';
 function FooterContent() {
 	return (
 		<section className='section-footer'>
-			<h1 className='section-footer__title'>Let's talk. You can contact me at:</h1>
+			<h1 className='section-footer__title'>04. You can contact me at:</h1>
 			<div className='section-footer__contact'>
 				<a className='section-footer__contact--link' href='mailto:hello@felipegonzalez.ca'>
 					hello@felipegonzalez.ca

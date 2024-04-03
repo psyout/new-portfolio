@@ -3,12 +3,12 @@
 
 .button-prop {
 	font-family: inherit;
-	font-size: $fs-090;
+	font-size: $fs-100;
 	background-color: var(--btn-bg);
 	color: var(--btn-text);
 	border-radius: 1rem;
 	border: none;
-	padding: 0.3rem 1rem;
+	padding: 0.6rem 1.5rem;
 	transition: background-color 0.2s ease;
 	font-weight: $fw-600;
 	cursor: pointer;
