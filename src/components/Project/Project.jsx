@@ -39,14 +39,16 @@ function Project({ image, title, body, url, git, logo, tech }) {
 				</div>
 			</div>
 			<p className='project__body'>{body}</p>
-			<ul className='project__tech'>
-				{tech &&
-					tech.map((technology, index) => (
-						<li className='project__tech--list' key={index}>
-							{technology}
-						</li>
-					))}
-			</ul>
+			{
+				<ul className='project__tech'>
+					{tech &&
+						tech.map((technology, index) => (
+							<li className='project__tech--list' key={index}>
+								{technology}
+							</li>
+						))}
+				</ul>
+			}
 		</div>
 	);
 }
