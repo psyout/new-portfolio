@@ -40,7 +40,7 @@ function MainProject({ id }) {
 					</div>
 					<h2 className='mainproject__text--title'>{TitleData[2].title}</h2>
 					<p className='mainproject__text--body'>{TitleData[2].body}</p>
-					<ButtonMain url={`https://wulenhappyhour.com`} title={`See Project`} />
+					<ButtonMain url={`http://wulenhappyhour.com`} title={`See Project`} />
 				</div>
 			</section>
 		</div>
