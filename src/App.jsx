@@ -6,16 +6,14 @@ import MainProject from './components/MainProject/MainProject';
 import TabSection from './components/TabSection/TabSection';
 import Skills from './components/Skills/Skills';
 import FooterContent from './components/FooterContent/FooterContent';
-import Headroom from 'react-headroom';
+// import Headroom from 'react-headroom';
 
 function App() {
 	return (
 		<div className='container'>
-			<Headroom>
-				<header className='header'>
-					<Navigation />
-				</header>
-			</Headroom>
+			<header className='header'>
+				<Navigation />
+			</header>
 			<main className='main'>
 				<Intro />
 				<About id='about' />

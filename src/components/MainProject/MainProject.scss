@@ -8,6 +8,7 @@
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 	// border-radius: 10px;
 	// background: rgb(243, 244, 246);
+	gap: 2rem;
 
 	@include desktop-sm {
 		display: flex;
@@ -16,7 +17,7 @@
 
 	&__figure {
 		@include desktop-sm {
-			padding-right: 3rem;
+			flex: 4;
 		}
 		&--img {
 			background-size: cover;
@@ -29,6 +30,7 @@
 
 		@include desktop-sm {
 			margin-top: 0;
+			flex: 2;
 		}
 
 		&--icon {
