@@ -91,3 +91,14 @@
 .carousel.carousel-slider .control-arrow {
 	z-index: 0 !important;
 }
+
+.carousel .control-prev.control-arrow,
+.carousel .control-next.control-arrow {
+	opacity: 1;
+	visibility: visible;
+}
+
+.carousel .control-prev.control-arrow:before,
+.carousel .control-next.control-arrow:before {
+	font-size: 26px;
+}

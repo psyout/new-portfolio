@@ -8,15 +8,15 @@ import { FaGithub } from 'react-icons/fa6';
 import { TitleData } from '../Title/TitleData';
 import Title from '../Title/Title';
 
-function MainProject({ id }) {
+function MainProject() {
 	return (
 		<div id='main'>
 			<Title head={TitleData[0].title} body={TitleData[0].body} />
 			<section className='mainproject'>
 				<div className='mainproject__figure'>
-					<Carousel showThumbs={false} showStatus={false} showIndicators={true}>
+					<Carousel showThumbs={false} showStatus={false} showIndicators={true} showArrows={true}>
 						<div>
-							<img src={Wulen} alt='this-is-myself' />
+							<img src={Wulen} alt='Wulen happy hour' />
 						</div>
 						<div>
 							<img src={WulenTwo} alt='this-is-myself' />
