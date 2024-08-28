@@ -15,7 +15,7 @@ export const TitleData = [
 		),
 	},
 	{
-		title: 'Wülen Happy Hour Finder',
+		title: 'VanSippy.com | Happy Hour Finder',
 		body: (
 			<span>
 				Front and Back-end React development using Yelp, Mapbox.js and Axios for API requests. It features an attractive design with Material UI and enables users to search and filter nearby happy hour

@@ -7,8 +7,8 @@ function FooterContent() {
 		<section className='section-footer'>
 			<h1 className='section-footer__title'>04. You can contact me at:</h1>
 			<div className='section-footer__contact'>
-				<a className='section-footer__contact--link' href='mailto:hello@felipegonzalez.ca'>
-					hello@felipegonzalez.ca
+				<a className='section-footer__contact--link' href='mailto:hello@felipegonzalez.io'>
+					hello@felipegonzalez.io
 				</a>
 				<a className='section-footer__contact--link' href='tel:+17786977909'>
 					+1 (778) 697-7909

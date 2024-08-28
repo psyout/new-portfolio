@@ -32,7 +32,7 @@ function MainProject() {
 							justifyContent: 'flex-start',
 						}}>
 						<h5 className='mainproject__text--sub'>
-							<mark>JS | React | Axios | Node | Mapbox.js | Yelp</mark>
+							<mark>JS | React | Axios | Node | Mapbox | Yelp API</mark>
 						</h5>
 						<a className='mainproject__text--link' href='https://github.com/psyout/capstone-client' rel='noreferrer' target='_blank'>
 							<FaGithub className='mainproject__text--icon' />
@@ -40,7 +40,7 @@ function MainProject() {
 					</div>
 					<h2 className='mainproject__text--title'>{TitleData[2].title}</h2>
 					<p className='mainproject__text--body'>{TitleData[2].body}</p>
-					<ButtonMain url={`http://wulenhappyhour.com`} title={`See Project`} />
+					<ButtonMain url={`https://vansippy.com`} title={`See Project`} />
 				</div>
 			</section>
 		</div>
