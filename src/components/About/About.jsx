@@ -14,7 +14,7 @@ function About() {
 					<br />I take a personal and creative approach to solving my clients' problems - whether that's developing a web app, landing page, or managing a creative project from start to finish. My strength
 					lies in my ten years of experience working across the entire digital design and development process, as well as my self-motivated and collaborative nature.
 				</p>
-				<Button title={`Get Resume`} url={`https://www.felipegonzalez.ca/felipe-gonzalez-resume.pdf`} />
+				<Button title={`Get Resume`} url={`https://www.felipegonzalez.io/felipe-gonzalez-resume.pdf`} />
 			</div>
 		</section>
 	);
