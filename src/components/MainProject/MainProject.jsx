@@ -10,20 +10,24 @@ import Title from '../Title/Title';
 
 function MainProject() {
 	return (
-		<div id='main'>
+		<div id="main">
 			<Title head={TitleData[0].title} body={TitleData[0].body} />
-			<section className='mainproject'>
-				<div className='mainproject__figure'>
-					<Carousel showThumbs={false} showStatus={false} showIndicators={true} showArrows={true}>
+			<section className="mainproject">
+				<div className="mainproject__figure">
+					<Carousel
+						showThumbs={false}
+						showStatus={false}
+						showIndicators={true}
+						showArrows={true}>
 						<div>
-							<img src={Wulen} alt='Wulen happy hour' />
+							<img src={Wulen} alt="Vansippy" />
 						</div>
 						<div>
-							<img src={WulenTwo} alt='this-is-myself' />
+							<img src={WulenTwo} alt="this-is-myself" />
 						</div>
 					</Carousel>
 				</div>
-				<div className='mainproject__text'>
+				<div className="mainproject__text">
 					<div
 						style={{
 							display: 'flex',
@@ -31,15 +35,19 @@ function MainProject() {
 							width: '100%',
 							justifyContent: 'flex-start',
 						}}>
-						<h5 className='mainproject__text--sub'>
-							<mark>JS | React | Axios | Node | Mapbox | Yelp API</mark>
+						<h5 className="mainproject__text--sub">
+							<mark>JS | React | Axios | Mapbox | Yelp API</mark>
 						</h5>
-						<a className='mainproject__text--link' href='https://github.com/psyout/capstone-client' rel='noreferrer' target='_blank'>
-							<FaGithub className='mainproject__text--icon' />
+						<a
+							className="mainproject__text--link"
+							href="https://github.com/psyout/capstone-client"
+							rel="noreferrer"
+							target="_blank">
+							<FaGithub className="mainproject__text--icon" />
 						</a>
 					</div>
-					<h2 className='mainproject__text--title'>{TitleData[2].title}</h2>
-					<p className='mainproject__text--body'>{TitleData[2].body}</p>
+					<h2 className="mainproject__text--title">{TitleData[2].title}</h2>
+					<p className="mainproject__text--body">{TitleData[2].body}</p>
 					<ButtonMain url={`https://vansippy.com`} title={`See Project`} />
 				</div>
 			</section>
