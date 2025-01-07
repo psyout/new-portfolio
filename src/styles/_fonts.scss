@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url('../assets/fonts/JosefinSans-Light.woff2') format('woff2'), url('../assets/fonts/JosefinSans-Light.woff') format('woff'), url('../assets/fonts/JosefinSans-Light.ttf') format('truetype');
+	src: url('../assets/fonts/JosefinSans-Light.woff2') format('woff2'),
+		url('../assets/fonts/JosefinSans-Light.woff') format('woff'),
+		url('../assets/fonts/JosefinSans-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
@@ -8,7 +10,8 @@
 
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url('../assets/fonts/JosefinSans-Regular.woff2') format('woff2'), url('../assets/fonts/JosefinSans-Regular.woff') format('woff'),
+	src: url('../assets/fonts/JosefinSans-Regular.woff2') format('woff2'),
+		url('../assets/fonts/JosefinSans-Regular.woff') format('woff'),
 		url('../assets/fonts/JosefinSans-Regular.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
@@ -16,7 +19,9 @@
 }
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url('../assets/fonts/JosefinSans-Medium.woff2') format('woff2'), url('../assets/fonts/JosefinSans-Medium.woff') format('woff'), url('../assets/fonts/JosefinSans-Medium.ttf') format('truetype');
+	src: url('../assets/fonts/JosefinSans-Medium.woff2') format('woff2'),
+		url('../assets/fonts/JosefinSans-Medium.woff') format('woff'),
+		url('../assets/fonts/JosefinSans-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
@@ -24,7 +29,8 @@
 
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url('../assets/fonts/JosefinSans-SemiBold.woff2') format('woff2'), url('../assets/fonts/JosefinSans-SemiBold.woff') format('woff'),
+	src: url('../assets/fonts/JosefinSans-SemiBold.woff2') format('woff2'),
+		url('../assets/fonts/JosefinSans-SemiBold.woff') format('woff'),
 		url('../assets/fonts/JosefinSans-SemiBold.ttf') format('truetype');
 	font-weight: 600;
 	font-style: normal;
@@ -33,15 +39,19 @@
 
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url('../assets/fonts/JosefinSans-Bold.woff2') format('woff2'), url('../assets/fonts/JosefinSans-Bold.woff') format('woff'), url('../assets/fonts/JosefinSans-Bold.ttf') format('truetype');
+	src: url('../assets/fonts/JosefinSans-Bold.woff2') format('woff2'),
+		url('../assets/fonts/JosefinSans-Bold.woff') format('woff'),
+		url('../assets/fonts/JosefinSans-Bold.ttf') format('truetype');
 	font-weight: 700;
-	font-style: normal;
+	font-style: bold;
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Titillium Web';
-	src: url('../assets/fonts/TitilliumWeb-Black.ttf') format('woff2'), url('../assets/fonts/TitilliumWeb-Black.woff') format('woff'), url('../assets/fonts/TitilliumWeb-Black.ttf') format('truetype');
+	src: url('../assets/fonts/TitilliumWeb-Black.ttf') format('woff2'),
+		url('../assets/fonts/TitilliumWeb-Black.woff') format('woff'),
+		url('../assets/fonts/TitilliumWeb-Black.ttf') format('truetype');
 	font-weight: 900;
 	font-style: normal;
 	font-display: swap;

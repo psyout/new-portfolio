@@ -63,10 +63,11 @@ a:visited {
 }
 
 mark {
-	background-color: var(--highlight-color);
-	padding: 0.2rem;
+	border-bottom: solid 0.5rem var(--highlight-color-text);
 	font-weight: $fw-700;
 	color: var(--highlight-color-text);
+	background-color: transparent;
+	line-height: 1;
 }
 
 h1,

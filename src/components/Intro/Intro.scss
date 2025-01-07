@@ -2,12 +2,14 @@
 @use '../../styles/variables' as *;
 
 .intro {
-	margin-top: 3rem;
 	display: flex;
 	flex-grow: 1;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
 	gap: 3rem;
+	height: 100dvh;
+	padding-top: 2rem;
 
 	@include tablet {
 		flex-direction: row;
@@ -21,8 +23,8 @@
 		padding: 0;
 		align-items: center;
 		transition: all 0.5s ease;
-		height: 80vh;
-		margin-top: 0;
+		height: 100dvh;
+		margin-top: -3rem;
 	}
 
 	&__info {
@@ -34,10 +36,15 @@
 		}
 
 		&--title {
-			font-size: 3rem;
+			font-size: 4.3rem;
 			font-family: 'Titillium Web', sans-serif;
-			text-align: left;
 			margin-bottom: 1rem;
+			line-height: 0.9;
+
+			span {
+				color: var(--primaryLightGreen);
+				font-size: 2.8rem;
+			}
 
 			@include desktop-sm {
 				font-size: 4rem;
@@ -46,20 +53,17 @@
 		}
 
 		&--text {
-			font-family: inherit;
+			font-family: 'Josefin Sans', sans-serif;
 			font-size: $fs-150;
-			font-weight: $fw-300;
-			margin-top: 1rem;
-			text-align: left;
+			font-weight: $fw-400;
+			margin-top: 4rem;
+			display: block;
 
 			@include desktop-sm {
 				text-align: left;
-				font-size: 1.5rem;
+				font-size: 1.7rem;
 				padding: 0;
-			}
-
-			&:last-child {
-				margin-top: 0;
+				margin-top: 2rem;
 			}
 		}
 	}
@@ -75,15 +79,11 @@
 		}
 
 		&--img {
-			width: 270px;
-			height: 270px;
+			width: 300px;
+			height: 300px;
 			border-radius: 50%;
 			overflow: hidden;
 			transition: all ease-in 0.5s;
-			@include tablet {
-				width: 300px;
-				height: 300px;
-			}
 
 			img {
 				max-width: 100%;
