@@ -8,7 +8,7 @@
 	align-items: center;
 	justify-content: space-around;
 	gap: 3rem;
-	height: 100dvh;
+	height: auto;
 	padding-top: 2rem;
 
 	@include tablet {
@@ -55,7 +55,7 @@
 		&--text {
 			font-family: 'Josefin Sans', sans-serif;
 			font-size: $fs-150;
-			font-weight: $fw-400;
+			font-weight: $fw-300;
 			margin-top: 4rem;
 			display: block;
 
