@@ -87,6 +87,7 @@
 }
 
 .hamburger {
+	z-index: 999;
 	display: block;
 	cursor: pointer;
 
@@ -128,6 +129,7 @@
 		text-align: center;
 		transition: 0.3s;
 		padding: 1.5rem 0;
+		z-index: 1;
 	}
 
 	.nav-item {

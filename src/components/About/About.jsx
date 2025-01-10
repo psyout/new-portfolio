@@ -8,9 +8,9 @@ function About() {
 		<section id="about" className="about">
 			<div className="about-container">
 				<motion.h1
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1, delay: 0 }}
+					initial={{ opacity: 0, y: -50 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					transition={{ duration: 1 }}
 					viewport={{ once: true }}
 					repeat={Infinity}
 					className="about-container__title">
@@ -20,7 +20,7 @@ function About() {
 				<motion.p
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1, delay: 0.5 }}
+					transition={{ duration: 1.5, delay: 0.5 }}
 					viewport={{ once: true }}
 					className="about-container__text">
 					I'm driven by a relentless desire to learn and explore novel ideas. Presently
@@ -35,14 +35,12 @@ function About() {
 					className="about-container__text">
 					I take a personal and creative approach to solving my clients' problems -
 					whether that's developing a web app, landing page, or managing a creative
-					project from start to finish. My strength lies in my ten years of experience
-					working across the entire digital design and development process, as well as my
-					self-motivated and collaborative nature.
+					project from start to finish.
 				</motion.p>
 
 				<motion.div
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
+					initial={{ opacity: 0, y: 20 }}
+					whileInView={{ opacity: 1, y: 0 }}
 					transition={{ duration: 1, delay: 1.5 }}
 					viewport={{ once: true }}>
 					<Button

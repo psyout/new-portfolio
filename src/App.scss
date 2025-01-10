@@ -63,10 +63,9 @@ a:visited {
 }
 
 mark {
-	border-bottom: solid 0.5rem var(--highlight-color-text);
 	font-weight: $fw-700;
-	color: var(--highlight-color-text);
-	background-color: transparent;
+	color: var(--header-color);
+	background-color: var(--primary);
 	line-height: 1;
 }
 

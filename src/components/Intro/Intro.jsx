@@ -8,7 +8,6 @@ function Intro() {
 		<section id="intro" className="intro">
 			<div className="intro__info">
 				<motion.div
-					className="intro__info--title"
 					initial={{ opacity: 0, y: -50 }}
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
@@ -34,7 +33,7 @@ function Intro() {
 					transition={{ duration: 1, delay: 0.5 }}
 					viewport={{ once: true }}
 					className="intro__info--title">
-					Hey there! I'm <mark>Felipe,</mark>
+					Hey there! I'm <span>Felipe,</span>
 				</motion.p>
 
 				<motion.p

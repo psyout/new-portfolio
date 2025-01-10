@@ -2,13 +2,17 @@
 @use '../../styles/variables' as *;
 
 .mainproject {
-	margin: 5rem 0;
+	margin: 2rem 0;
 	padding: 1rem;
 	background: var(--project-color);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 	// border-radius: 10px;
 	// background: rgb(243, 244, 246);
 	gap: 2rem;
+
+	@include tablet {
+		margin: 3rem 0;
+	}
 
 	@include desktop-sm {
 		display: flex;
