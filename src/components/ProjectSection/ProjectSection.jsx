@@ -13,11 +13,11 @@ function ProjectSection({ dataKey }) {
 	const projectData = dataMap[dataKey] || [];
 
 	return (
-		<section className='project-section'>
-			<div className='project-section--container'>
-				<ul className='project-section--container__list'>
+		<section className="project-section">
+			<div className="project-section--container">
+				<ul className="project-section--container__list">
 					{projectData.map((project, index) => (
-						<li key={index} className='project-section--container__element'>
+						<li key={index} className="project-section--container__element">
 							<Project
 								title={project.title}
 								body={project.body}

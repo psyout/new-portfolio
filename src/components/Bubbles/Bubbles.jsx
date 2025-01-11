@@ -3,27 +3,27 @@ import './Bubbles.scss';
 
 function Bubbles() {
 	const mySkills = [
-		'HTML',
-		'CSS',
-		'SASS',
+		// 'HTML',
+		// 'CSS',
+		// 'SASS',
 		'Flexbox',
 		'Grid Layout',
 		'Responsive Web Design',
 		'Tailwind',
-		'JavaScript',
-		'React',
+		// 'JavaScript',
+		// 'React',
 		'UI Components',
-		'Git',
+		// 'Git',
 		'Next',
-		'Node',
+		// 'Node',
 		'Axios',
 		'RESTful API',
 		'JSON',
 		'MySQL',
 		'MERN',
-		'Wordpress',
+		// 'Wordpress',
 		'Hosting',
-		'Figma',
+		// 'Figma',
 		'Sketch',
 		'Photoshop',
 		'Illustrator',
@@ -31,10 +31,10 @@ function Bubbles() {
 	];
 	return (
 		<>
-			<h4 className='bubbles-title'>Skillset</h4>
-			<ul className='bubbles-list'>
+			<h4 className="bubbles-title">Skillset</h4>
+			<ul className="bubbles-list">
 				{mySkills.map((item) => (
-					<li key={item} className='bubbles-item'>
+					<li key={item} className="bubbles-item">
 						{item}
 					</li>
 				))}

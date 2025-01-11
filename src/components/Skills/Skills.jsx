@@ -7,15 +7,22 @@ import { TitleData } from '../Title/TitleData';
 
 function Skills({ id }) {
 	return (
-		<div id='skills'>
+		<div id="skills">
 			<Title head={TitleData[1].title} body={TitleData[1].body} />
-			<section className='skills'>
-				<div className='skills-container'>
+			<section className="skills">
+				<div className="skills-container">
 					{SkillsData.map((skills, index) => {
-						return <SkillGroup key={index} title={skills.title} body={skills.body} icon={skills.icon} />;
+						return (
+							<SkillGroup
+								key={index}
+								title={skills.title}
+								body={skills.body}
+								icon={skills.icon}
+							/>
+						);
 					})}
 				</div>
-				<div className='skills-progress'>
+				<div className="skills-progress">
 					<SkillsPage />
 				</div>
 			</section>

@@ -9,9 +9,9 @@ export const TitleData = [
 		title: '03. Skills',
 		body: (
 			<span>
-				Proficient in key web development languages and frameworks such as
+				Proficient in languages and frameworks such as&nbsp;
 				<mark>HTML, CSS, JavaScript, and React.</mark> My expertise extends to crafting
-				scalable UI components with React, and I possess Back-End skills utilizing
+				scalable UI components with React, and I possess Back-End skills utilizing&nbsp;
 				<mark>Axios and NodeJS.</mark> Ready to deliver practical and effective web
 				solutions.
 			</span>

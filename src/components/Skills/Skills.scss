@@ -7,23 +7,32 @@
 	@include tablet {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 3rem;
+		// gap: 3rem;
 		margin-top: 5rem;
 	}
 }
 
 .skills-container {
+	// display: flex;
+	// flex-direction: column;
+	// gap: 2rem;
+
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 2rem;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	margin-bottom: 3rem;
 
 	&__group {
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
-		gap: 1rem;
-		border-bottom: solid 1px var(--primary);
-		padding-bottom: 2rem;
+		// gap: 1rem;
+		// border-bottom: solid 1px var(--primary);
+		// padding-bottom: 2rem;
 
 		&:first-child {
 			@include desktop-sm {
@@ -36,7 +45,7 @@
 		}
 
 		&--image {
-			scale: 5;
+			scale: 4;
 			color: var(--icon-color);
 			margin-top: 3rem;
 			margin-left: 1.5rem;
