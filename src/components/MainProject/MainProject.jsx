@@ -1,7 +1,5 @@
 import './MainProject.scss';
 import Wulen from '../../assets/images/code/vansippy01.png';
-import WulenTwo from '../../assets/images/code/vansippy02.png';
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import ButtonMain from '../ButtonMain/ButtonMain';
 import { FaGithub } from 'react-icons/fa6';
@@ -14,18 +12,7 @@ function MainProject() {
 			<Title head={TitleData[0].title} body={TitleData[0].body} />
 			<section className="mainproject">
 				<div className="mainproject__figure">
-					<Carousel
-						showThumbs={false}
-						showStatus={false}
-						showIndicators={true}
-						showArrows={true}>
-						<div>
-							<img src={Wulen} alt="Vansippy" />
-						</div>
-						<div>
-							<img src={WulenTwo} alt="this-is-myself" />
-						</div>
-					</Carousel>
+					<img src={Wulen} alt="Vansippy" />
 				</div>
 				<div className="mainproject__text">
 					<div

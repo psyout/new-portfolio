@@ -32,6 +32,19 @@
 		flex-direction: row;
 		justify-content: center;
 
+		&--image {
+			scale: 4;
+			color: var(--icon-color);
+			margin-top: 3rem;
+			margin-left: 1.5rem;
+			transition: transform 0.3s ease, color 0.3s ease;
+
+			&:hover {
+				transform: scale(1.2);
+				color: var(--icon-color);
+			}
+		}
+
 		&:first-child {
 			@include desktop-sm {
 				margin-top: 0;

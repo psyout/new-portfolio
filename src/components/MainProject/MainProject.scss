@@ -20,12 +20,23 @@
 	}
 
 	&__figure {
+		position: relative;
+		overflow: hidden;
+
 		@include desktop-sm {
 			flex: 4;
 		}
-		&--img {
+		img {
 			background-size: cover;
 			aspect-ratio: 16/9;
+			max-width: 100%;
+			height: auto;
+			transition: transform 0.3s ease, filter 0.3s ease;
+			animation: fadeIn 0.5s ease-in-out; // Apply fade-in animation
+
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
 	}
 
@@ -85,6 +96,22 @@
 .carousel .slide img {
 	max-width: 100%;
 	height: auto;
+}
+
+.carousel .slide {
+	background: var(--project-color);
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	@include tablet {
+		width: calc(50% - 40px);
+	}
+
+	@include tablet {
+		border-bottom: none;
+	}
 }
 
 .carousel .control-dots {

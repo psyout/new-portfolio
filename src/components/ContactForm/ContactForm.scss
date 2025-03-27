@@ -4,6 +4,7 @@
 .contact-form {
 	width: 100%;
 	margin-top: 1.5rem;
+
 	@include tablet {
 		margin-bottom: 10rem;
 		max-width: 600px;
@@ -27,6 +28,7 @@
 
 	&__group {
 		display: flex;
+		flex-direction: column;
 
 		&:last-child {
 			@include desktop-sm {
@@ -36,7 +38,7 @@
 
 		& .contact-form__label {
 			font-weight: bold;
-			flex: 1 0 140px;
+			// flex: 1 0 140px;
 		}
 
 		& .contact-form__input,
@@ -67,6 +69,7 @@
 		::placeholder {
 			font-size: $fs-100;
 			color: var(--primary);
+			opacity: 0.3;
 		}
 	}
 
@@ -79,6 +82,8 @@
 		padding: 0.6rem 1.5rem;
 		transition: all 0.2s ease;
 		font-weight: $fw-600;
+
+		transition: background-color 0.3s ease;
 		cursor: pointer;
 		font-family: inherit;
 		margin-top: 1rem;
@@ -86,6 +91,21 @@
 		&:hover {
 			@include hover;
 		}
+
+		&:disabled {
+			background-color: #ccc; // Gray for disabled state
+			cursor: not-allowed;
+		}
+
+		// &:hover:not(:disabled) {
+		// 	background-color: #007bff; // Example hover color
+		// }
+	}
+
+	&__error {
+		margin-top: 1rem;
+		color: #dc3545; // Red for error
+		font-size: 1rem;
 	}
 
 	&__validator {

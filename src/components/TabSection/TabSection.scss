@@ -40,10 +40,11 @@
 		&.active {
 			border-left: solid 10px var(--tab-color-active);
 			color: var(--primary);
-			font-weight: 700;
+			font-weight: 400;
 		}
 		&:hover {
-			color: var(--primary);
+			color: white;
+			background-color: var(--tab-color-active);
 		}
 	}
 
