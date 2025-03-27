@@ -36,7 +36,7 @@ function MainProject() {
 							justifyContent: 'flex-start',
 						}}>
 						<h5 className="mainproject__text--sub">
-							<mark>JS | React | Axios | Mapbox | Yelp API</mark>
+							JS | React | Axios | Mapbox | Yelp API
 						</h5>
 						<a
 							className="mainproject__text--link"
