@@ -1,8 +1,23 @@
 @use '../../styles/mixins' as *;
 @use '../../styles/variables' as *;
 
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .project-section {
 	&--container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
 		&__list {
 			list-style-type: none;
 			display: flex;
@@ -25,6 +40,7 @@
 			padding: 1rem;
 			background: var(--project-color);
 			box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+			animation: fadeIn 0.5s ease-in-out; // Apply fade-in animation
 
 			&:last-child {
 				border-bottom: none;
@@ -37,6 +53,36 @@
 			@include tablet {
 				border-bottom: none;
 			}
+		}
+	}
+
+	&--fade-in {
+		animation: fadeIn 0.5s ease-in-out; // Add fade-in animation to new elements
+	}
+
+	&--load-more {
+		display: flex;
+		margin-top: 2rem;
+		padding: 0.6rem 1.1rem;
+		background: var(--project-bg);
+		color: inherit;
+		border: none;
+		border-radius: 1.5rem;
+		font-family: inherit;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+		animation: fadeIn 0.5s ease-in-out;
+
+		font-size: 1rem;
+		background-color: var(--btn-bg);
+		color: var(--btn-text);
+		transition: all 0.2s ease;
+		font-weight: $fw-400;
+
+		&:hover {
+			background: var(--btn-hover);
+			color: var(--primary);
 		}
 	}
 }

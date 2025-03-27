@@ -13,26 +13,24 @@
 }
 
 .skills-container {
-	// display: flex;
-	// flex-direction: column;
-	// gap: 2rem;
-
 	display: flex;
 	flex-direction: row;
 	gap: 2rem;
-	justify-content: flex-start;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: flex-start;
 	margin-bottom: 3rem;
+	justify-content: center;
+
+	@include tablet {
+		justify-content: flex-start;
+	}
 
 	&__group {
+		align-items: flex-start;
 		display: flex;
 		flex-direction: row;
-		align-items: flex-start;
-		// gap: 1rem;
-		// border-bottom: solid 1px var(--primary);
-		// padding-bottom: 2rem;
+		justify-content: center;
 
 		&:first-child {
 			@include desktop-sm {

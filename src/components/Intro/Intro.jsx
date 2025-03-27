@@ -2,8 +2,12 @@ import './Intro.scss';
 import ProfilePicture from '../../assets/images/profile-picture-square.jpg';
 import { motion } from 'motion/react';
 import { TypeAnimation } from 'react-type-animation';
+import { useState } from 'react';
+import Skeleton from '@mui/material/Skeleton';
 
 function Intro() {
+	const [imageLoaded, setImageLoaded] = useState(false);
+
 	return (
 		<section id="intro" className="intro">
 			<div className="intro__info">
@@ -55,7 +59,21 @@ function Intro() {
 					scale: { type: 'spring', visualDuration: 0.4, bounce: 0.5 },
 				}}
 				className="intro__placeholder">
-				<img className="intro__placeholder--img" src={ProfilePicture} alt="Profile" />
+				{!imageLoaded && (
+					<Skeleton
+						variant="circular"
+						width={250} // Adjust width to match your image
+						height={250} // Adjust height to match your image
+						className="intro__placeholder--skeleton"
+					/>
+				)}
+				<img
+					className="intro__placeholder--img"
+					src={ProfilePicture}
+					alt="Profile"
+					onLoad={() => setImageLoaded(true)}
+					style={{ display: imageLoaded ? 'block' : 'none' }}
+				/>
 			</motion.div>
 		</section>
 	);

@@ -28,20 +28,6 @@ export const DevelopmentData = [
 		image: require('../../assets/images/code/bandsite-full.jpg'),
 		tech: ['HTML', 'CSS', 'JS'],
 	},
-	{
-		title: 'Value For Waste',
-		body: 'This website was specifically designed for a company specializing in the regulation of industrial waste',
-		image: require('../../assets/images/web-design/value-for-waste-web-full.jpg'),
-		url: 'https://felipegonzalez.ca/value-for-waste/',
-		tech: ['HTML', 'CSS', 'JS'],
-	},
-	{
-		title: 'Especial Verano',
-		body: 'This landing page was crafted for Paris.cl, a retail company in Chile, to showcase and promote their latest outdoor products.',
-		image: require('../../assets/images/web-design/especial-verano-full.jpg'),
-		url: 'https://felipegonzalez.ca/paris-outdoor/',
-		tech: ['HTML', 'CSS', 'JS'],
-	},
 ];
 
 export const WebData = [
